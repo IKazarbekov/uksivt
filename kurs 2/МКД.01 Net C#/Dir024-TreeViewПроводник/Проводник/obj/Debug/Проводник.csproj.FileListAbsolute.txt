@@ -1,0 +1,15 @@
+Y:\Dir024-TreeViewПроводник\Проводник\bin\Debug\Проводник.exe.config
+Y:\Dir024-TreeViewПроводник\Проводник\bin\Debug\Проводник.exe
+Y:\Dir024-TreeViewПроводник\Проводник\bin\Debug\Проводник.pdb
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.csproj.AssemblyReference.cache
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\MainWindow.g.cs
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\App.g.cs
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник_MarkupCompile.cache
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник_MarkupCompile.lref
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\MainWindow.baml
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.g.resources
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.Properties.Resources.resources
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.csproj.GenerateResource.cache
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.csproj.CoreCompileInputs.cache
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.exe
+Y:\Dir024-TreeViewПроводник\Проводник\obj\Debug\Проводник.pdb

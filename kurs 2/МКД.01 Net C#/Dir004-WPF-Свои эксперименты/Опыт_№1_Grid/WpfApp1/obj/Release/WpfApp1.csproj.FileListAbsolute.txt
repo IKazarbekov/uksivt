@@ -1,0 +1,15 @@
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\bin\Release\WpfApp1.exe.config
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\bin\Release\WpfApp1.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\bin\Release\WpfApp1.pdb
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.csproj.AssemblyReference.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\MainWindow.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\App.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1_MarkupCompile.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1_MarkupCompile.lref
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\MainWindow.baml
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.g.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.Properties.Resources.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.csproj.GenerateResource.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.csproj.CoreCompileInputs.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№1_Grid\WpfApp1\obj\Release\WpfApp1.pdb

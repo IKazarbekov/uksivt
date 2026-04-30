@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "События повтор 2/1.0.0": {
+        "runtime": {
+          "События повтор 2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "События повтор 2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

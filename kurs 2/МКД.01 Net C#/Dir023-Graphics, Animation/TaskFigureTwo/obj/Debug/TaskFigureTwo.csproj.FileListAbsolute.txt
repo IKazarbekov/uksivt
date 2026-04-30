@@ -1,0 +1,15 @@
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\bin\Debug\TaskFigureTwo.exe.config
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\bin\Debug\TaskFigureTwo.exe
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\bin\Debug\TaskFigureTwo.pdb
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.csproj.AssemblyReference.cache
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\MainWindow.g.cs
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\App.g.cs
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo_MarkupCompile.cache
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo_MarkupCompile.lref
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\MainWindow.baml
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.g.resources
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.Properties.Resources.resources
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.csproj.GenerateResource.cache
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.csproj.CoreCompileInputs.cache
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.exe
+Y:\Dir023-Graphics, Animation\TaskFigureTwo\obj\Debug\TaskFigureTwo.pdb

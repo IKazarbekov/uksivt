@@ -1,0 +1,55 @@
+﻿<Window x:Class="TreeViewTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreeViewTask"
+        mc:Ignorable="d"
+        Title="Animals" Height="450" Width="800"
+        Icon="/images/bir_1_1.jpg"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <BitmapImage x:Key="dog1_1" UriSource="/images/dog1_1.jpg"/>
+        <BitmapImage x:Key="dog1_2" UriSource="/images/dog1_2.jpg"/>
+        <BitmapImage x:Key="dog2_1" UriSource="/images/dog2_1.jpg"/>
+        <BitmapImage x:Key="dog2_2" UriSource="/images/dog2_2.jpg"/>
+        <BitmapImage x:Key="dog3_1" UriSource="/images/dog3_1.jpg"/>
+        <BitmapImage x:Key="dog3_2" UriSource="/images/dog3_2.jpg"/>
+
+        <BitmapImage x:Key="cat1_1" UriSource="/images/cat1_1.jpg"/>
+        <BitmapImage x:Key="cat1_2" UriSource="/images/cat1_2.jpg"/>
+        <BitmapImage x:Key="cat2_1" UriSource="/images/cat2_1.jpg"/>
+        <BitmapImage x:Key="cat2_2" UriSource="/images/cat2_2.jpg"/>
+        <BitmapImage x:Key="cat3_1" UriSource="/images/cat3_1.jpg"/>
+        <BitmapImage x:Key="cat3_2" UriSource="/images/cat3_2.jpg"/>
+
+        <BitmapImage x:Key="bir1_1" UriSource="/images/bir_1_1.jpg"/>
+        <BitmapImage x:Key="bir1_2" UriSource="/images/bir1_2.jpg"/>
+        <BitmapImage x:Key="bir2_1" UriSource="/images/bir2_1.jpg"/>
+        <BitmapImage x:Key="bir2_2" UriSource="/images/bir2_2.jpg"/>
+        <BitmapImage x:Key="bir3_1" UriSource="/images/bir3_1.jpg"/>
+        <BitmapImage x:Key="bir3_2" UriSource="/images/bir3_2.jpg"/>
+    </Window.Resources>
+    <StackPanel Margin="20">
+        <TreeView FontSize="20">
+            <TreeViewItem Header="Коты"
+                          x:Name="tviCats"
+                          Selected="tviCats_Selected">
+                
+            </TreeViewItem>
+            <TreeViewItem Header="Собаки"
+                          x:Name="tviDogs"
+                          Selected="tviDogs_Selected">
+
+            </TreeViewItem>
+            <TreeViewItem Header="Папугаи"
+                          x:Name="tviBirds"
+                          Selected="tviBirds_Selected">
+
+            </TreeViewItem>
+        </TreeView>
+        <ListView x:Name="listView">
+            
+        </ListView>
+    </StackPanel>
+</Window>

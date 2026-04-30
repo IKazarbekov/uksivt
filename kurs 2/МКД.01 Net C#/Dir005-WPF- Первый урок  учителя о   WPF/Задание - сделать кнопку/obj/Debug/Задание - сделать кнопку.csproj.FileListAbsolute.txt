@@ -1,0 +1,15 @@
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\bin\Debug\Задание - сделать кнопку.exe.config
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\bin\Debug\Задание - сделать кнопку.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\bin\Debug\Задание - сделать кнопку.pdb
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку.csproj.AssemblyReference.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\MainWindow.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\App.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку_MarkupCompile.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку_MarkupCompile.lref
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\MainWindow.baml
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку.g.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание___сделать_кнопку.Properties.Resources.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку.csproj.GenerateResource.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку.csproj.CoreCompileInputs.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\Задание - сделать кнопку\obj\Debug\Задание - сделать кнопку.pdb

@@ -1,0 +1,74 @@
+﻿<Window x:Class="Планировщик_задач.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Планировщик_задач"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0">
+            <TextBlock DockPanel.Dock="Left" FontSize="30" FontFamily="Comic Sans MS" FontWeight="Bold" Margin="14,9,5,8">Планировщик задач</TextBlock>
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Свернуть" FontWeight="Bold" FontFamily="Segoe UI Black" Width="68"/>
+                <Button Content="Закрыть" FontFamily="Segoe UI Black" FontWeight="Bold" Width="68"/>
+            </StackPanel>
+        </DockPanel>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <GridSplitter Grid.Column="1" HorizontalAlignment="Stretch"/>
+                <TabControl>
+                    <ToggleButton Content="Сегодня" Width="190" Height="38" Margin="5,5,5,0" FontSize="18" FontFamily="Cascadia Code SemiBold" ToolTip="Задачи, которые нужно сделать сегодня"/>
+                    <ToggleButton Content="Неделя" Width="190" Height="38" FontSize="18" FontFamily="Cascadia Code SemiBold" Margin="0,5,0,0" ToolTip="Задачи, которые нужно сделать в эту неделю"/>
+                    <ToggleButton Content="Месяц" Width="190" Height="38" FontSize="18" FontFamily="Cascadia Code SemiBold" Margin="0,5,0,0" ToolTip="Задачи, которые нужно сделать в этот месяц"/>
+                    <ToggleButton Content="Проект" Width="190" Height="38" FontSize="18" FontFamily="Cascadia Code SemiBold" Margin="0,5,0,0" ToolTip="Задачи, относящееся к проекту"/>
+                </TabControl>
+                <StackPanel Grid.Column="2" Orientation="Vertical">
+                    <TextBlock TextAlignment="Center">Добавить задачу</TextBlock>
+                    <TextBox x:Name="TextBoxWork" Height="41"/>
+                    <ComboBox x:Name="ComboBoxWork">
+                        <ComboBoxItem Content="Работа"/>
+                        <ComboBoxItem Content="Учёба"/>
+                        <ComboBoxItem Content="Дом"/>
+                        <ComboBoxItem Content="Другое"/>
+                    </ComboBox>
+                    <DatePicker x:Name="DatePickerWork"/>
+                    <Button Content="Добавить" ToolTip="Добавить задачу в список задач" Click="Button_Click_Create_Work"/>
+                    <Separator Height="20"/>
+                    <Expander>
+                        <RadioButton></RadioButton>
+                    </Expander>
+                    <Separator Height="5"/>
+                    <TextBlock TextAlignment="Center">Задачи</TextBlock>
+                    <GroupBox ScrollViewer.CanContentScroll="True">
+                        <ListView>
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox Content="Выполнен"/>
+                                <TextBox>Помыть посуду</TextBox>
+                                <TextBlock>Приоритет низкий</TextBlock>
+                                <ProgressBar/>
+                            </StackPanel>
+                        </ListView>
+                    </GroupBox>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <StatusBar Grid.Row="2">Готово
+            <StatusBarItem HorizontalAlignment="Right">8 февраля 2026 год</StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

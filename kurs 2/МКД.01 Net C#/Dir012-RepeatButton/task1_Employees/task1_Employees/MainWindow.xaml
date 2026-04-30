@@ -1,0 +1,24 @@
+﻿<Window x:Class="task1_Employees.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task1_Employees"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <UniformGrid Columns="2" DockPanel.Dock="Bottom" Height="50">
+            <Button Content="Delete Employee" Click="Button_Click_Delete_Employee"/>
+            <Button Content="Add Employee" Click="Button_Click_Add_Employee"/>
+        </UniformGrid>
+        <DataGrid x:Name="EmployeeDataGrid"
+                  AutoGenerateColumns="True"
+                  CanUserAddRows="True"
+                  CanUserDeleteRows="True"
+                  CanUserSortColumns="True"
+                  SelectionMode="Single"
+                  CellEditEnding="EmployeeDataGrid_CellEditEnding"
+                  Margin="10"
+                  MinHeight="100"/>
+    </DockPanel>
+</Window>

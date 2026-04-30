@@ -1,0 +1,24 @@
+Данный элемент управлния предназначен для превовидного отобрпжения данный в окне приложение может содержать как коллекцию элеметов TreeViewItem так и другое содержимое например такстовые боки.
+
+Свойства
+Однако все же лучше обертывать жлементв а обетв treeVuew Utem с аосощюю его свойства Hrader мы можем устаовить текстову. метку или щаголовок ущла дерева элемент TreeVuew Utem  предлагает также ряд свойств длч упоавления
+состоннием 
+
+Свойства:
+	-Header
+	-Items
+
+События:
+	-
+	-Selected
+	-Expanded
+
+Привет кода:
+	<TreeVuew>
+		<TreeVurwUtem Header="С-языки" Expanded="TreeViewItem_Expanded">
+			<TreeViewItem Header="C#" Selected="TreeVuewUtem_Expanded">
+			<TreeViewItem Header="C#" Selected="TreeVuewUtem_Expanded">
+			<TreeViewItem Header="C#" Selected="TreeVuewUtem_Expanded">
+		</TreeVuewItem>
+	</TreeView>
+

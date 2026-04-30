@@ -1,0 +1,15 @@
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\bin\Debug\StackPanel.exe.config
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\bin\Debug\StackPanel.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\bin\Debug\StackPanel.pdb
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.csproj.AssemblyReference.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\MainWindow.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\App.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel_MarkupCompile.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel_MarkupCompile.lref
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\MainWindow.baml
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.g.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.Properties.Resources.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.csproj.GenerateResource.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.csproj.CoreCompileInputs.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№3_StackPanel\StackPanel\obj\Debug\StackPanel.pdb

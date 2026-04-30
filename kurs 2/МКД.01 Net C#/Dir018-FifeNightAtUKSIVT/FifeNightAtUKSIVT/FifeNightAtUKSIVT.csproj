@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02E75D54-FB6E-40CB-AE08-C0FF5629193C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FifeNightAtUKSIVT</RootNamespace>
+    <AssemblyName>FifeNightAtUKSIVT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Data.cs" />
+    <Compile Include="DataChanger.cs" />
+    <Compile Include="EndGame.xaml.cs">
+      <DependentUpon>EndGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowCameras.xaml.cs">
+      <DependentUpon>WindowCameras.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AtDoorGameHouse2_v1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AtPenDoorGameHouse2_v1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CameraLongRoomLeft.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EndGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Game_House2_v1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LongRoomLeftGameHouse2_v1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LongRoomRightGameHouse2_v1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AtDoorGameHouse2_v1.xaml.cs">
+      <DependentUpon>AtDoorGameHouse2_v1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AtPenDoorGameHouse2_v1.xaml.cs">
+      <DependentUpon>AtPenDoorGameHouse2_v1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CameraLongRoomLeft.xaml.cs">
+      <DependentUpon>CameraLongRoomLeft.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Game_House2_v1.xaml.cs">
+      <DependentUpon>Game_House2_v1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LongRoomLeftGameHouse2_v1.xaml.cs">
+      <DependentUpon>LongRoomLeftGameHouse2_v1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LongRoomRightGameHouse2_v1.xaml.cs">
+      <DependentUpon>LongRoomRightGameHouse2_v1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="WindowCameras.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="musics\Ilyas.amr" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\AtNotebook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\AtNotebookV2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\AtDoor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\AtPenDoorO1.jpg" />
+    <Resource Include="images\AtPenDoorO2.jpg" />
+    <Resource Include="images\AtPenDoorO3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\LongDoorLeft.jpg" />
+    <Resource Include="images\LongDoorRight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Desctop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\CameraLongRoomRight.jpg" />
+    <Resource Include="images\Deshroom.jpg" />
+    <Resource Include="images\Kichen.jpg" />
+    <Resource Include="images\Lestnisa.jpg" />
+    <Resource Include="images\Lestnisa2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\LongDoorLeftBlack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\MenIlyasv1.jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="musics\Пианино.mp3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

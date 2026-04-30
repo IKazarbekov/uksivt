@@ -1,0 +1,15 @@
+Y:\Dir012-RepeatButton\Task 2 ListView\bin\Debug\Task 2 ListView.exe.config
+Y:\Dir012-RepeatButton\Task 2 ListView\bin\Debug\Task 2 ListView.exe
+Y:\Dir012-RepeatButton\Task 2 ListView\bin\Debug\Task 2 ListView.pdb
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\MainWindow.g.cs
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\App.g.cs
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView_MarkupCompile.cache
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView_MarkupCompile.lref
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\MainWindow.baml
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView.g.resources
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task_2_ListView.Properties.Resources.resources
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView.exe
+Y:\Dir012-RepeatButton\Task 2 ListView\obj\Debug\Task 2 ListView.pdb

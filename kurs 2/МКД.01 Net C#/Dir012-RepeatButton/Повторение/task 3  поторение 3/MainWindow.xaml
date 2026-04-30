@@ -1,0 +1,23 @@
+﻿<Window x:Class="task_3__поторение_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task_3__поторение_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <UniformGrid Rows="1" DockPanel.Dock="Bottom" Height="50">
+            <Button Content="add" Click="Button_Click" />
+            <Button Content="remove" Height="50" VerticalAlignment="Top" Click="Button_Click_1" />
+        </UniformGrid>
+        <DataGrid x:Name="dataGridEmployee" 
+                  CanUserAddRows="True"
+                  AutoGenerateColumns="True"
+                  CanUserSortColumns="True"
+                  CanUserDeleteRows="True"
+                  CellEditEnding="dataGridEmployee_CellEditEnding"
+                  FontSize="40"
+                  />
+    </DockPanel>
+</Window>

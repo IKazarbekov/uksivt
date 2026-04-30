@@ -1,0 +1,15 @@
+Y:\Dir012-RepeatButton\Task 4 DataPicker\bin\Debug\Task 4 DataPicker.exe.config
+Y:\Dir012-RepeatButton\Task 4 DataPicker\bin\Debug\Task 4 DataPicker.exe
+Y:\Dir012-RepeatButton\Task 4 DataPicker\bin\Debug\Task 4 DataPicker.pdb
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\MainWindow.g.cs
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\App.g.cs
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker_MarkupCompile.cache
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker_MarkupCompile.lref
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\MainWindow.baml
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker.g.resources
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task_4_DataPicker.Properties.Resources.resources
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker.exe
+Y:\Dir012-RepeatButton\Task 4 DataPicker\obj\Debug\Task 4 DataPicker.pdb

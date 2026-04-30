@@ -1,0 +1,23 @@
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\bin\Debug\Task - Test in many windows.exe.config
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\bin\Debug\Task - Test in many windows.exe
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\bin\Debug\Task - Test in many windows.pdb
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows.csproj.AssemblyReference.cache
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\MainWindow.g.cs
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\App.g.cs
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows_MarkupCompile.cache
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows_MarkupCompile.lref
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\MainWindow.baml
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows.g.resources
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task___Test_in_many_windows.Properties.Resources.resources
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows.csproj.GenerateResource.cache
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows.csproj.CoreCompileInputs.cache
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows.exe
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Task - Test in many windows.pdb
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Window1.g.cs
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\Window1.baml
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\WindowResult.g.cs
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\WindowResult.baml
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\WindowManyAnswers.g.cs
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\WindowManyAnswers.baml
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\WindowStringAnswer.g.cs
+Y:\Dir013-ManyWindow\Task - Test in many windows\Task - Test in many windows\obj\Debug\WindowStringAnswer.baml

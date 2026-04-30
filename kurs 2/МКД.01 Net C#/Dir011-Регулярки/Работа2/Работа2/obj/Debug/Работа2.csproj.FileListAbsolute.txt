@@ -1,0 +1,17 @@
+Y:/Dir011-Регулярки/Работа2/Работа2/bin/Debug/Работа2.exe.config
+Y:/Dir011-Регулярки/Работа2/Работа2/bin/Debug/Работа2.exe
+Y:/Dir011-Регулярки/Работа2/Работа2/bin/Debug/Работа2.pdb
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.csproj.AssemblyReference.cache
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/MainWindow.g.cs
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/App.g.cs
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2_MarkupCompile.cache
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2_MarkupCompile.lref
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/MainWindow.baml
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.g.resources
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.Properties.Resources.resources
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.csproj.GenerateResource.cache
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.csproj.CoreCompileInputs.cache
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.exe
+Y:/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.pdb
+/home/ikazarbekov/Документы/UKSIVT/МКД.01 Net C#/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.exe
+/home/ikazarbekov/Документы/UKSIVT/МКД.01 Net C#/Dir011-Регулярки/Работа2/Работа2/obj/Debug/Работа2.pdb

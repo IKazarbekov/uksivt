@@ -1,0 +1,228 @@
+﻿<Window x:Class="TaskFigureTwo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskFigureTwo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Canvas Canvas.Left="10" x:Name="Cherepochonok"
+
+>
+
+            <Canvas.RenderTransform>
+                <TranslateTransform x:Name="TurtleTransform" />
+            </Canvas.RenderTransform>
+
+            <Path>
+
+                <Path.Fill>
+
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+
+                        <GradientStop Color="DarkGreen" Offset="0"/>
+
+                        <GradientStop Color="LightGreen" Offset="1"/>
+
+                    </LinearGradientBrush>
+
+                </Path.Fill>
+
+                <Path.Data>
+
+                    <PathGeometry>
+
+                        <PathFigure StartPoint="40,50" IsClosed="True">
+
+                            <ArcSegment Point="200,50" Size="150,350" SweepDirection="Clockwise"/>
+
+                        </PathFigure>
+
+                    </PathGeometry>
+
+                </Path.Data>
+
+            </Path>
+
+            <Line X1="50" Y1="50" X2="200" Y2="50"
+
+Stroke="Yellow" StrokeThickness="10"/>
+
+            <Polygon Points="50 50 60 30 10 30"
+
+Fill="DarkGreen"
+
+/>
+
+            <Path Fill="DarkGreen">
+
+                <Path.Data>
+
+                    <RectangleGeometry Rect="35,45 40,20"/>
+
+                </Path.Data>
+
+            </Path>
+
+            <Path Fill="DarkGreen">
+
+                <Path.Data>
+
+                    <RectangleGeometry Rect="165,45 40,20"/>
+
+                </Path.Data>
+
+            </Path>
+
+            <Path Fill="DarkGreen">
+
+                <Path.Data>
+
+                    <EllipseGeometry Center="220,20"
+
+RadiusX="20" RadiusY="15"/>
+
+                </Path.Data>
+
+            </Path>
+
+            <Path Fill="Black">
+
+                <Path.Data>
+
+                    <EllipseGeometry Center="230,20"
+
+RadiusX="5" RadiusY="5"/>
+
+                </Path.Data>
+
+            </Path>
+
+            <Polygon Points="220 30 200 25 190 60 200 60"
+
+Fill="DarkGreen"/>
+
+        </Canvas>
+
+        <Separator Height="100"/>
+
+        <Canvas x:Name="BunnyCanvas">
+            <Canvas.RenderTransform>
+                <TranslateTransform x:Name="BunnyTransform" />
+            </Canvas.RenderTransform>
+
+            <Canvas.Triggers>
+                <EventTrigger RoutedEvent="Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation 
+                    Storyboard.TargetName="BunnyTransform" 
+                    Storyboard.TargetProperty="X" 
+                    From="0" To="400" 
+                    Duration="0:0:4" 
+                    AutoReverse="True" 
+                    RepeatBehavior="Forever">
+                                <DoubleAnimation.EasingFunction>
+                                    <QuadraticEase EasingMode="EaseInOut"/>
+                                </DoubleAnimation.EasingFunction>
+                            </DoubleAnimation>
+
+                            <DoubleAnimation 
+                    Storyboard.TargetName="BunnyTransform" 
+                    Storyboard.TargetProperty="Y" 
+                    From="0" To="-20" 
+                    Duration="0:0:0.5" 
+                    AutoReverse="True" 
+                    RepeatBehavior="Forever">
+                                <DoubleAnimation.EasingFunction>
+                                    <SineEase EasingMode="EaseOut"/>
+                                </DoubleAnimation.EasingFunction>
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Canvas.Triggers>
+
+            <Path>
+                <Path.Fill>
+                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                        <GradientStop Color="DarkGray" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.Data>
+                    <EllipseGeometry Center="100,100" RadiusX="100" RadiusY="60"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="LightGray">
+                <Path.Data>
+                    <EllipseGeometry Center="200,60" RadiusX="50" RadiusY="50"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="Gray">
+                <Path.Data>
+                    <EllipseGeometry Center="10,60" RadiusX="20" RadiusY="20"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="Gray">
+                <Path.Data>
+                    <RectangleGeometry Rect="30,150 50,20"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="Gray">
+                <Path.Data>
+                    <RectangleGeometry Rect="120,150 50,20"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="Black">
+                <Path.Data>
+                    <EllipseGeometry Center="190,50" RadiusX="6" RadiusY="6"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="Black">
+                <Path.Data>
+                    <EllipseGeometry Center="220,50" RadiusX="6" RadiusY="6"/>
+                </Path.Data>
+            </Path>
+            <Polygon Fill="Pink" Points="210 70 220 60 200 60"/>
+            <Path Fill="Pink">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="190 20" IsClosed="True">
+                            <ArcSegment Point="150 0" Size="100, 500"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            <Path Fill="Pink">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="190 20" IsClosed="True">
+                            <ArcSegment Point="150 0" Size="100, 500" SweepDirection="Clockwise"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            <Path Fill="Pink">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="220 20" IsClosed="True">
+                            <ArcSegment Point="180 0" Size="100, 500"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            <Path Fill="Pink">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="220 20" IsClosed="True">
+                            <ArcSegment Point="180 0" Size="100, 500" SweepDirection="Clockwise"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Canvas>
+    </StackPanel>
+    
+</Window>

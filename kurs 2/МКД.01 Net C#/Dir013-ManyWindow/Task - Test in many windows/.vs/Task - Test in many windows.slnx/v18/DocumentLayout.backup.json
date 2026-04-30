@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\windowmanyanswers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowmanyanswers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\windowresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\windowstringanswer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowstringanswer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\windowstringanswer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowstringanswer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\windowresult.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowresult.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|y:\\dir013-manywindow\\task - test in many windows\\task - test in many windows\\windowmanyanswers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowmanyanswers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\utills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\utills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|Y:\\Dir013-ManyWindow\\Task - Test in many windows\\task - test in many windows\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WindowManyAnswers.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowManyAnswers.xaml.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowManyAnswers.xaml.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowManyAnswers.xaml.cs",
+              "RelativeToolTip": "Task - Test in many windows\\WindowManyAnswers.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:39:12.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utills.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Utills.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\Utills.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Utills.cs",
+              "RelativeToolTip": "Task - Test in many windows\\Utills.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAADwv48AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:09:09.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Data.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Data.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\Data.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Data.cs",
+              "RelativeToolTip": "Task - Test in many windows\\Data.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAcwL0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:58:48.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Window1.xaml",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\Window1.xaml",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Window1.xaml*",
+              "RelativeToolTip": "Task - Test in many windows\\Window1.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-12T04:54:06.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WindowResult.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowResult.xaml.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml.cs",
+              "RelativeToolTip": "Task - Test in many windows\\WindowResult.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:18:12.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowStringAnswer.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowStringAnswer.xaml.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowStringAnswer.xaml.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowStringAnswer.xaml.cs",
+              "RelativeToolTip": "Task - Test in many windows\\WindowStringAnswer.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwDwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T01:23:26.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowStringAnswer.xaml",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowStringAnswer.xaml",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowStringAnswer.xaml",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowStringAnswer.xaml",
+              "RelativeToolTip": "Task - Test in many windows\\WindowStringAnswer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-13T01:18:29.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\MainWindow.xaml.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Task - Test in many windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:21:23.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowManyAnswers.xaml",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowManyAnswers.xaml",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowManyAnswers.xaml",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowManyAnswers.xaml*",
+              "RelativeToolTip": "Task - Test in many windows\\WindowManyAnswers.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-12T06:37:39.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowResult.xaml",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowResult.xaml",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml",
+              "RelativeToolTip": "Task - Test in many windows\\WindowResult.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-12T06:13:38.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\Window1.xaml.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Window1.xaml.cs",
+              "RelativeToolTip": "Task - Test in many windows\\Window1.xaml.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwGwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T05:18:20.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\MainWindow.xaml",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\MainWindow.xaml",
+              "RelativeToolTip": "Task - Test in many windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-12T03:21:25.309Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

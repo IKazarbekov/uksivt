@@ -1,0 +1,49 @@
+﻿<Window x:Class="ЛАБ_3_задание_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ЛАБ_3_задание_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <Menu Background="White" BorderBrush="Navy" BorderThickness="1" DockPanel.Dock="Top">
+            <MenuItem Header="_Редактировать фон" MouseMove="MouseMoveChangeColor">
+                <RadioButton GroupName="Color" Click="ChangeColor" x:Name="RadioButtonColorWhite">Белый</RadioButton>
+                <RadioButton GroupName="Color" Click="ChangeColor" Name="RadioButtonColorRed">Красный</RadioButton>
+                <RadioButton GroupName="Color" Click="ChangeColor" x:Name="RadioButtonColorGreen">Зелёный</RadioButton>
+                <RadioButton GroupName="Color" Click="ChangeColor" x:Name="RadioButtonColorYellow">Жёлтый</RadioButton>
+                <RadioButton GroupName="Color" Click="ChangeColor" x:Name="RadioButtonColorBlack">Чёрный</RadioButton>
+            </MenuItem>
+            <MenuItem Header="_ О разработчике" Click="About" MouseMove="MouseMoveAbout"/>
+            <MenuItem Header="_ Закрыть окно" Click="Exit" MouseMove="MouseMoveExit"/>
+        </Menu>
+        <ToolBar DockPanel.Dock="Top" Height="60">
+            <Button Click="ChangeColorOnRed" MouseMove="MouseMoveChangeColor">
+                <Image Source="/RED.png" Width="50" Height="50"></Image>
+            </Button>
+            <Button Click="ChangeColorOnGreen" MouseMove="MouseMoveChangeColor">
+                <Image Source="/GREEN.png" Width="50" Height="50"></Image>
+            </Button>
+            <Button Click="ChangeColorOnWhite" MouseMove="MouseMoveChangeColor">
+                <Image Source="/WHITE.png" Width="50" Height="50"></Image>
+            </Button>
+            <Button Click="ChangeColorOnYellow" MouseMove="MouseMoveChangeColor">
+                <Image Source="/YELLOW.png" Width="50" Height="50"></Image>
+            </Button>
+            <Button Click="ChangeColorOnBlack" MouseMove="MouseMoveChangeColor">
+                <Image Source="/BLACK.png" Width="50" Height="50"></Image>
+            </Button>
+            <MenuItem Header="_ О разработчике" Click="About" MouseMove="MouseMoveAbout"/>
+            <MenuItem Header="_ Закрыть окно" Click="Exit" MouseMove="MouseMoveExit"/>
+        </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom" Height="25">
+            <TextBlock x:Name="TextAboutItem" Text="Сохранение документа ..."/>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock x:Name="TextAboutNameItem" Text="Подключение к БД: ОК" />
+            </StatusBarItem>
+        </StatusBar>
+        <Label></Label>
+    </DockPanel>
+
+</Window>

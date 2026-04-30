@@ -1,0 +1,29 @@
+﻿<Window x:Class="TaskShips.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskShips"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Horizontal">
+        <Separator Width="100"/>
+        <StackPanel>
+            <Polygon Fill="Green" Points="100 0 0 150 200 150"
+                     Stroke="Black" StrokeThickness="5"/>
+            <Polygon Fill="Brown" Points="0 0 0 150 200 150 200 0"
+                 Stroke="Black" StrokeThickness="5"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Polygon Stroke="Black" StrokeThickness="5" Points="10 50 18 35 0 20 20 20 25 0 30 20 50 20 30 35 40 55 20 45"
+                     Fill="Yellow"/>
+            <StackPanel>
+                <Separator Height="50"/>
+                <Polygon Stroke="Black" StrokeThickness="5" Points="10 50 18 35 0 20 20 20 25 0 30 20 50 20 30 35 40 55 20 45"
+                     Fill="Yellow"/>
+            </StackPanel>
+            <Polygon Stroke="Black" StrokeThickness="5" Points="10 50 18 35 0 20 20 20 25 0 30 20 50 20 30 35 40 55 20 45"
+                     Fill="Yellow"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="Task___Test_in_many_windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task___Test_in_many_windows"
+        mc:Ignorable="d"
+        Title="Тест" Height="450" Width="600"
+        Icon="/Two.png">
+    <DockPanel Margin="40" LastChildFill="True">
+        <DockPanel DockPanel.Dock="Top"
+                   Margin="20"
+                   HorizontalAlignment="Center">
+                <Image Source="/Two.png" Width="100"/>
+            <TextBlock Text="Добро пожаловать"
+                       FontSize="30"/>
+        </DockPanel>
+        <Button Content="Пройти"
+                DockPanel.Dock="Bottom"
+                FontSize="40"
+                Margin="20"
+                HorizontalAlignment="Center"
+                Width="250"
+                Click="Button_Begin_Test"/>
+        <DockPanel HorizontalAlignment="Center"
+                   Height="70">
+            <TextBlock Text="Имя:"
+                   FontSize="50"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"/>
+            <TextBox MinWidth="100"
+                     FontSize="50"
+                     x:Name="textBoxName"/>
+        </DockPanel>
+    </DockPanel>
+</Window>

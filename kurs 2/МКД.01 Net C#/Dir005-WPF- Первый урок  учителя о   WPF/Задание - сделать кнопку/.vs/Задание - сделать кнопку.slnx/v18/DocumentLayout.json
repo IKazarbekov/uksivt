@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Dir005-WPF- \u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   WPF\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B563CDF-7F22-4123-9EC0-73E862323E04}|\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443.csproj|z:\\dir005-wpf- \u043F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   wpf\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B563CDF-7F22-4123-9EC0-73E862323E04}|\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B563CDF-7F22-4123-9EC0-73E862323E04}|\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443.csproj|z:\\dir005-wpf- \u043F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   wpf\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B563CDF-7F22-4123-9EC0-73E862323E04}|\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\Dir005-WPF- \u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   WPF\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Z:\\Dir005-WPF- \u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   WPF\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswDYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T03:41:50.072Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Z:\\Dir005-WPF- \u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   WPF\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Z:\\Dir005-WPF- \u041F\u0435\u0440\u0432\u044B\u0439 \u0443\u0440\u043E\u043A  \u0443\u0447\u0438\u0442\u0435\u043B\u044F \u043E   WPF\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-24T03:41:51.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

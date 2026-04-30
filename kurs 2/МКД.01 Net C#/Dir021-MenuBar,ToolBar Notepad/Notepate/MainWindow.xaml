@@ -1,0 +1,270 @@
+﻿<Window x:Class="Notepate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepate"
+        mc:Ignorable="d"
+        Title="FeatherPad" Height="500" Width="800"
+        MinHeight="100" MinWidth="100"
+        Icon="/images/icon.jpg"
+        Closing="Window_Closing">
+    <Window.Resources>
+        <Style x:Key="buttonInToolBar" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" FontSize="20">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Новый" Click="Button_Click_New_File"/>
+                <MenuItem Header="Открыть" Click="Button_Click_Open_File"/>
+                <MenuItem Header="Недавно изменённые"/>
+                <MenuItem Header="Сохранить/Востановить сеанс"/>
+                <MenuItem Header="Боковая панель" Click="Click_Left_Panel_Items"/>
+                <Separator/>
+                <MenuItem Header="Вынести вкладку" Click="Click_Take_Out_Item"/>
+                <MenuItem Header="Последняя активная вкладка" Click="Click_To_Last_Item"/>
+                <MenuItem Header="Следующая вкладка" Click="Click_To_Before_Item"/>
+                <MenuItem Header="Предыдущая вкладка" Click="Click_To_Back_Item"/>
+                <MenuItem Header="Последняя вкладка" Click="Click_To_End_Item"/>
+                <MenuItem Header="Первая вкладка" Click="Click_To_First_Item"/>
+                <Separator/>
+                <MenuItem Header="Обновить" Click="Button_Click_Update_File"/>
+                <Separator/>
+                <MenuItem Header="Сохранить" Click="Button_Click_Save_File"/>
+                <MenuItem Header="Сохранить как" Click="Button_Click_Save_File_As"/>
+                <MenuItem Header="Сохранить всё"/>
+                <Separator/>
+                <MenuItem Header="Сохранить в кодировке"/>
+                <Separator/>
+                <MenuItem Header="Печать" Click="Button_Click_Print"/>
+                <Separator/>
+                <MenuItem Header="Закрыть" Click="Button_Click_Close"/>
+                <MenuItem Header="Выйти" Click="Button_Click_Close"/>
+            </MenuItem>
+            <MenuItem Header="Правка">
+                <MenuItem Header="Отменить"/>
+                <MenuItem Header="Отменить"/>
+                <Separator/>
+                <MenuItem Header="Вырезать" Click="Button_Click_Cut"/>
+                <MenuItem Header="Копировать" Click="Button_Click_Copy"/>
+                <MenuItem Header="Вставить" Click="Button_Click_Paste"/>
+                <MenuItem Header="Удалить"/>
+                <Separator/>
+                <MenuItem Header="Табуляции перевести в пробелы"/>
+                <MenuItem Header="В верхний регистр"/>
+                <MenuItem Header="В нижний регистр"/>
+                <MenuItem Header="Начать случай"/>
+                <Separator/>
+                <MenuItem Header="Сортировать строки"/>
+                <MenuItem Header="Сортировать строки в обратном порядке"/>
+                <Separator/>
+                <MenuItem Header="Проверить орфографию"/>
+                <MenuItem Header="Пользовательский словарь"/>
+                <Separator/>
+                <MenuItem Header="Вставить дату и время"/>
+            </MenuItem>
+            <MenuItem Header="Параметры">
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox/>
+                            <TextBlock Text="Номер строки"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox/>
+                            <TextBlock Text="Переносить строки"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox/>
+                            <TextBlock Text="Автоматический отступ"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox/>
+                            <TextBlock Text="Подсвечивать синтаксис"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Кодировка">
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <StackPanel>
+                                <RadioButton Content="UTF-8"/>
+                                <RadioButton Content="UTF-16"/>
+                                <RadioButton Content="ISO-8859-1"/>
+                                <RadioButton Content="Другая"/>
+                            </StackPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Шрифт"/>
+                <Separator/>
+                <MenuItem Header="Настройки" Click="MenuItem_Click_OpenFontSessings"/>
+
+            </MenuItem>
+            <MenuItem Header="Поиск">
+                <MenuItem Header="Найти"/>
+                <MenuItem Header="Заменить"/>
+                <MenuItem Header="Перейти к"/>
+            </MenuItem>
+            <MenuItem Header="Справка">
+                <MenuItem Header="Справка" Click="Button_Click_Help"/>
+                <MenuItem Header="О программе" Click="Button_Click_Help"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar DockPanel.Dock="Top"
+                 Background="#EFEFEF">
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_New_File">
+                <Image Source="/images/new_file.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Open_File">
+                <Image Source="/images/open_file.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Save_File">
+                <Image Source="/images/save_file.jpg"/>
+            </Button>
+            <Separator/>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Undo_File">
+                <Image Source="/images/undo.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Redo_File">
+                <Image Source="/images/redo.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Update_File">
+                <Image Source="/images/update.jpg"/>
+            </Button>
+            <Separator/>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Undo_File">
+                <Image Source="/images/PanelSearch.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Redo_File">
+                <Image Source="/images/PanekZamena.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Update_File">
+                <Image Source="/images/PanelWent.jpg"/>
+            </Button>
+            <Separator/>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Click_Left_Panel_Items">
+                <Image Source="/images/Panel_Bok.jpg"/>
+            </Button>
+            <Button Style="{StaticResource buttonInToolBar}"
+                    Click="Button_Click_Update_File">
+                <Image Source="/images/Seans.jpg"/>
+            </Button>
+            <Separator/>
+        </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock x:Name="textBlockInfo"
+                       FontSize="10"/>
+        </StatusBar>
+        <DockPanel
+            DockPanel.Dock="Bottom"
+            Height="60"
+            LastChildFill="True">
+            <StackPanel Orientation="Horizontal"
+                        DockPanel.Dock="Right">
+                <Button x:Name="buttonFindNext"
+                        Margin="5" Click="buttonFindNext_Click">
+                    <Image Source="/images/FintNext.jpg"/>
+                </Button>
+                <Button x:Name="buttonFindBack"
+                        Margin="5" Click="buttonFindBack_Click">
+                    <Image Source="/images/FindBack.jpg"/>
+                </Button>
+                <Button x:Name="buttonWithCase" 
+                        Content="Aa" Width="60"
+                        Margin="5"/>
+                <Button x:Name="buttonAllWord" 
+                        Content="[...]" Width="60"
+                        Margin="5"/>
+                <Button x:Name="buttonRegex" 
+                        Content="Rx" Width="60"
+                        Margin="5"/>
+            </StackPanel>
+            <TextBlock Text="Найти" Margin="10"/>
+            <TextBox x:Name="textBoxFind" Margin="10"/>
+        </DockPanel>
+        <StackPanel DockPanel.Dock="Bottom">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="10"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="5"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="TextAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="30"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="Замена"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Найти:" 
+                           Grid.Column="0" Grid.Row="0"/>
+                <TextBlock Text="Заменить на:"
+                           Grid.Column="0" Grid.Row="1"/>
+                <TextBox Grid.Row="0" Grid.Column="1"/>
+                <TextBox Grid.Row="1" Grid.Column="1"/>
+                <Button Grid.Column="2" Grid.Row="0">
+                    <Image Source="/images/FindBack.jpg"
+                           Height="40"/>
+                </Button>
+                <Button Grid.Column="2" Grid.Row="1">
+                    <Image Source="/images/FintNext.jpg"
+                           Height="40"/>
+                </Button>
+                <Button Grid.Column="3" Grid.Row="1"
+                        Content="OK"/>
+            </Grid>
+        </StackPanel>
+        <TabControl x:Name="tabControlFiles">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="icon.png" Width="16" Height="16"/>
+                        <TextBlock Text="{Binding HeaderText}" Margin="5,0"/>
+                        <Button Content="X" Width="20" Height="20" 
+                        />
+                    </StackPanel>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+        </TabControl>
+    </DockPanel>
+</Window>

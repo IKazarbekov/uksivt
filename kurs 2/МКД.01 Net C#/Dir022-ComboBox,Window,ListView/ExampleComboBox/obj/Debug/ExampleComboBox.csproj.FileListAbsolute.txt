@@ -1,0 +1,15 @@
+Y:\Dir022-ComboBox\ExampleComboBox\bin\Debug\ExampleComboBox.exe.config
+Y:\Dir022-ComboBox\ExampleComboBox\bin\Debug\ExampleComboBox.exe
+Y:\Dir022-ComboBox\ExampleComboBox\bin\Debug\ExampleComboBox.pdb
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.csproj.AssemblyReference.cache
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\MainWindow.g.cs
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\App.g.cs
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox_MarkupCompile.cache
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox_MarkupCompile.lref
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\MainWindow.baml
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.g.resources
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.Properties.Resources.resources
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.csproj.GenerateResource.cache
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.csproj.CoreCompileInputs.cache
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.exe
+Y:\Dir022-ComboBox\ExampleComboBox\obj\Debug\ExampleComboBox.pdb

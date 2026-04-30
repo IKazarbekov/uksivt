@@ -1,0 +1,84 @@
+﻿<Window x:Class="Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task"
+        mc:Ignorable="d"
+        Title="Смешарики" Height="450" Width="800"
+        Icon="/images/images.jpeg">
+    <Window.Background>
+        <ImageBrush ImageSource="/images/fon.png"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="tabItem" TargetType="TabItem">
+            <Setter Property="Background" Value="Transparent"
+                    />
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="wrapPanel" TargetType="WrapPanel">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+    </Window.Resources>
+    <TabControl Margin="100"
+                SelectionChanged="TabControl_Selected">
+        <TabItem Header="Вопрос 1"
+                 Style="{StaticResource tabItem}">
+            <WrapPanel Orientation="Vertical"
+                       Background="Transparent">
+                <Label Content="Хотели бы вы стать актёром?"/>
+                <RadioButton x:Name="checkBox"
+                             Content="Да"
+                          Checked="TabControl_Selected"/>
+                <RadioButton x:Name="checkBox1"
+                             Content="Нет"
+                          Checked="TabControl_Selected"/>
+                <RadioButton x:Name="checkBox2"
+                             Content="Возможно"
+                          Checked="TabControl_Selected"/>
+            </WrapPanel>
+        </TabItem>
+        <TabItem Header="Вопрос 2" Style="{StaticResource tabItem}">
+            <WrapPanel Orientation="Vertical">
+                <Label Content="Что тебе свойственно"/>
+                <RadioButton x:Name="radioButton23"
+                             Content="Много думать"
+                             Checked="TabControl_Selected"/>
+                <RadioButton x:Name="radioButton5"
+                             Content="Рассуждать и делать"
+                             Checked="TabControl_Selected"/>
+                <RadioButton x:Name="radioButton6"
+                             Content="Делать не раздумывая"
+                             Checked="TabControl_Selected"/>
+            </WrapPanel>
+        </TabItem>
+        <TabItem Header="Вопрос 3" Style="{StaticResource tabItem}">
+            <WrapPanel Orientation="Vertical">
+                <Label Content="Твоё хобби"/>
+                <RadioButton x:Name="radioButton1"
+                             Content="Спорт"
+                             Checked="TabControl_Selected"/>
+                <RadioButton x:Name="radioButton2"
+                             Content="Наука"
+                             Checked="TabControl_Selected"/>
+                <RadioButton x:Name="radioButton3"
+                             Content="Исскуство"
+                             Checked="TabControl_Selected"/>
+                <RadioButton x:Name="radioButton4"
+                             Content="Электроника"
+                             Checked="TabControl_Selected"/>
+                <RadioButton x:Name="radioButton20"
+                             Content="Хозяйство"
+                             Checked="TabControl_Selected"/>
+            </WrapPanel>
+        </TabItem>
+        <TabItem Header="Результат"
+                 Visibility="Collapsed"
+                 x:Name="tabItemResult">
+            <Label x:Name="labelResult"
+                   Content="Ёжик"
+                   FontSize="70"
+                   />
+        </TabItem>
+    </TabControl>
+</Window>

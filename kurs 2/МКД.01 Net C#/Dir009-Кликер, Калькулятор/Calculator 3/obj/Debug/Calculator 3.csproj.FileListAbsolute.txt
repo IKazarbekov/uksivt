@@ -1,0 +1,15 @@
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\bin\Debug\Calculator 3.exe.config
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\bin\Debug\Calculator 3.exe
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\bin\Debug\Calculator 3.pdb
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3.csproj.AssemblyReference.cache
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\MainWindow.g.cs
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\App.g.cs
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3_MarkupCompile.cache
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3_MarkupCompile.lref
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\MainWindow.baml
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3.g.resources
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator_3.Properties.Resources.resources
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3.csproj.GenerateResource.cache
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3.csproj.CoreCompileInputs.cache
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3.exe
+Y:\Dir009-Кликер, Калькулятор\Calculator 3\obj\Debug\Calculator 3.pdb

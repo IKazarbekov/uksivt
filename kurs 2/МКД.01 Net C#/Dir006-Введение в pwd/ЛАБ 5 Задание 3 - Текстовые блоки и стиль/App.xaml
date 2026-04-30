@@ -1,0 +1,9 @@
+﻿<Application x:Class="ЛАБ_5_Задание_3___Текстовые_блоки_и_стиль.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ЛАБ_5_Задание_3___Текстовые_блоки_и_стиль"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

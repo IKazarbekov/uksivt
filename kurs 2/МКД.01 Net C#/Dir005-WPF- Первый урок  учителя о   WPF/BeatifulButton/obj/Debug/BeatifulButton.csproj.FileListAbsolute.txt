@@ -1,0 +1,15 @@
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\bin\Debug\BeatifulButton.exe.config
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\bin\Debug\BeatifulButton.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\bin\Debug\BeatifulButton.pdb
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.csproj.AssemblyReference.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\MainWindow.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\App.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton_MarkupCompile.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton_MarkupCompile.lref
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\MainWindow.baml
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.g.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.Properties.Resources.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.csproj.GenerateResource.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.csproj.CoreCompileInputs.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\BeatifulButton\obj\Debug\BeatifulButton.pdb

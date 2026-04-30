@@ -1,0 +1,13 @@
+COMBOBOX
+
+класс представляет выпадающий список
+<ComboBox>
+	<sys:String>Tom<sys:String>
+	<sys:String>Bob<sys:String>
+	<sys:String>Sam<sys:String>
+</ComboBox>
+
+В xaml можно обьявить пустой COMBOBOX а в коде ввести значения.
+
+По умолчанию ComboBox выводит строковое представлегте объекта. Если необходимо отображать зачение определенного свойства применяется свойство  DispacherMemberPath  гапотмео вывежем хгасегте свойства Name:
+<ComboBox x:Name = "peopleComboBox" DisplayMemberPath="Name"/>

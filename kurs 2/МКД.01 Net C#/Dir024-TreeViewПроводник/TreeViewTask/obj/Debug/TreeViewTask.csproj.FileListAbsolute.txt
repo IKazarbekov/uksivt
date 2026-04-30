@@ -1,0 +1,15 @@
+Y:\Dir024-TreeViewПроводник\TreeViewTask\bin\Debug\TreeViewTask.exe.config
+Y:\Dir024-TreeViewПроводник\TreeViewTask\bin\Debug\TreeViewTask.exe
+Y:\Dir024-TreeViewПроводник\TreeViewTask\bin\Debug\TreeViewTask.pdb
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.csproj.AssemblyReference.cache
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\MainWindow.g.cs
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\App.g.cs
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask_MarkupCompile.cache
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask_MarkupCompile.lref
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\MainWindow.baml
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.g.resources
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.Properties.Resources.resources
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.csproj.GenerateResource.cache
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.csproj.CoreCompileInputs.cache
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.exe
+Y:\Dir024-TreeViewПроводник\TreeViewTask\obj\Debug\TreeViewTask.pdb

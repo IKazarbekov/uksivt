@@ -1,0 +1,14 @@
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\bin\Debug\net10.0\StreamReader and StreamWriter.exe
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\bin\Debug\net10.0\StreamReader and StreamWriter.deps.json
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\bin\Debug\net10.0\StreamReader and StreamWriter.runtimeconfig.json
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\bin\Debug\net10.0\StreamReader and StreamWriter.dll
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\bin\Debug\net10.0\StreamReader and StreamWriter.pdb
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.AssemblyInfoInputs.cache
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.AssemblyInfo.cs
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.csproj.CoreCompileInputs.cache
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.dll
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\refint\StreamReader and StreamWriter.dll
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.pdb
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\StreamReader and StreamWriter.genruntimeconfig.cache
+Y:\Dir014-Работа с файловой системой\StreamReader and StreamWriter\obj\Debug\net10.0\ref\StreamReader and StreamWriter.dll

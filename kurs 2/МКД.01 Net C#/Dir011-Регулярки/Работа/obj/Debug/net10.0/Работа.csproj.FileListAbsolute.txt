@@ -1,0 +1,14 @@
+Y:\Dir011-Регулярки\Работа\bin\Debug\net10.0\Работа.exe
+Y:\Dir011-Регулярки\Работа\bin\Debug\net10.0\Работа.deps.json
+Y:\Dir011-Регулярки\Работа\bin\Debug\net10.0\Работа.runtimeconfig.json
+Y:\Dir011-Регулярки\Работа\bin\Debug\net10.0\Работа.dll
+Y:\Dir011-Регулярки\Работа\bin\Debug\net10.0\Работа.pdb
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.AssemblyInfoInputs.cache
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.AssemblyInfo.cs
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.csproj.CoreCompileInputs.cache
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.dll
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\refint\Работа.dll
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.pdb
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\Работа.genruntimeconfig.cache
+Y:\Dir011-Регулярки\Работа\obj\Debug\net10.0\ref\Работа.dll

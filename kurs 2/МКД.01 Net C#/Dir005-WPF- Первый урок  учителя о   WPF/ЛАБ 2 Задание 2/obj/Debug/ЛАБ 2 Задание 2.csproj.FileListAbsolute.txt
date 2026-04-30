@@ -1,0 +1,15 @@
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\bin\Debug\ЛАБ 2 Задание 2.exe.config
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\bin\Debug\ЛАБ 2 Задание 2.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\bin\Debug\ЛАБ 2 Задание 2.pdb
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2.csproj.AssemblyReference.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\MainWindow.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\App.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2_MarkupCompile.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2_MarkupCompile.lref
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\MainWindow.baml
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2.g.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ_2_Задание_2.Properties.Resources.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2.csproj.GenerateResource.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2.csproj.CoreCompileInputs.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 2\obj\Debug\ЛАБ 2 Задание 2.pdb

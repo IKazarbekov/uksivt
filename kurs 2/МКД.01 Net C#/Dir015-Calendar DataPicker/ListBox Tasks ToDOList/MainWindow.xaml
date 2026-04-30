@@ -1,0 +1,91 @@
+﻿<Window x:Class="ListBox_Tasks_ToDOList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListBox_Tasks_ToDOList"
+        mc:Ignorable="d"
+        Title="ЗАДАЧНИК" Height="450" Width="500">
+    <Window.Resources>
+        <Style x:Key="textBlock" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            
+        </Style>
+        <Style x:Key="button" TargetType="Button">
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="AliceBlue" Offset="0"/>
+            <GradientStop Color="GreenYellow" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="100"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="150" MinWidth="100"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Column="0"
+                 Margin="10"
+                 x:Name="listBox"
+                 SelectionMode="Extended">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="BlueViolet"
+                            CornerRadius="10"
+                            Margin="20"
+                            Padding="5">
+                        <WrapPanel
+                                   >
+                            <Border>
+                                <TextBlock Text="{Binding Name}" FontSize="20"/>
+                            </Border>
+                            <Separator Width="10"/>
+                            <Border>
+                                <TextBlock Text="{Binding Description}"  FontSize="10"/>
+                            </Border>
+                            <Separator Width="10"/>
+                            <Border CornerRadius="20" Background="LawnGreen">
+                                <TextBlock Text="{Binding Days}" FontSize="20"/>
+                            </Border>
+                            <TextBlock Text="дней"/>
+                        </WrapPanel>
+                    </Border>
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <GridSplitter Grid.Column="1"
+                      HorizontalAlignment="Stretch"
+                      Margin="0 30"/>
+
+        <UniformGrid Rows="6"
+                     Margin="10"
+                     Grid.Column="2">
+            <StackPanel Margin="5">
+                <TextBlock Text="Название"
+                           Style="{Binding Source={StaticResource ResourceKey=textBlock}}"/>
+                <TextBox x:Name="textBoxName" Height="20"/>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <TextBlock Text="Описание"
+                           Style="{Binding Source={StaticResource ResourceKey=textBlock}}"/>
+                <RichTextBox x:Name="textBoxDescription"  Height="30"/>
+            </StackPanel>
+            <StackPanel Margin="5">
+                <TextBlock Text="Кол-во дней" x:Name="textBlockDays"
+                           Style="{Binding Source={StaticResource ResourceKey=textBlock}}"/>
+                <Slider x:Name="slider" Minimum="1" Maximum="365" ValueChanged="slider_ValueChanged"/>
+            </StackPanel>
+            <Button Click="ButtonAdd_Click" Content="Добавить задачу" Style="{Binding Source={StaticResource button}}"/>
+            <Button  Click="ButtonRemove_Click" Content="Удалить задачу" Style="{Binding Source={StaticResource button}}"/>
+            <Button Click="ButtonInfo_Click" Content="Справка" Style="{Binding Source={StaticResource button}}"/>
+        </UniformGrid>
+    </Grid>
+</Window>

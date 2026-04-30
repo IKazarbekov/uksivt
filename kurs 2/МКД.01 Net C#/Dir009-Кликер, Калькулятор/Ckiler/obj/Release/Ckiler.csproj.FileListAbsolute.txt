@@ -1,0 +1,15 @@
+Z:\Dir009-Кликер, Калькулятор\Ckiler\bin\Release\Ckiler.exe.config
+Z:\Dir009-Кликер, Калькулятор\Ckiler\bin\Release\Ckiler.exe
+Z:\Dir009-Кликер, Калькулятор\Ckiler\bin\Release\Ckiler.pdb
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.csproj.AssemblyReference.cache
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\MainWindow.g.cs
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\App.g.cs
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler_MarkupCompile.cache
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler_MarkupCompile.lref
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\MainWindow.baml
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.g.resources
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.Properties.Resources.resources
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.csproj.GenerateResource.cache
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.csproj.CoreCompileInputs.cache
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.exe
+Z:\Dir009-Кликер, Калькулятор\Ckiler\obj\Release\Ckiler.pdb

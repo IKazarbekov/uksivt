@@ -1,0 +1,20 @@
+MessageBox - диалоговое окно в котормо отображается предупреждегре 
+или сообщение а такде  преолагаются варианты выбора. В простом окне сообщения есть кнопка ОК
+
+MessageBoxResult помогает определить что было нажато.
+
+Метод Show(text, title, MessageBoxButton, MessageBoxImage)
+
+Перечисление MessageBoxButton - OK, OKCancel, YesNo, YesNoCancel
+
+Перечисление MessageBoxImage
+	None
+	Hand
+	Question
+	Exclamation
+	Astetisk
+	Stop
+	Error
+	Warning
+	Information
+

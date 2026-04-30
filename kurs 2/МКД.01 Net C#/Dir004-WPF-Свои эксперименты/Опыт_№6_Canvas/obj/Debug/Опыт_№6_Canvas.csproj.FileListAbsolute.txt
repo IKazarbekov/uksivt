@@ -1,0 +1,15 @@
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\bin\Debug\Опыт_№6_Canvas.exe.config
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\bin\Debug\Опыт_№6_Canvas.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\bin\Debug\Опыт_№6_Canvas.pdb
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas.csproj.AssemblyReference.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\MainWindow.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\App.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas_MarkupCompile.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas_MarkupCompile.lref
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\MainWindow.baml
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas.g.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт__6_Canvas.Properties.Resources.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas.csproj.GenerateResource.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas.csproj.CoreCompileInputs.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№6_Canvas\obj\Debug\Опыт_№6_Canvas.pdb

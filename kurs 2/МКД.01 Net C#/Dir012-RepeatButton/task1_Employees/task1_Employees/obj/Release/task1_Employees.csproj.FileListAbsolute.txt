@@ -1,0 +1,15 @@
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\bin\Release\task1_Employees.exe.config
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\bin\Release\task1_Employees.exe
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\bin\Release\task1_Employees.pdb
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\MainWindow.g.cs
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\App.g.cs
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees_MarkupCompile.cache
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees_MarkupCompile.lref
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\MainWindow.baml
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.g.resources
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.Properties.Resources.resources
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.exe
+Y:\Dir012-RepeatButton\task1_Employees\task1_Employees\obj\Release\task1_Employees.pdb

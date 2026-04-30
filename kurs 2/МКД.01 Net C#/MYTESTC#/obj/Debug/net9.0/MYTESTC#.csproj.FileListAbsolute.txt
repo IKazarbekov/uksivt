@@ -1,0 +1,4 @@
+/home/ikazarbekov/Документы/UKSIVT/МКД.01 Net C#/MYTESTC#/obj/Debug/net9.0/MYTESTC#.GeneratedMSBuildEditorConfig.editorconfig
+/home/ikazarbekov/Документы/UKSIVT/МКД.01 Net C#/MYTESTC#/obj/Debug/net9.0/MYTESTC#.AssemblyInfoInputs.cache
+/home/ikazarbekov/Документы/UKSIVT/МКД.01 Net C#/MYTESTC#/obj/Debug/net9.0/MYTESTC#.AssemblyInfo.cs
+/home/ikazarbekov/Документы/UKSIVT/МКД.01 Net C#/MYTESTC#/obj/Debug/net9.0/MYTESTC#.csproj.CoreCompileInputs.cache

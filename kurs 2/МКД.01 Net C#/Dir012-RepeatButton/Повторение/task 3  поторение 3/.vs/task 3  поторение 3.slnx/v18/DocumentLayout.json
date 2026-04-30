@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\Dir012-RepeatButton\\\u041F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00CF2C22-DE27-410B-AEF6-07296F958FB9}|task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3.csproj|Y:\\Dir012-RepeatButton\\\u041F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00CF2C22-DE27-410B-AEF6-07296F958FB9}|task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CF2C22-DE27-410B-AEF6-07296F958FB9}|task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3.csproj|y:\\dir012-repeatbutton\\\u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CF2C22-DE27-410B-AEF6-07296F958FB9}|task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Y:\\Dir012-RepeatButton\\\u041F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Y:\\Dir012-RepeatButton\\\u041F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-06T00:54:56.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir012-RepeatButton\\\u041F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Y:\\Dir012-RepeatButton\\\u041F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435\\task 3  \u043F\u043E\u0442\u043E\u0440\u0435\u043D\u0438\u0435 3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwFMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:54:54.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

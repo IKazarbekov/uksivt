@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B20A4B0A-648F-4B17-99DB-6166880E47A0}|Calculater2.csproj|y:\\dir009-\u043A\u043B\u0438\u043A\u0435\u0440, \u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\calculater2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20A4B0A-648F-4B17-99DB-6166880E47A0}|Calculater2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20A4B0A-648F-4B17-99DB-6166880E47A0}|Calculater2.csproj|Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B20A4B0A-648F-4B17-99DB-6166880E47A0}|Calculater2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Calculater2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T11:56:04.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculater2",
+              "DocumentMoniker": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\Calculater2.csproj",
+              "RelativeDocumentMoniker": "Calculater2.csproj",
+              "ToolTip": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\Calculater2.csproj",
+              "RelativeToolTip": "Calculater2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-14T02:56:42.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Y:\\Dir009-\u041A\u043B\u0438\u043A\u0435\u0440, \u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440\\Calculater2\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T11:56:04.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

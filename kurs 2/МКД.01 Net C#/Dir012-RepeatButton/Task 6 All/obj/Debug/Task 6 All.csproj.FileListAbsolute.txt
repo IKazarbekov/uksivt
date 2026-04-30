@@ -1,0 +1,15 @@
+Y:\Dir012-RepeatButton\Task 6 All\bin\Debug\Task 6 All.exe.config
+Y:\Dir012-RepeatButton\Task 6 All\bin\Debug\Task 6 All.exe
+Y:\Dir012-RepeatButton\Task 6 All\bin\Debug\Task 6 All.pdb
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\MainWindow.g.cs
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\App.g.cs
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All_MarkupCompile.cache
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All_MarkupCompile.lref
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\MainWindow.baml
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All.g.resources
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task_6_All.Properties.Resources.resources
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All.exe
+Y:\Dir012-RepeatButton\Task 6 All\obj\Debug\Task 6 All.pdb

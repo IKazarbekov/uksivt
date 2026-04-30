@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace Task_1
+{
+    /// <summary>
+    /// Логика взаимодействия для MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            calendar.BlackoutDates.Add(new CalendarDateRange(new DateTime(2026, 2, 5), new DateTime(2026, 4, 7)));
+            dataPicker.DisplayDateStart = DateTime.Now;
+        }
+
+        private void DatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ShowResult();
+        }
+
+        private void calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ShowResult();
+        }
+
+        private void ShowResult()
+        {
+                DateTime? dateTime1 = calendar.SelectedDate;
+                DateTime? dateTime2 = dataPicker.SelectedDate;
+
+                if (dateTime1.HasValue && dateTime2.HasValue)
+                {
+                    DateTime dt1 = dateTime1.Value;
+                    DateTime dt2 = dateTime2.Value;
+                MessageBox.Show($"{Math.Abs( dt1.Subtract(dt2).Days)}\n" +
+                    $"{dt2.ToLongDateString()}\n" +
+                    $"{dt2.ToShortDateString()}\n"
+                    );
+                }
+        }
+    }
+}

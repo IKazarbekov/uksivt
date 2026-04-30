@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|y:\\dir013-manywindow\\task - test in many windows\\task - test in many windows\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Data.cs",
+              "DocumentMoniker": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Data.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\Data.cs",
+              "ToolTip": "Y:\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Data.cs",
+              "RelativeToolTip": "Task - Test in many windows\\Data.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAcwJ0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T06:28:19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
