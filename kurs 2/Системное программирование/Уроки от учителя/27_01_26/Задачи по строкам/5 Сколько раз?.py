@@ -1,5 +1,0 @@
-s = input()
-plus_count = s.count('+')
-star_count = s.count('*')
-print(f"Символ + встречается {plus_count} раз")
-print(f"Символ * встречается {star_count} раз")
