@@ -1,0 +1,27 @@
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\bin\Debug\net10.0-windows\Work Doc Моё решение.exe
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\bin\Debug\net10.0-windows\Work Doc Моё решение.deps.json
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\bin\Debug\net10.0-windows\Work Doc Моё решение.runtimeconfig.json
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\bin\Debug\net10.0-windows\Work Doc Моё решение.dll
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\bin\Debug\net10.0-windows\Work Doc Моё решение.pdb
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\RegistratinWindow.g.cs
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\App.g.cs
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\App.baml
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\RegistratinWindow.baml
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.g.resources
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.dll
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\refint\Work Doc Моё решение.dll
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.pdb
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\Work Doc Моё решение.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\ref\Work Doc Моё решение.dll
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\OperatorWindow.g.cs
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\WorkerWindow.g.cs
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\OperatorWindow.baml
+E:\projects\uksivt-master\kurs 3\Test\Work Doc Моё решение\Work Doc Моё решение\obj\Debug\net10.0-windows\WorkerWindow.baml

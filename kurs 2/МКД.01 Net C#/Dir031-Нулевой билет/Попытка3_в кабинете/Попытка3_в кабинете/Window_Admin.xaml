@@ -1,0 +1,33 @@
+﻿<Window x:Class="Попытка3_в_кабинете.Window_MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Попытка3_в_кабинете"
+        mc:Ignorable="d"
+        Title="Window_MainMenu" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Пользователи">
+                <DataGrid x:Name="listView_user">
+                    
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Тренировки">
+                <DataGrid x:Name="dataGridTrainings">
+
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Брони">
+                <DataGrid x:Name="dataGridBrone">
+
+                </DataGrid>
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <Button Content="Выйти" Click="ButtonExit_Click"/>
+                </TabItem.Header>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

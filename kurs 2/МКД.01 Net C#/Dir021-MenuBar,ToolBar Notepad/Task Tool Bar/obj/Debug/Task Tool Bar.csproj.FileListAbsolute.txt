@@ -1,0 +1,30 @@
+Y:\Dir020-TabControl\Task Tool Bar\bin\Debug\Task Tool Bar.exe.config
+Y:\Dir020-TabControl\Task Tool Bar\bin\Debug\Task Tool Bar.exe
+Y:\Dir020-TabControl\Task Tool Bar\bin\Debug\Task Tool Bar.pdb
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar.csproj.AssemblyReference.cache
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\MainWindow.g.cs
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\App.g.cs
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar_MarkupCompile.cache
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar_MarkupCompile.lref
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\MainWindow.baml
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar.g.resources
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task_Tool_Bar.Properties.Resources.resources
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar.csproj.GenerateResource.cache
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar.csproj.CoreCompileInputs.cache
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar.exe
+Y:\Dir020-TabControl\Task Tool Bar\obj\Debug\Task Tool Bar.pdb
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\bin\Debug\Task Tool Bar.exe.config
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\bin\Debug\Task Tool Bar.exe
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\bin\Debug\Task Tool Bar.pdb
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar.csproj.AssemblyReference.cache
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\MainWindow.g.cs
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\App.g.cs
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar_MarkupCompile.cache
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar_MarkupCompile.lref
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\MainWindow.baml
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar.g.resources
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task_Tool_Bar.Properties.Resources.resources
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar.csproj.GenerateResource.cache
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar.csproj.CoreCompileInputs.cache
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar.exe
+Y:\Dir021-MenuBar,ToolBar Notepad\Task Tool Bar\obj\Debug\Task Tool Bar.pdb

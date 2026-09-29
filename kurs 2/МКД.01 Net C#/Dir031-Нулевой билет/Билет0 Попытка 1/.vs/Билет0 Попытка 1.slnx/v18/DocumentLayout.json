@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9748FE-5D1A-4F7B-8675-426C4D43FCA1}|\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir031-\u043D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0431\u0438\u043B\u0435\u04420 \u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\windowregistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA9748FE-5D1A-4F7B-8675-426C4D43FCA1}|\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:windowregistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9748FE-5D1A-4F7B-8675-426C4D43FCA1}|\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir031-\u043D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0431\u0438\u043B\u0435\u04420 \u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA9748FE-5D1A-4F7B-8675-426C4D43FCA1}|\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9748FE-5D1A-4F7B-8675-426C4D43FCA1}|\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir031-\u043D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0431\u0438\u043B\u0435\u04420 \u043F\u043E\u043F\u044B\u0442\u043A\u0430 1\\windowregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA9748FE-5D1A-4F7B-8675-426C4D43FCA1}|\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1.csproj|solutionrelative:windowregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowRegistration.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\WindowRegistration.xaml.cs",
+              "RelativeDocumentMoniker": "WindowRegistration.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\WindowRegistration.xaml.cs",
+              "RelativeToolTip": "WindowRegistration.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T03:54:19.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowRegistration.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\WindowRegistration.xaml",
+              "RelativeDocumentMoniker": "WindowRegistration.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\WindowRegistration.xaml",
+              "RelativeToolTip": "WindowRegistration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T03:39:35.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "601a5aae-25f2-46c4-ba5e-17562b507f9d",
+        "Display": 0,
+        "X": 953,
+        "Y": 534,
+        "Width": 1107,
+        "Height": 947,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\\u0411\u0438\u043B\u0435\u04420 \u041F\u043E\u043F\u044B\u0442\u043A\u0430 1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T03:45:24.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

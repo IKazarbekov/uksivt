@@ -1,0 +1,5 @@
+s1 = input().lower()
+s2 = input().lower()
+clean1 = ''.join(c for c in s1 if c.isalpha())
+clean2 = ''.join(c for c in s2 if c.isalpha())
+print("YES" if clean1 == clean2 else "NO")

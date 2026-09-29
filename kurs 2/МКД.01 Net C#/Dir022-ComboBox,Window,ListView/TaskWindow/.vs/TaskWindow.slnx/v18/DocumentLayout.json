@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|y:\\dir022-combobox,window,listview\\taskwindow\\windownowin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|solutionrelative:windownowin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\windownowin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|solutionrelative:windownowin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\windowwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|solutionrelative:windowwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\windowwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2FF355-0B35-4048-9432-3DA5B8A0D38E}|TaskWindow.csproj|solutionrelative:windowwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T04:12:59.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowNoWin.xaml",
+              "DocumentMoniker": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowNoWin.xaml",
+              "RelativeDocumentMoniker": "WindowNoWin.xaml",
+              "ToolTip": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowNoWin.xaml",
+              "RelativeToolTip": "WindowNoWin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T04:18:54.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowNoWin.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowNoWin.xaml.cs",
+              "RelativeDocumentMoniker": "WindowNoWin.xaml.cs",
+              "ToolTip": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowNoWin.xaml.cs",
+              "RelativeToolTip": "WindowNoWin.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T04:20:34.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowWin.xaml",
+              "DocumentMoniker": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowWin.xaml",
+              "RelativeDocumentMoniker": "WindowWin.xaml",
+              "ToolTip": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowWin.xaml",
+              "RelativeToolTip": "WindowWin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T04:04:20.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowWin.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowWin.xaml.cs",
+              "RelativeDocumentMoniker": "WindowWin.xaml.cs",
+              "ToolTip": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\WindowWin.xaml.cs",
+              "RelativeToolTip": "WindowWin.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T04:10:07.075Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 260,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Y:\\Dir022-ComboBox,Window,ListView\\TaskWindow\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T03:25:25.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

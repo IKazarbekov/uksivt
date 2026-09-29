@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 0,
+    "Name": "Дешёвая комната",
+    "Count": 2,
+    "Atash": 1,
+    "Proector": true
+  },
+  {
+    "Id": 1,
+    "Name": "Дорогая комната",
+    "Count": 4,
+    "Atash": 5,
+    "Proector": true
+  },
+  {
+    "Id": 2,
+    "Name": "Не нужная комната",
+    "Count": 1,
+    "Atash": 1,
+    "Proector": false
+  },
+  {
+    "Id": 3,
+    "Name": "e3",
+    "Count": 2,
+    "Atash": 2,
+    "Proector": false
+  },
+  {
+    "Id": 4,
+    "Name": "t4",
+    "Count": 4,
+    "Atash": 2,
+    "Proector": false
+  },
+  {
+    "Id": 5,
+    "Name": "Странная комната",
+    "Count": 3,
+    "Atash": 4,
+    "Proector": false
+  }
+]

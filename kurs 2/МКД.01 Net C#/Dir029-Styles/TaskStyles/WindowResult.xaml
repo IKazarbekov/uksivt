@@ -1,0 +1,20 @@
+﻿<Window x:Class="TaskStyles.WindowResult"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskStyles"
+        mc:Ignorable="d"
+        Title="WindowResult" Height="350" Width="400"
+        WindowStyle="None" Background="AliceBlue">
+    <DockPanel Margin="20">
+        <Label DockPanel.Dock="Top" Style="{StaticResource greenLabel}"/>
+        <Button Content="Уйти с группы" DockPanel.Dock="Bottom" HorizontalAlignment="Right" Click="Button_Click" Style="{StaticResource greenBlButton}"/>
+        <Border Style="{StaticResource border}">
+            <StackPanel>
+                <Button Content="Сесть на своё место" Style="{StaticResource greenButton}" HorizontalAlignment="Left" Foreground="{StaticResource green}" Margin="20" Click="Button_Click_1"/>
+                <Label Content="Лиана Рамилевна гордится тобой!" Style="{StaticResource greenLabelKurator}" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </DockPanel>
+</Window>

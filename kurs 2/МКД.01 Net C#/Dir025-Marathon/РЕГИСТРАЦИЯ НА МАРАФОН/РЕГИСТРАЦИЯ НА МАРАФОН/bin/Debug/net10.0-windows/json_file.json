@@ -1,0 +1,156 @@
+﻿[
+  {
+    "Email": "ivanov@mail.ru",
+    "Password": "pass1",
+    "FirstName": "Иван",
+    "LastName": "Иванов",
+    "Gender": "Мужской",
+    "PhotoPath": "images/ivanov.jpg",
+    "BirthDate": "1992-05-12T00:00:00",
+    "Country": "Россия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "smith@gmail.com",
+    "Password": "pass2",
+    "FirstName": "John",
+    "LastName": "Smith",
+    "Gender": "Мужской",
+    "PhotoPath": "images/smith.jpg",
+    "BirthDate": "1988-11-23T00:00:00",
+    "Country": "США",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "petrova@yandex.ru",
+    "Password": "pass3",
+    "FirstName": "Анна",
+    "LastName": "Петрова",
+    "Gender": "Женский",
+    "PhotoPath": "images/petrova.jpg",
+    "BirthDate": "1995-03-07T00:00:00",
+    "Country": "Россия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "muller@web.de",
+    "Password": "pass4",
+    "FirstName": "Hans",
+    "LastName": "Müller",
+    "Gender": "Мужской",
+    "PhotoPath": "images/muller.jpg",
+    "BirthDate": "1990-08-19T00:00:00",
+    "Country": "Германия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "dubois@fr.fr",
+    "Password": "pass5",
+    "FirstName": "Marie",
+    "LastName": "Dubois",
+    "Gender": "Женский",
+    "PhotoPath": "images/dubois.jpg",
+    "BirthDate": "1994-01-30T00:00:00",
+    "Country": "Франция",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "sato@yahoo.co.jp",
+    "Password": "pass6",
+    "FirstName": "Takashi",
+    "LastName": "Sato",
+    "Gender": "Мужской",
+    "PhotoPath": "images/sato.jpg",
+    "BirthDate": "1985-04-15T00:00:00",
+    "Country": "Япония",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "silva@uol.com.br",
+    "Password": "pass7",
+    "FirstName": "Carlos",
+    "LastName": "Silva",
+    "Gender": "Мужской",
+    "PhotoPath": "images/silva.jpg",
+    "BirthDate": "1991-10-02T00:00:00",
+    "Country": "Бразилия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "smirnova@inbox.ru",
+    "Password": "pass8",
+    "FirstName": "Елена",
+    "LastName": "Смирнова",
+    "Gender": "Женский",
+    "PhotoPath": "images/smirnova.jpg",
+    "BirthDate": "1997-12-14T00:00:00",
+    "Country": "Россия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "wong@hk.com",
+    "Password": "pass9",
+    "FirstName": "David",
+    "LastName": "Wong",
+    "Gender": "Мужской",
+    "PhotoPath": "images/wong.jpg",
+    "BirthDate": "1989-07-25T00:00:00",
+    "Country": "Китай",
+    "Role": "Координатор"
+  },
+  {
+    "Email": "garcia@es.es",
+    "Password": "pass10",
+    "FirstName": "Sofia",
+    "LastName": "García",
+    "Gender": "Женский",
+    "PhotoPath": "images/garcia.jpg",
+    "BirthDate": "1993-09-08T00:00:00",
+    "Country": "Испания",
+    "Role": "Координатор"
+  },
+  {
+    "Email": "kaza@kaza.za",
+    "Password": "1213!",
+    "FirstName": "Kaza",
+    "LastName": "Zabekov",
+    "Gender": "Мужской",
+    "PhotoPath": "images/garcia.jpg",
+    "BirthDate": "2008-05-14T00:00:00",
+    "Country": "Россия",
+    "Role": "Админ"
+  },
+  {
+    "Email": "kaza@kaza.zaw",
+    "Password": "qwe!W123",
+    "FirstName": "sefs",
+    "LastName": "awdawd",
+    "Gender": "Мужской",
+    "PhotoPath": "E:\\media\\Screenshots\\Screenshot 2026-05-14 001822.png",
+    "BirthDate": "1999-02-03T00:00:00",
+    "Country": "Россия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "qwe!W123w@awd.re",
+    "Password": "qwe!W123",
+    "FirstName": "awd",
+    "LastName": "awdafw",
+    "Gender": "Мужской",
+    "PhotoPath": "E:\\media\\Screenshots\\Screenshot 2026-05-13 103721.png",
+    "BirthDate": "2009-02-11T00:00:00",
+    "Country": "Россия",
+    "Role": "Бегун"
+  },
+  {
+    "Email": "katrs@jhg.ru",
+    "Password": "qwe!W123",
+    "FirstName": "kjhkh",
+    "LastName": "ygkuyf",
+    "Gender": "Мужской",
+    "PhotoPath": "E:\\media\\Screenshots\\Screenshot 2026-05-13 103721.png",
+    "BirthDate": "2009-01-13T00:00:00",
+    "Country": "Россия",
+    "Role": "Бегун"
+  }
+]

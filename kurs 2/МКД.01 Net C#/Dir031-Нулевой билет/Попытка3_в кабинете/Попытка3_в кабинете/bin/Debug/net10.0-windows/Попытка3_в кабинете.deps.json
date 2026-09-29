@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Попытка3_в кабинете/1.0.0": {
+        "runtime": {
+          "Попытка3_в кабинете.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Попытка3_в кабинете/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

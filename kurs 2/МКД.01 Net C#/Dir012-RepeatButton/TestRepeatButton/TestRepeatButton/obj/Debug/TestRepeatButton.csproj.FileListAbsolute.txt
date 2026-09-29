@@ -1,0 +1,15 @@
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\bin\Debug\TestRepeatButton.exe.config
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\bin\Debug\TestRepeatButton.exe
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\bin\Debug\TestRepeatButton.pdb
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\MainWindow.g.cs
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\App.g.cs
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton_MarkupCompile.cache
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton_MarkupCompile.lref
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\MainWindow.baml
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.g.resources
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.Properties.Resources.resources
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.exe
+Y:\Dir012-RepeatButton\TestRepeatButton\TestRepeatButton\obj\Debug\TestRepeatButton.pdb

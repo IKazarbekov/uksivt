@@ -1,0 +1,42 @@
+﻿<Window x:Class="ЛАБ_4___Задание_4_Переделка_ЛАБ_3_посл_задание.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ЛАБ_4___Задание_4_Переделка_ЛАБ_3_посл_задание"
+        xmlns:inkcanvas="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <x:Array x:Key="MyDrawingAttributes" Type="{x:Type DrawingAttributes}">
+            <DrawingAttributes Color="Red" Width="3" Height="3"/>
+            <DrawingAttributes Color="Green" Width="10" Height="10"/>
+            <DrawingAttributes Color="Blue" Width="15" Height="15"/>
+        </x:Array>
+        <x:Array x:Key="MyEditiongModes" Type="{x:Type InkCanvasEditingMode}">
+            <x:Static Member="InkCanvasEditingMode.Ink"/>
+            <x:Static Member="InkCanvasEditingMode.Select"/>
+            <x:Static Member="InkCanvasEditingMode.EraseByPoint"/>
+            <x:Static Member="InkCanvasEditingMode.EraseByStroke"/>
+        </x:Array>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top" Height="15">
+        </Menu>
+        <StackPanel DockPanel.Dock="Left" Orientation="Vertical" Width="100" Background="Gray">
+            <Label Content="Инструменты" Foreground="White"/>
+            <RadioButton x:Name="RadioButtonInk" GroupName="Tool" Content="Кисть"/>
+            <RadioButton x:Name="RadioButtonSelect" GroupName="Tool" Content="Выделитель"/>
+            <RadioButton x:Name="RadioButtonErase" GroupName="Tool" Content="Ластик"/>
+            <Separator/>
+            <Label Content="Кисть" Foreground="White"/>
+            <ComboBox x:Name="ComboBoxColor" SelectedIndex="0" ItemsSource="{StaticResource MyDrawingAttributes}"/>
+            <Slider x:Name="SliderSize" Minimum="5" Maximum="100" Value="{Binding ElementName=DrawAttr, Path=Height}" />
+            <Label Content="{Binding ElementName=ComboBoxColor, Path=SelectedItem.Content, Mode=OneWay}"/>
+        </StackPanel>
+        <StatusBar DockPanel.Dock="Bottom" Height="20">
+
+        </StatusBar>
+        <InkCanvas x:Name="InkCanvasMain" EditingMode="Ink" DefaultDrawingAttributes="{Binding ElementName=ComboBoxColor, Path=SelectedValue}"/>
+    </DockPanel>
+</Window>

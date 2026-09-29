@@ -1,0 +1,103 @@
+﻿<Window x:Class="Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task"
+        mc:Ignorable="d"
+        Title="Графический редактор" Height="450" Width="800"
+        Icon="/images/pen.png">
+    <Viewbox>
+    <DockPanel>
+        <ToolBarTray Orientation="Vertical" Width="40">
+            <ToolBar DockPanel.Dock="Left">
+                <Button Click="Pen_Click">
+                    <Image Source="/images/pen.png" Width="30"/>
+                    <Button.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="карандаш" Click="Pen_Click"/>
+                            <MenuItem Header="маркер" Click="Marker_Click"/>
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                </Button>
+                <Button Click="RemovePixel_Click">
+                    <Image Source="/images/dispan.png" Width="30"/>
+                    <Button.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="стирание пикселей" Click="RemovePixel_Click"/>
+                            <MenuItem Header="стирание элементов" Click="RemoveElement_Click"/>
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                </Button>
+                <Button Click="Select_Click">
+                    <Image Source="/images/select.png" Width="30"/>
+                </Button>
+                <Button Click="None_Click">
+                    <Image Source="/images/remove.png" Width="30"/>
+                </Button>
+                <Separator/>
+                <Button Click="Fill_Click">
+                    <Image Source="/images/fill.png" Width="30"/>
+                    <Button.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Заполнить цветом" Click="Fill_Click"/>
+                            <MenuItem Header="Заполнить картинкой" Click="Fill_Picther"/>
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                </Button>
+                <Button>
+                    <Image Source="/images/check.png" Width="30"/>
+                    <Button.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Вставить прямоугольник" Click="AddCub"/>
+                            <MenuItem Header="Вставить картинку" Click="AddImage"/>
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                </Button>
+                <Separator/>
+                <Button Click="ButtonAbout_Click">
+                    <Image Source="/images/home.png" Width="30"/>
+                </Button>
+                <Button Click="SaveImage">
+                    <Image Source="/images/save.png" Width="30"/>
+                    <Button.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Создать" Click="CreateImage"/>
+                            <MenuItem Header="Сохранить" Click="SaveImage"/>
+                            <MenuItem Header="Сохранить как..." Click="SaveImageAs"/>
+                            <MenuItem Header="Открыть штрихи" Click="OpenStrokes"/>
+                            <MenuItem Header="Сохранить штрихи" Click="SaveStrokes"/>
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <DockPanel DockPanel.Dock="Bottom">
+            <ToolBar DockPanel.Dock="Left" >
+                <Button Background="White" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Black" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Red" Height="30" Width="30"  Click="ChangeColor"/>
+                <Button Background="AliceBlue" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Tomato" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Aqua" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="DarkKhaki" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="MediumTurquoise" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Azure" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Wheat" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="YellowGreen" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Yellow" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Green" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Orange" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Thistle" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="WhiteSmoke" Height="30" Width="30" Click="ChangeColor"/>
+                <Button Background="Gray" Height="30" Width="30" Click="ChangeColor"/>
+            </ToolBar>
+            <Button DockPanel.Dock="Right" Width="40" Click="ClickDialogColor">
+                <Image Source="/images/colors.png"/>
+            </Button>
+            <Separator Visibility="Hidden"/>
+        </DockPanel>
+        <InkCanvas x:Name="inkCanvas"/>
+    </DockPanel>
+    </Viewbox>
+</Window>

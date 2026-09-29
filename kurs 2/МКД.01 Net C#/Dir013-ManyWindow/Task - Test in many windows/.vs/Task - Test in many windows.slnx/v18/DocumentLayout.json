@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir013-manywindow\\task - test in many windows\\task - test in many windows\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir013-manywindow\\task - test in many windows\\task - test in many windows\\windowresult.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowresult.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir013-manywindow\\task - test in many windows\\task - test in many windows\\windowresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D58167AB-66D8-4B4E-AAD2-11A48F139A44}|Task - Test in many windows\\Task - Test in many windows.csproj|solutionrelative:task - test in many windows\\windowresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Data.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Data.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\Data.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\Data.cs",
+              "RelativeToolTip": "Task - Test in many windows\\Data.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAuwNoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T13:28:15.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowResult.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml.cs",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowResult.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml.cs",
+              "RelativeToolTip": "Task - Test in many windows\\WindowResult.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T13:25:33.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowResult.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml",
+              "RelativeDocumentMoniker": "Task - Test in many windows\\WindowResult.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir013-ManyWindow\\Task - Test in many windows\\Task - Test in many windows\\WindowResult.xaml",
+              "RelativeToolTip": "Task - Test in many windows\\WindowResult.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-18T13:24:48.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

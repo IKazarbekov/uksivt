@@ -1,0 +1,20 @@
+﻿<Window x:Class="на_сдачу_учебной_пратикик.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:на_сдачу_учебной_пратикик"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="400" MinHeight="450" MinWidth="400" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Viewbox>
+        <StackPanel Margin="20">
+            <Label Content="Авторизация"/>
+            <TextBlock Text="Логин"/>
+            <TextBox x:Name="textBoxLogin" TextChanged="textBoxLogin_TextChanged"/>
+            <TextBlock Text="Пароль"/>
+            <PasswordBox x:Name="textBoxPassword" PasswordChanged="textBoxPassword_PasswordChanged"/>
+            <Button Content="Войти" x:Name="buttonLogin" Click="buttonLogin_Click" IsEnabled="False"/>
+            <Button Content="Забыл пароль" Background="Transparent" BorderBrush="Transparent" Foreground="Blue" x:Name="buttonZabil" Click="buttonZabil_Click"/>
+        </StackPanel>
+    </Viewbox>
+</Window>

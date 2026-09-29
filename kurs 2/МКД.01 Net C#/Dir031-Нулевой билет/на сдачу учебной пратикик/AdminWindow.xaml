@@ -1,0 +1,71 @@
+﻿<Window x:Class="на_сдачу_учебной_пратикик.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:на_сдачу_учебной_пратикик"
+        mc:Ignorable="d"
+        MinHeight="300" MinWidth="400" Height="400" Width="700" WindowStyle="None" AllowsTransparency="True" Background="#B2F0F8FF" Closed="Window_Closed">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="300"
+                      CornerRadius="50"
+                      GlassFrameThickness="10"
+                      ResizeBorderThickness="20"
+                      />
+    </WindowChrome.WindowChrome>
+    <Viewbox Stretch="Uniform">
+        <TabControl>
+            <TabItem Header="Тренировки" WindowChrome.IsHitTestVisibleInChrome="True">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Left">
+                        <TextBlock Text="Треннер"/>
+                        <TextBox x:Name="textBoxTrenner" TextChanged="textBoxTrenner_TextChanged"/>
+                        <TextBlock Text="Кол-во мест"/>
+                        <TextBox  x:Name="textBoxCount" TextChanged="textBoxCount_TextChanged"/>
+                        <DatePicker x:Name="dataPickerLesson" SelectedDateChanged="dataPickerLesson_SelectedDateChanged"/>
+                        <ComboBox x:Name="comboBoxLessonType" SelectionChanged="comboBoxLessonType_Selected">
+                            <ComboBoxItem>Отжимания</ComboBoxItem>
+                            <ComboBoxItem>Бег</ComboBoxItem>
+                            <ComboBoxItem>Подтягивания</ComboBoxItem>
+                        </ComboBox>
+                        <Button Content="Добавить" x:Name="buttonAddLesson" Click="buttonAddLesson_Click"/>
+                    </StackPanel>
+                    <DataGrid x:Name="dataGridLesson" CanUserAddRows="False">
+
+                    </DataGrid>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Бронирование" WindowChrome.IsHitTestVisibleInChrome="True">
+                <DockPanel>
+                    <Button Content="Добавить" DockPanel.Dock="Bottom" x:Name="buttonAddBrone" Click="buttonAddBrone_Click"/>
+                         <UniformGrid>
+                            <DataGrid x:Name="dataGridUserForBrone" SelectionChanged="dataGridUserForBrone_Selected">
+
+                            </DataGrid>
+                        <DataGrid x:Name="dataGridLessonForBrone" CanUserAddRows="False" CanUserDeleteRows="False" SelectionChanged="dataGridUserForBrone_Selected">
+
+                            </DataGrid>
+                        </UniformGrid>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Брони" WindowChrome.IsHitTestVisibleInChrome="True">
+                <DockPanel>
+                    <DataGrid x:Name="dataGridBrone" CanUserAddRows="False"/>
+                </DockPanel>
+            </TabItem>
+            <TabItem WindowChrome.IsHitTestVisibleInChrome="True">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content=" ->  " Click="Button_Click_3"/>
+                        <Button Content=" --- " Click="Button_Click_1"/>
+                        <Button Content=" [ ] " Click="Button_Click_2"/>
+                        <Button Content="  X  " Background="Red" Click="Button_Click"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <TextBlock>
+                        Программа для бронирования тренировок
+                </TextBlock>
+            </TabItem>
+        </TabControl>
+    </Viewbox>
+</Window>

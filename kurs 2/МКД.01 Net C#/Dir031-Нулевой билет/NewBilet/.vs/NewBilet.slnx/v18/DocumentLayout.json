@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF58FBB9-D25C-4D66-8F3A-35C51A8330D5}|NewBilet\\NewBilet.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir031-\u043D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\newbilet\\newbilet\\models\\brone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF58FBB9-D25C-4D66-8F3A-35C51A8330D5}|NewBilet\\NewBilet.csproj|solutionrelative:newbilet\\models\\brone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF58FBB9-D25C-4D66-8F3A-35C51A8330D5}|NewBilet\\NewBilet.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir031-\u043D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\newbilet\\newbilet\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF58FBB9-D25C-4D66-8F3A-35C51A8330D5}|NewBilet\\NewBilet.csproj|solutionrelative:newbilet\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF58FBB9-D25C-4D66-8F3A-35C51A8330D5}|NewBilet\\NewBilet.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir031-\u043D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\newbilet\\newbilet\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BF58FBB9-D25C-4D66-8F3A-35C51A8330D5}|NewBilet\\NewBilet.csproj|solutionrelative:newbilet\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Brone.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\NewBilet\\models\\Brone.cs",
+              "RelativeDocumentMoniker": "NewBilet\\models\\Brone.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\NewBilet\\models\\Brone.cs",
+              "RelativeToolTip": "NewBilet\\models\\Brone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T04:37:07.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\NewBilet\\Data.cs",
+              "RelativeDocumentMoniker": "NewBilet\\Data.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\NewBilet\\Data.cs",
+              "RelativeToolTip": "NewBilet\\Data.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T04:36:41.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\NewBilet\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "NewBilet\\MainWindow.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir031-\u041D\u0443\u043B\u0435\u0432\u043E\u0439 \u0431\u0438\u043B\u0435\u0442\\NewBilet\\NewBilet\\MainWindow.xaml",
+              "RelativeToolTip": "NewBilet\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-06T04:36:38.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\bin\Debug\net10.0\Task Console.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\bin\Debug\net10.0\Task Console.deps.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\bin\Debug\net10.0\Task Console.runtimeconfig.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\bin\Debug\net10.0\Task Console.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\bin\Debug\net10.0\Task Console.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\refint\Task Console.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\Task Console.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir027-Json\Task Console\obj\Debug\net10.0\ref\Task Console.dll

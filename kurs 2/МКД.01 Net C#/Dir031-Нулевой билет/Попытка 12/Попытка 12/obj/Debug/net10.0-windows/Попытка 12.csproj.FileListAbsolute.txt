@@ -1,0 +1,29 @@
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\bin\Debug\net10.0-windows\Попытка 12.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\bin\Debug\net10.0-windows\Попытка 12.deps.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\bin\Debug\net10.0-windows\Попытка 12.runtimeconfig.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\bin\Debug\net10.0-windows\Попытка 12.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\bin\Debug\net10.0-windows\Попытка 12.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.csproj.AssemblyReference.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\AdminWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\AdminWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.csproj.Up2Date
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\refint\Попытка 12.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\Попытка 12.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\ref\Попытка 12.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\ClientWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\UserControl1.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\ClientWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Попытка 12\Попытка 12\obj\Debug\net10.0-windows\UserControl1.baml

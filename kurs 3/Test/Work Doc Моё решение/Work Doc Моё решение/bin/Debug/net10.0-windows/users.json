@@ -1,0 +1,32 @@
+[
+  {
+    "Password": "qwe",
+    "Login": "qwe",
+    "Name": "qwe",
+    "role": 1
+  },
+  {
+    "Password": "asd",
+    "Login": "asd",
+    "Name": "asd",
+    "role": 0
+  },
+  {
+    "Password": "zxc",
+    "Login": "zxc",
+    "Name": "Kazarbekov",
+    "role": 1
+  },
+  {
+    "Password": "rty",
+    "Login": "rty",
+    "Name": "Казарбеков Ильяс Халимович",
+    "role": 1
+  },
+  {
+    "Password": "4234234",
+    "Login": "пукп",
+    "Name": "Хрущёв Илья",
+    "role": 1
+  }
+]

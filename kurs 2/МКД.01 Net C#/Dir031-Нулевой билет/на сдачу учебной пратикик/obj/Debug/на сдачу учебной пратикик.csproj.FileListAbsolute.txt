@@ -1,0 +1,39 @@
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\на сдачу учебной пратикик.exe.config
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\на сдачу учебной пратикик.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\на сдачу учебной пратикик.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик.csproj.AssemblyReference.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на_сдачу_учебной_пратикик.Properties.Resources.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик.csproj.GenerateResource.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\на сдачу учебной пратикик.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Buffers.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.IO.Pipelines.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Memory.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Numerics.Vectors.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Text.Encodings.Web.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Text.Json.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Buffers.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.IO.Pipelines.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Memory.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Numerics.Vectors.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Text.Encodings.Web.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Text.Json.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\AdminWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\AdminWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\__ _____.8FD0A8EA.Up2Date
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\App.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\LoginWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\LoginWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\ClientWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\на сдачу учебной пратикик\obj\Debug\ClientWindow.baml

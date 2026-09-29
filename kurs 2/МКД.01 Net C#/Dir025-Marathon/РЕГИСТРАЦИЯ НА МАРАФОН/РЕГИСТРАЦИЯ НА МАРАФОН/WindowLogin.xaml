@@ -1,0 +1,26 @@
+﻿<Window x:Class="РЕГИСТРАЦИЯ_НА_МАРАФОН.WindowLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:РЕГИСТРАЦИЯ_НА_МАРАФОН"
+        mc:Ignorable="d"
+        Title="WindowLogin" Height="450" Width="800"
+        Style="{StaticResource MainWindowStyle}">
+    <DockPanel>
+        <local:BottomPanel DockPanel.Dock="Bottom"/>
+        <local:TopPanel DockPanel.Dock="Top" Click="TopPanel_Click"/>
+        <Grid>
+            <Canvas Height="250" Width="500">
+                <TextBlock  FontSize="20"  Text="Форма авторизации" Canvas.Left="157" Canvas.Top="9"/>
+                <TextBlock  FontSize="15"  Text="Пожалуйста, авторизуйтесь в системе, используя ващ адрес электронноЙ почты и пароль" HorizontalAlignment="Left" Canvas.Top="37" VerticalAlignment="Center" Canvas.Left="-65"/>
+                <TextBlock Text="Email: " Canvas.Left="132" FontSize="20" Canvas.Top="97" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <TextBlock Text="Password: "  FontSize="20"  Canvas.Left="94" Canvas.Top="137" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <local:PlaceholderTextBox x:Name="textBoxEmail" Width="250" FontSize="20"  Placeholder="Enter your email address" Canvas.Left="205" Canvas.Top="95" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <local:PlaceholderTextBox x:Name="textBoxPassword" Width="250" FontSize="20"  Placeholder="Enter your password" Canvas.Left="205" Canvas.Top="134" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <local:RoundButton Text="Login" Canvas.Left="173" Canvas.Top="183" HorizontalAlignment="Left" VerticalAlignment="Top" Width="96" Height="46" Click="RoundButtonLogin_Click"/>
+                <local:RoundButton Text="Cancel" Canvas.Left="269" Canvas.Top="183" Width="96" Height="46" HorizontalAlignment="Left" VerticalAlignment="Center" Click="RoundButtonCancel_Click"/>
+            </Canvas>
+        </Grid>
+    </DockPanel>
+</Window>

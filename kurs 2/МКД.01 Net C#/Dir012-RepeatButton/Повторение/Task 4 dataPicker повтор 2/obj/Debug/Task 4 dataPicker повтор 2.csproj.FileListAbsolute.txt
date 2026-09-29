@@ -1,0 +1,15 @@
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\bin\Debug\Task 4 dataPicker повтор 2.exe.config
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\bin\Debug\Task 4 dataPicker повтор 2.exe
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\bin\Debug\Task 4 dataPicker повтор 2.pdb
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\MainWindow.g.cs
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\App.g.cs
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2_MarkupCompile.cache
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2_MarkupCompile.lref
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\MainWindow.baml
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2.g.resources
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task_4_dataPicker_повтор_2.Properties.Resources.resources
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2.exe
+Y:\Dir012-RepeatButton\Повторение\Task 4 dataPicker повтор 2\obj\Debug\Task 4 dataPicker повтор 2.pdb

@@ -1,0 +1,44 @@
+D:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\App.g.cs
+D:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН_MarkupCompile.cache
+D:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН_MarkupCompile.lref
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\bin\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.exe
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\bin\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.deps.json
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\bin\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.runtimeconfig.json
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\bin\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.dll
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\bin\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.pdb
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\App.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН_MarkupCompile.cache
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН_MarkupCompile.lref
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\App.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\MainWindow.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.g.resources
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.GeneratedMSBuildEditorConfig.editorconfig
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.AssemblyInfoInputs.cache
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.AssemblyInfo.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.csproj.CoreCompileInputs.cache
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.dll
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\refint\РЕГИСТРАЦИЯ НА МАРАФОН.dll
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.pdb
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\РЕГИСТРАЦИЯ НА МАРАФОН.genruntimeconfig.cache
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\ref\РЕГИСТРАЦИЯ НА МАРАФОН.dll
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\BottomPanel.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\RoundButton.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\BottomPanel.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\RoundButton.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowQuestionIsRunner.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowQuestionIsRunner.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\TopPanel.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\TopPanel.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowRegistration.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowRegistration.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\PlaceholderTextBox.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\PlaceholderTextBox.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowEndRegister.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowLogin.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowEndRegister.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowLogin.baml
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowSuperUser.g.cs
+E:\tmp\РЕГИСТРАЦИЯ НА МАРАФОН\РЕГИСТРАЦИЯ НА МАРАФОН\obj\Debug\net10.0-windows\WindowSuperUser.baml

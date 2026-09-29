@@ -1,0 +1,64 @@
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.deps.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.runtimeconfig.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\refint\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 2\Notepad 2\obj\Debug\net10.0-windows\ref\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.deps.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.runtimeconfig.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\refint\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 3\Notepad 2\obj\Debug\net10.0-windows\ref\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.deps.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.runtimeconfig.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\Notepad 2.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\System.Speech.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\bin\Debug\net10.0-windows\runtimes\win\lib\net10.0\System.Speech.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.csproj.AssemblyReference.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.csproj.Up2Date
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\refint\Notepad 2.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\Notepad 2.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir021-MenuBar,ToolBar Notepad\Notepad 4\Notepad 2\obj\Debug\net10.0-windows\ref\Notepad 2.dll

@@ -1,0 +1,43 @@
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\Билет0 Попытка 1.exe.config
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\Билет0 Попытка 1.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\Билет0 Попытка 1.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1.csproj.AssemblyReference.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowAdmin.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowAuth.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowRegistration.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowUser.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1_MarkupCompile.lref
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\App.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\MainWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowAdmin.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowAuth.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowRegistration.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\WindowUser.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0_Попытка_1.Properties.Resources.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1.csproj.GenerateResource.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\Билет0 Попытка 1.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Buffers.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.IO.Pipelines.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Memory.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Numerics.Vectors.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Text.Encodings.Web.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Text.Json.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Buffers.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.IO.Pipelines.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Memory.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Numerics.Vectors.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Text.Encodings.Web.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Text.Json.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir031-Нулевой билет\Билет0 Попытка 1\obj\Debug\_____0 _.150634AA.Up2Date

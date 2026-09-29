@@ -1,0 +1,15 @@
+Y:\Dir009-Кликер, Калькулятор\Calculate\bin\Debug\Calculate.exe.config
+Y:\Dir009-Кликер, Калькулятор\Calculate\bin\Debug\Calculate.exe
+Y:\Dir009-Кликер, Калькулятор\Calculate\bin\Debug\Calculate.pdb
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.csproj.AssemblyReference.cache
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\MainWindow.g.cs
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\App.g.cs
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate_MarkupCompile.cache
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate_MarkupCompile.lref
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\MainWindow.baml
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.g.resources
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.Properties.Resources.resources
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.csproj.GenerateResource.cache
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.csproj.CoreCompileInputs.cache
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.exe
+Y:\Dir009-Кликер, Калькулятор\Calculate\obj\Debug\Calculate.pdb

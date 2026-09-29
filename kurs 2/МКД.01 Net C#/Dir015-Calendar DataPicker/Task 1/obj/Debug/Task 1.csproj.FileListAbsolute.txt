@@ -1,0 +1,15 @@
+Y:\Dir015-Calendar DataPicker\Task 1\bin\Debug\Task 1.exe.config
+Y:\Dir015-Calendar DataPicker\Task 1\bin\Debug\Task 1.exe
+Y:\Dir015-Calendar DataPicker\Task 1\bin\Debug\Task 1.pdb
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1.csproj.AssemblyReference.cache
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\MainWindow.g.cs
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\App.g.cs
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1_MarkupCompile.cache
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1_MarkupCompile.lref
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\MainWindow.baml
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1.g.resources
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task_1.Properties.Resources.resources
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1.csproj.GenerateResource.cache
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1.csproj.CoreCompileInputs.cache
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1.exe
+Y:\Dir015-Calendar DataPicker\Task 1\obj\Debug\Task 1.pdb

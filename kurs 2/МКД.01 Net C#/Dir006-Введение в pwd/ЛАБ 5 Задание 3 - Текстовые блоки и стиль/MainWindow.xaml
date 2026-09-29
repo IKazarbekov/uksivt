@@ -1,0 +1,36 @@
+﻿<Window x:Class="ЛАБ_5_Задание_3___Текстовые_блоки_и_стиль.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ЛАБ_5_Задание_3___Текстовые_блоки_и_стиль"
+        mc:Ignorable="d"
+        Title="MultiEdit" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Style.Setters>
+                <Setter Property="Background" Value="GreenYellow"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+                <Setter Property="FontFamily" Value="Franklin Gothic Medium"/>
+                <Setter Property="Margin" Value="80 20 80 20"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBox Height="150" FontSize="20">Средний текст</TextBox>
+            <TextBox Height="50" FontSize="15">Малый текст</TextBox>
+            <TextBox Height="100" FontSize="15" Width="227" HorizontalAlignment="Center" VerticalAlignment="Center">ХМ</TextBox>
+        </StackPanel>
+        <GridSplitter Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="10" />
+        <StackPanel Grid.Column="2">
+            <TextBox Height="300" FontSize="40">Большой текст</TextBox>
+            <TextBox Height="25" FontSize="5">Очень маленький текст</TextBox>
+        </StackPanel>
+    </Grid>
+</Window>

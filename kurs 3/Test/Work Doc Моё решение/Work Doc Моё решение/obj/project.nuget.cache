@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "yT2CRa4aGKA=",
+  "success": true,
+  "projectFilePath": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc Моё решение\\Work Doc Моё решение\\Work Doc Моё решение.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Work\\.nuget\\packages\\system.text.json\\10.0.11\\system.text.json.10.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
+      "projectPath": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc Моё решение\\Work Doc Моё решение\\Work Doc Моё решение.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc Моё решение\\Work Doc Моё решение\\Work Doc Моё решение.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 0,
+    "Name": "PSQL",
+    "Description": "psql hehe",
+    "Category": 0,
+    "Status": 0,
+    "Price": 10,
+    "Count": 20,
+    "ImagePath": "images/0psql.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": "Солнце",
+    "Description": "Добываем солнце",
+    "Category": 1,
+    "Status": 0,
+    "Price": 1000,
+    "Count": 100,
+    "ImagePath": "images/0329048c9a525f6faaac9be149a5370f2.jpg"
+  },
+  {
+    "Id": 0,
+    "Name": null,
+    "Description": null,
+    "Category": 0,
+    "Status": 0,
+    "Price": 0,
+    "Count": 0,
+    "ImagePath": null
+  },
+  {
+    "Id": 0,
+    "Name": "Новый продукт",
+    "Description": null,
+    "Category": 0,
+    "Status": 0,
+    "Price": 0,
+    "Count": 0,
+    "ImagePath": null
+  }
+]

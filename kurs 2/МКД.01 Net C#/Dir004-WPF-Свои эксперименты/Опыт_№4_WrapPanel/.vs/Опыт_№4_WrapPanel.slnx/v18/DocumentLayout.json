@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Dir004-WPF-\u0421\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u041E\u043F\u044B\u0442_\u21164_WrapPanel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17267DC0-8F83-4762-85E6-3F113316A170}|\u041E\u043F\u044B\u0442_\u21164_WrapPanel.csproj|z:\\dir004-wpf-\u0441\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u043E\u043F\u044B\u0442_\u21164_wrappanel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17267DC0-8F83-4762-85E6-3F113316A170}|\u041E\u043F\u044B\u0442_\u21164_WrapPanel.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17267DC0-8F83-4762-85E6-3F113316A170}|\u041E\u043F\u044B\u0442_\u21164_WrapPanel.csproj|z:\\dir004-wpf-\u0441\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u043E\u043F\u044B\u0442_\u21164_wrappanel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17267DC0-8F83-4762-85E6-3F113316A170}|\u041E\u043F\u044B\u0442_\u21164_WrapPanel.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Z:\\Dir004-WPF-\u0421\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u041E\u043F\u044B\u0442_\u21164_WrapPanel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Z:\\Dir004-WPF-\u0421\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u041E\u043F\u044B\u0442_\u21164_WrapPanel\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T11:39:29.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Z:\\Dir004-WPF-\u0421\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u041E\u043F\u044B\u0442_\u21164_WrapPanel\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Z:\\Dir004-WPF-\u0421\u0432\u043E\u0438 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u044B\\\u041E\u043F\u044B\u0442_\u21164_WrapPanel\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:39:29.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

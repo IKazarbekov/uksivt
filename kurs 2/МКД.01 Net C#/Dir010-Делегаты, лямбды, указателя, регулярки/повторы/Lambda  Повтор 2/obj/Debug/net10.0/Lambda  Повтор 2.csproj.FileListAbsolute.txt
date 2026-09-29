@@ -1,0 +1,14 @@
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\bin\Debug\net10.0\Lambda  Повтор 2.exe
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\bin\Debug\net10.0\Lambda  Повтор 2.deps.json
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\bin\Debug\net10.0\Lambda  Повтор 2.runtimeconfig.json
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\bin\Debug\net10.0\Lambda  Повтор 2.dll
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\bin\Debug\net10.0\Lambda  Повтор 2.pdb
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.AssemblyInfoInputs.cache
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.AssemblyInfo.cs
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.csproj.CoreCompileInputs.cache
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.dll
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\refint\Lambda  Повтор 2.dll
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.pdb
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\Lambda  Повтор 2.genruntimeconfig.cache
+Y:\Dir010-Делегаты, лямбды, указателя, регулярки\повторы\Lambda  Повтор 2\obj\Debug\net10.0\ref\Lambda  Повтор 2.dll

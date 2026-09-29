@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\workerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\workerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\workerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\workerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\registratinwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\registratinwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\operatorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\operatorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\operatorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\operatorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\registratinwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\registratinwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|e:\\projects\\uksivt-master\\kurs 3\\test\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90DE78CB-0650-021E-1F3A-B455C57681CF}|Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435.csproj|solutionrelative:work doc \u043C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistratinWindow.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T04:53:14.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OperatorWindow.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T04:23:12.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OperatorWindow.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\OperatorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-09T04:20:50.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Data.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Data.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Data.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Data.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwB4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T04:09:37.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Problem.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Problem.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Problem.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Problem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T04:03:12.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkerWindow.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T03:58:04.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkerWindow.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\WorkerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-09T03:54:37.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistratinWindow.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\RegistratinWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-08T10:18:57.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\User.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\User.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\User.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T09:57:45.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\App.xaml",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\App.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\App.xaml",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-08T09:55:18.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-08T09:53:46.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 3\\Test\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Work Doc \u041C\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T09:53:46.826Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

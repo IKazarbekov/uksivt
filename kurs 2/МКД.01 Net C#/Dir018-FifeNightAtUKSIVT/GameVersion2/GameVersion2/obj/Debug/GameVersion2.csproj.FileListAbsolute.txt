@@ -1,0 +1,15 @@
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\bin\Debug\GameVersion2.exe.config
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\bin\Debug\GameVersion2.exe
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\bin\Debug\GameVersion2.pdb
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.csproj.AssemblyReference.cache
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\MainWindow.g.cs
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\App.g.cs
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2_MarkupCompile.cache
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2_MarkupCompile.lref
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\MainWindow.baml
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.g.resources
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.Properties.Resources.resources
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.csproj.GenerateResource.cache
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.csproj.CoreCompileInputs.cache
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.exe
+Y:\Dir018-FifeNightAtUKSIVT\GameVersion2\GameVersion2\obj\Debug\GameVersion2.pdb

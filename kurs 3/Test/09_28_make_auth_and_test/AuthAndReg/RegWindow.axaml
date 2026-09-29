@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AuthAndReg.RegWindow"
+        Title="RegWindow">
+    <StackPanel HorizontalAlignment="Center" Margin="50">
+        <Label Content="Регистрация"/>
+        <TextBlock Text="Фамилия"/>
+        <TextBox/>
+        <TextBlock Text="Имя"/>
+        <TextBox/>
+        <TextBlock Text="Отчество"/>
+        <TextBox/>
+        <TextBlock Text="Дата рождения"/>
+        <TextBox/>
+        <TextBlock Text="Электронная почта"/>
+        <TextBox/>
+        <TextBlock Text="Пароль"/>
+        <TextBox/>
+        <TextBlock Text="Подтверждение пароля"/>
+        <TextBox/>
+        <Button Content="Зарегистрироваться"/>
+        <Button Content="Войти" FontSize="10" Background="Transparent" Click="Button_Click_To_Auth" />
+    </StackPanel>
+</Window>

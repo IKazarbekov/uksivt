@@ -1,0 +1,157 @@
+18 Марта
+Тема: Работа с файловой системой
+Классы: Directory, File, FileInfo, FileStream
+
+Directory
+	Статический класс
+		CreateDirectory(path)
+		Delete(path)
+		bool Exists(path)
+		string GetCurrentDirectory() // где лежит проект
+		List GetDirectories(path)
+		List GetFiles(path)
+		List GetFileSystemEntries(path)
+		Move(fromFile, toFile)
+		GetParent(path)
+		DateTime GetLastWriteTime(path)
+		DateTime GetLastAccessTime(path)
+		DateTime GetCreationTime(path)
+
+DirectoryInfo
+	методы:
+		Create()
+		CreateSubdirectory()
+		Delete()
+		GetDirectories()
+		GetFiles()
+		MoveTo(destDirName)
+	свойства:
+		CreationTime
+		LastAccessTime
+		LaswtWriteTime
+		Exists
+		Parent
+		Root
+		Name
+		FullName
+
+FileInfo
+	методы:
+		CopyTo(path)
+		Create()
+		Delete()
+		MoveTo(destFileName)
+	свойство
+		Directory
+		DirectoryName
+		Exists
+		Length - размер файла
+		Extension - расширение файла
+		Name
+		FullName
+
+File
+	Copy()
+	Create()
+	Delete()
+	Move()
+	Exists(file)
+
+	Чтение и запись
+		AppendAllLines(String, IEnumerable<String>) AppendAllLinesAsync(String, IEnumerable<String>, CancellationToken)
+		AppendAllText(String, String)
+		byte[] ReadAllBytes(string path)
+		byte[] Lines( string path )
+		string ReadAllText(string path)
+		IEnumerable<string> ReadLines(string path)
+	 	void WriteAllBytes(string path, byte[] bytes)
+	 	void WriteAllLines(string path, string[] contents)
+	 	WriteAllText(string path, string? content)
+	 	
+
+21 Март
+
+StreamReader StreanWriter
+
+	StreamReader и StreamWriter
+	Запись в файл и StreamWriter
+
+	    Класс: StreamWriter — для записи в текстовый файл.
+
+	    Конструкторы:
+
+	        StreamWriter(string path) — связывает поток с файлом по пути.
+
+	        StreamWriter(string path, bool append)— true: дозапись в конец; false: перезапись файла.
+
+	        StreamWriter(string path, bool append, Encoding encoding) — указание кодировки. 
+
+	Методы StreamWriter — Close
+
+	    Close() — закрывает файл и освобождает ресурсы.
+
+	    Для автоматического закрытия используется конструкция using () {}. 
+
+	Методы StreamWriter — Write
+
+	    Write(string value) — записывает данные простых типов (int, char, string и др.). Есть перегруженные версии.
+
+	    WriteAsync()— асинхронная версия метода. 
+
+	Методы StreamWriter — WriteLine
+
+	    WriteLine(string value) — записывает данные и добавляет символ конца строки.
+
+	    WriteLineAsync()— асинхронная версия. 
+
+	Асинхронный
+
+	    Вызываются в методе с async и оператором await.
+
+	    Преимущества: неблокирующий UI, экономия потоков, масштабируемость. 
+
+	Методы StreamWriter — Flush
+
+	    Flush() — немедленно записывает буферизированные данные в файл (без закрытия потока).
+
+	    FlushAsync()— асинхронная версия. 
+
+	Чтение из файла
+
+	    Класс: StreamReader — для чтения текста из файла.
+
+	    Конструкторы:
+
+	        StreamReader(string path) — связывает поток с файлом.
+
+	        StreamReader(string path, Encoding encoding) — чтение с указанной кодировкой. 
+
+	Методы StreamReader — Read
+
+	    Read() — считывает следующий символ (в виде int). Возвращает -1 при конце файла. Есть перегрузка для чтения в массив char[].
+
+	    ReadAsync() — асинхронная версия.
+
+	Методы StreamReader — Peek
+
+	    Peek() — возвращает следующий доступный символ без его считывания; при отсутствии символов возвращает -1.
+
+	Методы StreamReader — ReadLine
+
+	    ReadLine() — считывает одну строку.
+
+	    ReadLineAsync() — асинхронная версия.
+
+	Методы StreamReader — ReadToEnd
+
+	    ReadToEnd() — считывает весь текст из файла.
+
+	    ReadToEndAsync()— асинхронная версия. 
+
+	Методы StreamReader — Close
+
+	    Close() — закрывает файл и освобождает ресурсы.
+
+	    Рекомендуется использование using для автоматического закрытия. 
+
+	Вывод: Научился работать с текстовыми файлами через потоки в C#

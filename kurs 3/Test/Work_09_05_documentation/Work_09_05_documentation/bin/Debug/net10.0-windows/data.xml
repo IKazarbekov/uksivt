@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Users>
+    <User>
+      <Id>1</Id>
+      <Username>admin</Username>
+      <Password>123</Password>
+      <FullName>Администратор</FullName>
+      <Role>Технический оператор</Role>
+    </User>
+    <User>
+      <Id>2</Id>
+      <Username>emp1</Username>
+      <Password>123</Password>
+      <FullName>Петров Петр</FullName>
+      <Role>Сотрудник</Role>
+    </User>
+    <User>
+      <Id>3</Id>
+      <Username>user1</Username>
+      <Password>user2</Password>
+      <FullName>Иванов Иван</FullName>
+      <Role>Сотрудник</Role>
+    </User>
+    <User>
+      <Id>4</Id>
+      <Username>qwer</Username>
+      <Password>qwer</Password>
+      <FullName>qwer</FullName>
+      <Role>Сотрудник</Role>
+    </User>
+    <User>
+      <Id>5</Id>
+      <Username>asd</Username>
+      <Password>asd</Password>
+      <FullName>asd</FullName>
+      <Role>Технический оператор</Role>
+    </User>
+  </Users>
+  <Requests>
+    <Request>
+      <Id>1</Id>
+      <UserId>4</UserId>
+      <FullName>qwer</FullName>
+      <Date>2026-09-05T00:00:00+05:00</Date>
+      <Description>Не работает принтер</Description>
+      <Cabinet>104</Cabinet>
+      <Status>Новая</Status>
+    </Request>
+  </Requests>
+</DataStore>

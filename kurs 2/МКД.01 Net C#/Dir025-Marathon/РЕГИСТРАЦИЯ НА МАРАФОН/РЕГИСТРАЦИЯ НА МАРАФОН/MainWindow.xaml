@@ -1,0 +1,57 @@
+﻿<Window x:Class="РЕГИСТРАЦИЯ_НА_МАРАФОН.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:РЕГИСТРАЦИЯ_НА_МАРАФОН"
+        mc:Ignorable="d"
+        Style="{StaticResource MainWindowStyle}"
+        Height="400" Width="500">
+    <DockPanel>
+        <StackPanel
+            Background="{StaticResource PanelColor}"
+            DockPanel.Dock="Top">
+            <TextBlock Text="MARATHON SKILLS 2016"
+                       Style="{StaticResource textBlockMainTitle}"
+                       Margin="20"
+                       TextAlignment="Center"
+                       FontSize="30"
+                       />
+            <Image Source="/imagees/icoons.png" Height="50" Margin="5"/>
+            <TextBlock Text="Москва, Россия"
+                       TextAlignment="Center"
+                       Foreground="LightGray"
+                       FontSize="20"
+                       FontStyle="Oblique"/>
+            <TextBlock Text="среда 21 октября 2016"
+                       TextAlignment="Center"
+                       Foreground="LightGray"
+                       Margin="0 0 0 20"
+                       FontSize="20"
+                       FontStyle="Oblique"/>
+        </StackPanel>
+        <local:BottomPanel DockPanel.Dock="Bottom"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <UniformGrid Rows="3"
+                         Grid.Column="1"
+                         MaxHeight="300" MaxWidth="300">
+                <local:RoundButton Text="Я хочу стать бегуном" Click="RoundButtonRunner_Click"/>
+                <local:RoundButton Text="Я хочу стать спонсором бегуна" Click="RoundButtonStop_Click"/>
+                <local:RoundButton Text="Я хочу узнать больше о событии" Click="RoundButtonStop_Click"/>
+            </UniformGrid>
+            <DockPanel Grid.Column="3" LastChildFill="False">
+                <local:RoundButton
+                    DockPanel.Dock="Bottom"
+                    Text="Login"
+                    Height="50"
+                    Click="RoundButtonClose_Click"/>
+            </DockPanel>
+        </Grid>
+    </DockPanel>
+</Window>

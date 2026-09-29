@@ -1,0 +1,58 @@
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.exe
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.deps.json
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.runtimeconfig.json
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.dll
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.pdb
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\MainWindow.baml
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\MainWindow.g.cs
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\App.g.cs
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3_MarkupCompile.cache
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.g.resources
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.GeneratedMSBuildEditorConfig.editorconfig
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.AssemblyInfoInputs.cache
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.AssemblyInfo.cs
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.csproj.CoreCompileInputs.cache
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.sourcelink.json
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.dll
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\refint\Проводник3.dll
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.pdb
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.genruntimeconfig.cache
+F:\projects\UKSIVT\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\obj\Debug\net10.0-windows\ref\Проводник3.dll
+E:\download\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.exe
+E:\download\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.deps.json
+E:\download\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.runtimeconfig.json
+E:\download\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.dll
+E:\download\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.pdb
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\MainWindow.baml
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\App.g.cs
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3_MarkupCompile.cache
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.g.resources
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.GeneratedMSBuildEditorConfig.editorconfig
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.AssemblyInfoInputs.cache
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.AssemblyInfo.cs
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.csproj.CoreCompileInputs.cache
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.dll
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\refint\Проводник3.dll
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.pdb
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.genruntimeconfig.cache
+E:\download\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\ref\Проводник3.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.exe
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.deps.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.runtimeconfig.json
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\bin\Debug\net10.0-windows\Проводник3.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\MainWindow.baml
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\MainWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.g.resources
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.AssemblyInfoInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.AssemblyInfo.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.csproj.CoreCompileInputs.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\refint\Проводник3.dll
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.pdb
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\Проводник3.genruntimeconfig.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir024-TreeViewПроводник\Проводник3\Проводник3\Проводник3\obj\Debug\net10.0-windows\ref\Проводник3.dll

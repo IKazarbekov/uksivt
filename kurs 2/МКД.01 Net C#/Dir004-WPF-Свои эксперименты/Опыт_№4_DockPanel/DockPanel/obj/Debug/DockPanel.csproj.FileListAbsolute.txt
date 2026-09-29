@@ -1,0 +1,15 @@
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\bin\Debug\DockPanel.exe.config
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\bin\Debug\DockPanel.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\bin\Debug\DockPanel.pdb
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.csproj.AssemblyReference.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\MainWindow.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\App.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel_MarkupCompile.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel_MarkupCompile.lref
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\MainWindow.baml
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.g.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.Properties.Resources.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.csproj.GenerateResource.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.csproj.CoreCompileInputs.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№4_DockPanel\DockPanel\obj\Debug\DockPanel.pdb

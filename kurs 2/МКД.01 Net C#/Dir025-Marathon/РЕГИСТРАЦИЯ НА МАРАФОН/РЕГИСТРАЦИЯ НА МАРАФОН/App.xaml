@@ -1,0 +1,30 @@
+﻿<Application x:Class="РЕГИСТРАЦИЯ_НА_МАРАФОН.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:РЕГИСТРАЦИЯ_НА_МАРАФОН"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Font connect-->
+        <FontFamily x:Key="OpenSansSemibold">/Fonts/OpenSans-Semibold.ttf#Open Sans Semibold</FontFamily>
+        
+        <!-- window style -->
+        <Style x:Key="MainWindowStyle" TargetType="Window">
+            <Setter Property="MinHeight" Value="400"/>
+            <Setter Property="MinWidth" Value="300"/>
+            <Setter Property="ResizeMode" Value="CanResize"/>
+            <Setter Property="Title" Value="Marathon Skills 2016"/>
+            <Setter Property="Icon" Value="/imagees/icon.png"/>
+        </Style>
+
+        <!-- other styles-->
+        <SolidColorBrush x:Key="PanelColor" Color="#505050"/>
+        <Style x:Key="textBlockMainTitle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="{StaticResource OpenSansSemibold}"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Arial"/>
+        </Style>
+    </Application.Resources>
+</Application>

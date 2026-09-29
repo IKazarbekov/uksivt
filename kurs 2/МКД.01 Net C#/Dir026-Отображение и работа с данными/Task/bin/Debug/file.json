@@ -1,0 +1,32 @@
+[
+  {
+    "Description": "Обувь моего соседа, который постоянно его зашивает",
+    "Name": "Коричок",
+    "Category": "Туфли",
+    "NameAndCategory": "Коричок|Туфли",
+    "PathImage": "/images/1.png",
+    "Price": 15,
+    "Count": 14,
+    "Discount": 5
+  },
+  {
+    "Description": "Самая не удобная обувь на свете",
+    "Name": "Дличок",
+    "Category": "Странная обувь",
+    "NameAndCategory": "Дличок|Странная обувь",
+    "PathImage": "/images/2.png",
+    "Price": 9999,
+    "Count": 9999,
+    "Discount": 0
+  },
+  {
+    "Description": "Хочешь быть успешным ? Навервай эту обувь и всё не получится !",
+    "Name": "Пантера",
+    "Category": "Туфли",
+    "NameAndCategory": "Пантера|Туфли",
+    "PathImage": "/images/3.png",
+    "Price": 60,
+    "Count": 24,
+    "Discount": 80
+  }
+]

@@ -1,0 +1,14 @@
+﻿<Window x:Class="FifeNightAtUKSIVT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FifeNightAtUKSIVT"
+        mc:Ignorable="d" Width="1500" Height="800"
+        MinWidth="1000" MinHeight="500"
+        Background="Black" Title="Пять ночей в Общежитии" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" Cursor="UpArrow" IsEnabled="True" WindowStyle="None"
+        >
+    <Grid>
+        
+    </Grid>
+</Window>

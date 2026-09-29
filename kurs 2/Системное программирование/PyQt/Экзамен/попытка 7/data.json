@@ -1,0 +1,50 @@
+[
+    {
+        "name": "car",
+        "price": 1000,
+        "count": 3,
+        "sr_price": 90
+    },
+    {
+        "name": "bicycle",
+        "price": 100,
+        "count": 2,
+        "sr_price": 90
+    },
+    {
+        "name": "motorcycle",
+        "price": 140,
+        "count": 10,
+        "sr_price": 120
+    },
+    {
+        "name": "war",
+        "price": 0,
+        "count": 3,
+        "sr_price": 0
+    },
+    {
+        "name": "Gar",
+        "price": 0,
+        "count": 2,
+        "sr_price": 0
+    },
+    {
+        "name": "Gar",
+        "price": 0,
+        "count": 2,
+        "sr_price": 0
+    },
+    {
+        "name": "WAFFF",
+        "price": 0,
+        "count": 6,
+        "sr_price": 0
+    },
+    {
+        "name": "Golf",
+        "price": 0,
+        "count": 1,
+        "sr_price": 0
+    }
+]

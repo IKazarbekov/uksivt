@@ -1,0 +1,51 @@
+﻿<Window x:Class="Task___Test_in_many_windows.WindowManyAnswers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task___Test_in_many_windows"
+        mc:Ignorable="d"
+        Title="WindowManyAnswers" Height="450" Width="800"
+        Icon="/Two.png">
+    <DockPanel Margin="30" LastChildFill="True">
+        <TextBlock Text="Name"
+                   x:Name="textBlockName"
+                   FontSize="40"
+                   Margin="20"
+            DockPanel.Dock="Top"/>
+        <TextBlock Text="Вопрос #1"
+                   x:Name="textBlockQuestion"
+                   FontSize="25"
+                   HorizontalAlignment="Center"
+            DockPanel.Dock="Top"/>
+        <StackPanel DockPanel.Dock="Bottom"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button Content="Дальше"
+                x:Name="buttonFront"
+                FontSize="30"
+                Margin="40 20"
+                Width="200" Click="buttonFront_Click"/>
+        </StackPanel>
+
+        <WrapPanel Orientation="Vertical"
+                   Margin="20">
+            <CheckBox Content="Ответ 1"
+                         x:Name="checkBoxAnswerFirst"
+                         FontSize="25"
+                         Margin="20"/>
+            <CheckBox Content="Ответ 2"
+                         x:Name="checkBoxAnswerSecond"
+                         FontSize="25"
+                         Margin="20"/>
+            <CheckBox Content="Ответ 3"
+                         x:Name="checkBoxAnswerThree"
+                         FontSize="25"
+                         Margin="20"/>
+            <CheckBox Content="Ответ 4"
+                         x:Name="checkBoxAnswerFour"
+                         FontSize="25"
+                         Margin="20"/>
+        </WrapPanel>
+    </DockPanel>
+</Window>

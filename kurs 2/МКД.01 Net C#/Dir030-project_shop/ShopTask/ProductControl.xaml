@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ShopTask.ProductControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ShopTask"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="180">
+    <StackPanel Background="Green">
+        <TextBlock>Какой то товар</TextBlock>
+        <TextBlock>Какой то товар</TextBlock>
+        <TextBlock>Какой то товар</TextBlock>
+        <TextBlock>Какой то товар</TextBlock>
+        <TextBlock>Какой то товар</TextBlock>
+        <TextBlock>Какой то товар</TextBlock>
+    </StackPanel>
+</UserControl>

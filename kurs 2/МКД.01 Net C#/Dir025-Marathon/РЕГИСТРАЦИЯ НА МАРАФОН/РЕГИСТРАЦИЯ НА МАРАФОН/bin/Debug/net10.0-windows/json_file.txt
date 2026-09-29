@@ -1,0 +1,145 @@
+﻿[
+  {
+    "Email": "smith@gmail.com",
+    "Password": "pass2",
+    "FirstName": "John",
+    "LastName": "Smith",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "images/smith.jpg",
+    "BirthDate": "1988-11-23T00:00:00",
+    "Country": "\u0421\u0428\u0410",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "petrova@yandex.ru",
+    "Password": "pass3",
+    "FirstName": "\u0410\u043D\u043D\u0430",
+    "LastName": "\u041F\u0435\u0442\u0440\u043E\u0432\u0430",
+    "Gender": "\u0416\u0435\u043D\u0441\u043A\u0438\u0439",
+    "PhotoPath": "images/petrova.jpg",
+    "BirthDate": "1995-03-07T00:00:00",
+    "Country": "\u0420\u043E\u0441\u0441\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "muller@web.de",
+    "Password": "pass4",
+    "FirstName": "Hans",
+    "LastName": "M\u00FCller",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "images/muller.jpg",
+    "BirthDate": "1990-08-19T00:00:00",
+    "Country": "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "dubois@fr.fr",
+    "Password": "pass5",
+    "FirstName": "Marie",
+    "LastName": "Dubois",
+    "Gender": "\u0416\u0435\u043D\u0441\u043A\u0438\u0439",
+    "PhotoPath": "images/dubois.jpg",
+    "BirthDate": "1994-01-30T00:00:00",
+    "Country": "\u0424\u0440\u0430\u043D\u0446\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "sato@yahoo.co.jp",
+    "Password": "pass6",
+    "FirstName": "Takashi",
+    "LastName": "Sato",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "images/sato.jpg",
+    "BirthDate": "1985-04-15T00:00:00",
+    "Country": "\u042F\u043F\u043E\u043D\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "silva@uol.com.br",
+    "Password": "pass7",
+    "FirstName": "Carlos",
+    "LastName": "Silva",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "images/silva.jpg",
+    "BirthDate": "1991-10-02T00:00:00",
+    "Country": "\u0411\u0440\u0430\u0437\u0438\u043B\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "smirnova@inbox.ru",
+    "Password": "pass8",
+    "FirstName": "\u0415\u043B\u0435\u043D\u0430",
+    "LastName": "\u0421\u043C\u0438\u0440\u043D\u043E\u0432\u0430",
+    "Gender": "\u0416\u0435\u043D\u0441\u043A\u0438\u0439",
+    "PhotoPath": "images/smirnova.jpg",
+    "BirthDate": "1997-12-14T00:00:00",
+    "Country": "\u0420\u043E\u0441\u0441\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "wong@hk.com",
+    "Password": "pass9",
+    "FirstName": "David",
+    "LastName": "Wong",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "images/wong.jpg",
+    "BirthDate": "1989-07-25T00:00:00",
+    "Country": "\u041A\u0438\u0442\u0430\u0439",
+    "Role": "\u041A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u043E\u0440"
+  },
+  {
+    "Email": "garcia@es.es",
+    "Password": "pass10",
+    "FirstName": "Sofia",
+    "LastName": "Garc\u00EDa",
+    "Gender": "\u0416\u0435\u043D\u0441\u043A\u0438\u0439",
+    "PhotoPath": "images/garcia.jpg",
+    "BirthDate": "1993-09-08T00:00:00",
+    "Country": "\u0418\u0441\u043F\u0430\u043D\u0438\u044F",
+    "Role": "\u041A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442\u043E\u0440"
+  },
+  {
+    "Email": "qwe@mail.ru",
+    "Password": "awa123W!",
+    "FirstName": "awd",
+    "LastName": "sef",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "E:\\media\\Screenshots\\Screenshot 2026-05-13 103721.png",
+    "BirthDate": "1999-05-04T00:00:00",
+    "Country": "\u0420\u043E\u0441\u0441\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "qwe@adw.tu",
+    "Password": "awdq23!Wadw",
+    "FirstName": "awdq23!Wadw",
+    "LastName": "awdq23!Wadw",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "E:\\media\\Screenshots\\Screenshot 2026-05-14 001850.png",
+    "BirthDate": "1980-02-13T00:00:00",
+    "Country": "\u0420\u043E\u0441\u0441\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "abc@mail.ru",
+    "Password": "1234qweR!",
+    "FirstName": "Tomas",
+    "LastName": "Konnor",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "E:\\media\\Screenshots\\Screenshot 2026-05-13 094212.png",
+    "BirthDate": "2009-05-20T00:00:00",
+    "Country": "\u0420\u043E\u0441\u0441\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  },
+  {
+    "Email": "ivanov@mail.ru",
+    "Password": "pass1!23\u0426W",
+    "FirstName": "\u0418\u0432\u0430\u043D",
+    "LastName": "\u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432",
+    "Gender": "\u041C\u0443\u0436\u0441\u043A\u043E\u0439",
+    "PhotoPath": "images/ivanov.jpg",
+    "BirthDate": "1992-05-12T00:00:00",
+    "Country": "\u0420\u043E\u0441\u0441\u0438\u044F",
+    "Role": "\u0411\u0435\u0433\u0443\u043D"
+  }
+]

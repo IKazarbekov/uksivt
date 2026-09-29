@@ -1,0 +1,30 @@
+Y:\Dir012-RepeatButton\Task 7 Vkladka\bin\Debug\Task 7 Vkladka.exe.config
+Y:\Dir012-RepeatButton\Task 7 Vkladka\bin\Debug\Task 7 Vkladka.exe
+Y:\Dir012-RepeatButton\Task 7 Vkladka\bin\Debug\Task 7 Vkladka.pdb
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.csproj.AssemblyReference.cache
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\MainWindow.g.cs
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\App.g.cs
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka_MarkupCompile.cache
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka_MarkupCompile.lref
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\MainWindow.baml
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.g.resources
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task_7_Vkladka.Properties.Resources.resources
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.csproj.GenerateResource.cache
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.csproj.CoreCompileInputs.cache
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.exe
+Y:\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.pdb
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\bin\Debug\Task 7 Vkladka.exe.config
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\bin\Debug\Task 7 Vkladka.exe
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\bin\Debug\Task 7 Vkladka.pdb
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.csproj.AssemblyReference.cache
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\MainWindow.g.cs
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\App.g.cs
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka_MarkupCompile.cache
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka_MarkupCompile.lref
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\MainWindow.baml
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.g.resources
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task_7_Vkladka.Properties.Resources.resources
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.csproj.GenerateResource.cache
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.csproj.CoreCompileInputs.cache
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.exe
+E:\download\uksivt-master\kurs 2\МКД.01 Net C#\Dir012-RepeatButton\Task 7 Vkladka\obj\Debug\Task 7 Vkladka.pdb

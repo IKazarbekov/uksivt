@@ -1,0 +1,15 @@
+Y:\Dir017-LessonHmm\TaskMessageBox\bin\Debug\TaskMessageBox.exe.config
+Y:\Dir017-LessonHmm\TaskMessageBox\bin\Debug\TaskMessageBox.exe
+Y:\Dir017-LessonHmm\TaskMessageBox\bin\Debug\TaskMessageBox.pdb
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.csproj.AssemblyReference.cache
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\MainWindow.g.cs
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\App.g.cs
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox_MarkupCompile.cache
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox_MarkupCompile.lref
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\MainWindow.baml
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.g.resources
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.Properties.Resources.resources
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.csproj.GenerateResource.cache
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.csproj.CoreCompileInputs.cache
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.exe
+Y:\Dir017-LessonHmm\TaskMessageBox\obj\Debug\TaskMessageBox.pdb

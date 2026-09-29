@@ -1,0 +1,15 @@
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\bin\Debug\ListBox Tasks ToDOList.exe.config
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\bin\Debug\ListBox Tasks ToDOList.exe
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\bin\Debug\ListBox Tasks ToDOList.pdb
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList.csproj.AssemblyReference.cache
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\MainWindow.g.cs
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\App.g.cs
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList_MarkupCompile.cache
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList_MarkupCompile.lref
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\MainWindow.baml
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList.g.resources
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox_Tasks_ToDOList.Properties.Resources.resources
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList.csproj.GenerateResource.cache
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList.csproj.CoreCompileInputs.cache
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList.exe
+Y:\Dir015-Calendar DataPicker\ListBox Tasks ToDOList\obj\Debug\ListBox Tasks ToDOList.pdb

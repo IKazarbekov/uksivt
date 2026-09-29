@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "uuu8wRPqQWs=",
+  "success": true,
+  "projectFilePath": "E:\\projects\\uksivt-master\\kurs 2\\МКД.01 Net C#\\Dir031-Нулевой билет\\Попытка3_в кабинете\\Попытка3_в кабинете\\Попытка3_в кабинете.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Work\\.nuget\\packages\\system.text.json\\10.0.8\\system.text.json.10.0.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
+      "projectPath": "E:\\projects\\uksivt-master\\kurs 2\\МКД.01 Net C#\\Dir031-Нулевой билет\\Попытка3_в кабинете\\Попытка3_в кабинете\\Попытка3_в кабинете.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\projects\\uksivt-master\\kurs 2\\МКД.01 Net C#\\Dir031-Нулевой билет\\Попытка3_в кабинете\\Попытка3_в кабинете\\Попытка3_в кабинете.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
+}

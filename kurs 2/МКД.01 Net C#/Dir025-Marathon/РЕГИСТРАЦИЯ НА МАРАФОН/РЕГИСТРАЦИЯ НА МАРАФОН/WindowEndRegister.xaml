@@ -1,0 +1,27 @@
+﻿<Window x:Class="РЕГИСТРАЦИЯ_НА_МАРАФОН.WindowEndRegister"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:РЕГИСТРАЦИЯ_НА_МАРАФОН"
+        mc:Ignorable="d"
+         Height="450" Width="800"
+        Style="{StaticResource MainWindowStyle}">
+    <DockPanel>
+        <local:TopPanel DockPanel.Dock="Top" Click="TopPanel_Click"/>
+        <local:BottomPanel DockPanel.Dock="Bottom"/>
+        <StackPanel>
+            <TextBlock Text="Спасибо за вашу регистрацию в качестве бегуна!"
+                       Foreground="DarkSlateGray" FontSize="30"
+                       TextAlignment="Center" Margin="20"/>
+            <TextBlock Text="Спасибо за вашу регистрацию в качестве бегуна в Marathon Skills 2016!"
+                       Foreground="DarkSlateGray" FontSize="15"
+                       TextAlignment="Center" Margin="10"/>
+            <TextBlock Text="С вами не свяжутся по поводу оплаты"
+                       Foreground="DarkSlateGray" FontSize="15"
+                       TextAlignment="Center" Margin="10"/>
+            <local:RoundButton Text="OK" HorizontalAlignment="Center" Width="100" Height="40" FontSize="15"
+                               Click="TopPanel_Click"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

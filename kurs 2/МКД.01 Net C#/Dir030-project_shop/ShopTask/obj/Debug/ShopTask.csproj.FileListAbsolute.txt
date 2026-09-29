@@ -1,0 +1,7 @@
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\ShopTask.csproj.AssemblyReference.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\ProductControl.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\ProductsWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\StartMenuWindow.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\App.g.cs
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\ShopTask_MarkupCompile.cache
+E:\projects\uksivt-master\kurs 2\МКД.01 Net C#\Dir030-project_shop\ShopTask\obj\Debug\ShopTask_MarkupCompile.lref

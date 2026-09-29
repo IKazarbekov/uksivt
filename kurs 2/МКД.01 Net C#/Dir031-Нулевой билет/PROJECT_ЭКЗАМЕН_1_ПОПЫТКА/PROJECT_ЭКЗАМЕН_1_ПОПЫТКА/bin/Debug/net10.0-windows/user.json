@@ -1,0 +1,16 @@
+[
+  {
+    "ID": 0,
+    "Login": "ad",
+    "Name": null,
+    "Password": "ad",
+    "Role": 0
+  },
+  {
+    "ID": 1,
+    "Login": "tom",
+    "Name": null,
+    "Password": "tom",
+    "Role": 2
+  }
+]

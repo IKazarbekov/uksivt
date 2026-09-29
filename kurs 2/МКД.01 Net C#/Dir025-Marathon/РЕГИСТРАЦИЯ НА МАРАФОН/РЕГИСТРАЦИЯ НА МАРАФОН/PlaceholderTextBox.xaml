@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="РЕГИСТРАЦИЯ_НА_МАРАФОН.PlaceholderTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:РЕГИСТРАЦИЯ_НА_МАРАФОН"
+             mc:Ignorable="d">
+    <Grid>
+        <TextBox x:Name="textBox" 
+                 Background="Transparent"
+                 TextChanged="TextBox_TextChanged"/>
+
+        <TextBlock x:Name="placeholder" 
+                   Foreground="Gray"
+                   FontStyle="Italic"
+                   VerticalAlignment="Center"
+                   Margin="5,0,0,0"
+                   IsHitTestVisible="False"
+                   Visibility="Visible"
+                   TextAlignment="Left"/>
+    </Grid>
+</UserControl>

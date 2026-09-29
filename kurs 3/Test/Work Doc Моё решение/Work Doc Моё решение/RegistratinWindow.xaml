@@ -1,0 +1,29 @@
+﻿<Window x:Class="Work_Doc_Моё_решение.RegistratinWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work_Doc_Моё_решение"
+        WindowStartupLocation="CenterOwner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400" AllowsTransparency="True" WindowStyle="None" MouseDown="Window_MouseDown">
+    <StackPanel Margin="20">
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Создание аккаунта"/>
+            <Button Content="X" Margin="10 0 0 0" Background="Transparent" BorderBrush="Transparent" Click="Button_Click_1"/>
+        </StackPanel>
+        <TextBlock Text="Логин"/>
+        <TextBox x:Name="login" TextChanged="login_TextChanged"/>
+        <TextBlock Text="ФИО"/>
+        <TextBox x:Name="name" TextChanged="login_TextChanged"/>
+        <TextBlock Text="Пароль"/>
+        <PasswordBox Margin="15" x:Name="password"/>
+        <TextBlock Text="Роль"/>
+        <ComboBox x:Name="role" SelectionChanged="role_SelectionChanged">
+            <ComboBoxItem>Технический оператор</ComboBoxItem>
+            <ComboBoxItem>Сотрудник</ComboBoxItem>
+        </ComboBox>
+        <Button Content="Регистрация" Click="Button_Click_2" IsEnabled="False" x:Name="button"/>
+        <Button Content="Аккаунт есть" Click="Button_Click" Background="Transparent" BorderBrush="Transparent" Foreground="Blue"/>
+    </StackPanel>
+</Window>

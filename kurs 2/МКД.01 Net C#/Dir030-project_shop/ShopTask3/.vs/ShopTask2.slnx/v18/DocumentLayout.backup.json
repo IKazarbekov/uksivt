@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir030-project_shop\\shoptask3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir030-project_shop\\shoptask3\\startmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:startmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\productswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:productswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\initdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:data\\initdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\productsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:data\\productsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\productcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBC97F3E-7FDB-4F14-9248-671F5DD77BB6}|ShopTask2.csproj|solutionrelative:productcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\models\\Product.cs",
+              "RelativeDocumentMoniker": "models\\Product.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\models\\Product.cs",
+              "RelativeToolTip": "models\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T11:08:38.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartMenuWindow.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\StartMenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StartMenuWindow.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\StartMenuWindow.xaml.cs",
+              "RelativeToolTip": "StartMenuWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T11:03:42.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InitData.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\InitData.cs",
+              "RelativeDocumentMoniker": "data\\InitData.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\InitData.cs",
+              "RelativeToolTip": "data\\InitData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T11:00:58.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersData.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\UsersData.cs",
+              "RelativeDocumentMoniker": "data\\UsersData.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\UsersData.cs",
+              "RelativeToolTip": "data\\UsersData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T11:00:51.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsData.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\ProductsData.cs",
+              "RelativeDocumentMoniker": "data\\ProductsData.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\data\\ProductsData.cs",
+              "RelativeToolTip": "data\\ProductsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T11:00:44.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsWindow.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\ProductsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProductsWindow.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\ProductsWindow.xaml.cs",
+              "RelativeToolTip": "ProductsWindow.xaml.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAEMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T10:45:12.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductControl.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\ProductControl.xaml",
+              "RelativeDocumentMoniker": "ProductControl.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir030-project_shop\\ShopTask3\\ProductControl.xaml",
+              "RelativeToolTip": "ProductControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-18T10:44:51.913Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

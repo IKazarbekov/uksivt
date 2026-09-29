@@ -1,0 +1,9 @@
+
+2+2
+ [Ошибка: Неизвестная ошибка: module 'ast' has no attribute 'Operator'](3*4) [Ошибка: Неизвестная ошибка: module 'ast' has no attribute 'Operator']
+2^10 [Ошибка: Неизвестная ошибка: module 'ast' has no attribute 'Operator']
+3.14*2 = 6.28 [Ошибка: Ошибка вычисления: unexpected indent (<unknown>, line 1)]
+((5+3) [Ошибка: Неизвестная ошибка: module 'ast' has no attribute 'Operator'])
+((46727^6-547) [Ошибка: Неизвестная ошибка: module 'ast' has no attribute 'Operator']
+-5+3*2
+ [Ошибка: Неизвестная ошибка: module 'ast' has no attribute 'Operator']

@@ -1,0 +1,63 @@
+﻿<Window x:Class="ComboBoxSelectGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBoxSelectGame"
+        mc:Ignorable="d"
+        Title="Call of duty" Height="450" Width="800"
+        Icon="/images/f1.jpg" Background="Black">
+    <Window.Resources>
+        <BitmapImage x:Key="past" UriSource="/images/category_past_war.png"/>
+        <BitmapImage x:Key="now" UriSource="/images/category_now_war.png"/>
+        <BitmapImage x:Key="future" UriSource="/images/category_future_war.png"/>
+        <BitmapImage x:Key="no" UriSource="/images/no_war.jpeg"/>
+        <BitmapImage x:Key="cod1" UriSource="/images/cod1.jpg"/>
+        <BitmapImage x:Key="cod2" UriSource="/images/cod2.jpg"/>
+        <BitmapImage x:Key="mv1" UriSource="/images/cod4.jpg"/>
+        <BitmapImage x:Key="mv2" UriSource="/images/codmv2.jpg"/>
+        <BitmapImage x:Key="mv3" UriSource="/images/codmv3.jpg"/>
+        <BitmapImage x:Key="bo1" UriSource="/images/bo1.jpeg"/>
+        <BitmapImage x:Key="bo2" UriSource="/images/bo2.jpeg"/>
+        <BitmapImage x:Key="f" UriSource="/images/f1.jpg"/>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontFamily" Value="Segoe UI Black"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="MinHeight" Value="50"/>
+        </Style>
+    </Window.Resources>
+    <UniformGrid Columns="2">
+        <StackPanel Margin="10">
+            <TextBlock Text="Выберите категорию"/>
+            <ComboBox x:Name="comboBoxCategory" SelectionChanged="comboBoxCategory_SelectionChanged"
+                      FontSize="30">
+                <ComboBoxItem Tag="past">Прошлая война</ComboBoxItem>
+                <ComboBoxItem Tag="now">Современная война</ComboBoxItem>
+                <ComboBoxItem Tag="future">Будущая война</ComboBoxItem>
+            </ComboBox>
+            <Separator Height="25"/>
+            <TextBlock Text="Выберите игру"/>
+            <ComboBox x:Name="comboBoxGame" SelectionChanged="comboBoxGame_SelectionChanged">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <UniformGrid Columns="2" Rows="2">
+                            <TextBlock Text="{Binding Name}" FontSize="30" Foreground="DarkBlue"/>
+                            <TextBlock Text="{Binding RaitingStr}" FontSize="40" Foreground="Red" TextAlignment="Right"/>
+                            <TextBlock Text="{Binding Description}" FontSize="10"/>
+                        </UniformGrid>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+                
+            </ComboBox>
+        </StackPanel>
+        <UniformGrid Rows="2" Margin="20">
+            <Image x:Name="imageCategory" Source="{StaticResource past}"/>
+            <Image x:Name="imageGame"/>
+        </UniformGrid>
+    </UniformGrid>
+</Window>

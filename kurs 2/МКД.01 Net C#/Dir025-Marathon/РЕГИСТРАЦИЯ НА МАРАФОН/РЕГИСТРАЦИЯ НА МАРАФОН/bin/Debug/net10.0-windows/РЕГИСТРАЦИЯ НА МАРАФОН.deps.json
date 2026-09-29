@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "РЕГИСТРАЦИЯ НА МАРАФОН/1.0.0": {
+        "runtime": {
+          "РЕГИСТРАЦИЯ НА МАРАФОН.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "РЕГИСТРАЦИЯ НА МАРАФОН/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\bin\Debug\GridSplitter.exe.config
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\bin\Debug\GridSplitter.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\bin\Debug\GridSplitter.pdb
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.csproj.AssemblyReference.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\MainWindow.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\App.g.cs
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter_MarkupCompile.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter_MarkupCompile.lref
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\MainWindow.baml
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.g.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.Properties.Resources.resources
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.csproj.GenerateResource.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.csproj.CoreCompileInputs.cache
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.exe
+Z:\Dir004-WPF-Свои эксперименты\Опыт_№2_GridSplitter\GridSplitter\obj\Debug\GridSplitter.pdb

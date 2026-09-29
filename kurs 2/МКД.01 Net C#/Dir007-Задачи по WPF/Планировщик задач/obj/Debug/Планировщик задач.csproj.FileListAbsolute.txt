@@ -1,0 +1,15 @@
+Z:\Dir007-Задачи по WPF\Планировщик задач\bin\Debug\Планировщик задач.exe.config
+Z:\Dir007-Задачи по WPF\Планировщик задач\bin\Debug\Планировщик задач.exe
+Z:\Dir007-Задачи по WPF\Планировщик задач\bin\Debug\Планировщик задач.pdb
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач.csproj.AssemblyReference.cache
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\MainWindow.g.cs
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\App.g.cs
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач_MarkupCompile.cache
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач_MarkupCompile.lref
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\MainWindow.baml
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач.g.resources
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик_задач.Properties.Resources.resources
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач.csproj.GenerateResource.cache
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач.csproj.CoreCompileInputs.cache
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач.exe
+Z:\Dir007-Задачи по WPF\Планировщик задач\obj\Debug\Планировщик задач.pdb

@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowregistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowregistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowregistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowsuperuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowsuperuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\questions.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\questions.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|e:\\projects\\uksivt-master\\kurs 2\\\u043C\u043A\u0434.01 net c#\\dir025-marathon\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowsuperuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B1AA99-66A1-06CF-094A-CA553E748521}|\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D.csproj|solutionrelative:\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u043C\u0430\u0440\u0430\u0444\u043E\u043D\\windowsuperuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowRegistration.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T20:41:00.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowRegistration.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml.cs",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml.cs",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowRegistration.xaml.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAAOwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:41:05.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowSuperUser.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T20:44:03.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowLogin.xaml",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T20:46:05.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowLogin.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml.cs",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml.cs",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowLogin.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:46:07.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "questions.txt",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\questions.txt",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\questions.txt",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\questions.txt",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\questions.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-13T20:52:06.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WindowSuperUser.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml.cs",
+              "RelativeDocumentMoniker": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml.cs",
+              "ToolTip": "E:\\projects\\uksivt-master\\kurs 2\\\u041C\u041A\u0414.01 Net C#\\Dir025-Marathon\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml.cs",
+              "RelativeToolTip": "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F \u041D\u0410 \u041C\u0410\u0420\u0410\u0424\u041E\u041D\\WindowSuperUser.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowEkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:40:32.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

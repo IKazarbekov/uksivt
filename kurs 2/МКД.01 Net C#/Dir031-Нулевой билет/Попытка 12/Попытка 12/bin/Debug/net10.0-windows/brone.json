@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 0,
+    "UserId": 0,
+    "LessonId": 0,
+    "Date": "0001-01-01T00:00:00",
+    "Accept": true
+  },
+  {
+    "Id": 1,
+    "UserId": 0,
+    "LessonId": 2,
+    "Date": "0001-01-01T00:00:00",
+    "Accept": true
+  },
+  {
+    "Id": 2,
+    "UserId": 0,
+    "LessonId": 2,
+    "Date": "0001-01-01T00:00:00",
+    "Accept": true
+  },
+  {
+    "Id": 3,
+    "UserId": 0,
+    "LessonId": 2,
+    "Date": "0001-01-01T00:00:00",
+    "Accept": true
+  },
+  {
+    "Id": 4,
+    "UserId": 0,
+    "LessonId": 2,
+    "Date": "0001-01-01T00:00:00",
+    "Accept": true
+  }
+]

@@ -1,0 +1,203 @@
+﻿<Window x:Class="Notepad_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FeatherPad OS Ultra Studio Pro" Height="850" Width="1350"
+        MinHeight="600" MinWidth="950"
+        Closing="Window_Closing"
+        Background="{DynamicResource WindowBgBrush}">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="WindowBgBrush" Color="#F3F3F3"/>
+        <SolidColorBrush x:Key="PanelBgBrush" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="MenuBgBrush" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="TextDefBrush" Color="#111111"/>
+        <SolidColorBrush x:Key="EditorBgBrush" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="EditorFgBrush" Color="#000000"/>
+        <SolidColorBrush x:Key="NumPanelBgBrush" Color="#F9F9F9"/>
+        <SolidColorBrush x:Key="NumPanelFgBrush" Color="#A0A0A0"/>
+        <SolidColorBrush x:Key="AccentColor" Color="#0078D4"/>
+        <SolidColorBrush x:Key="BorderBrushDef" Color="#E5E5E5"/>
+
+        <Style x:Key="FluentToolbarButton" TargetType="Button">
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="Width" Value="36"/>
+            <Setter Property="Margin" Value="3,2"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#33888888"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" FontSize="14" Background="{DynamicResource MenuBgBrush}" Foreground="{DynamicResource TextDefBrush}" Padding="6,4" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="0,0,0,1">
+            <MenuItem Header="Файл" Foreground="{DynamicResource TextDefBrush}">
+                <MenuItem Header="Новый лист" Click="Button_Click_New_File" InputGestureText="Ctrl+N"/>
+                <MenuItem Header="Открыть файл..." Click="Button_Click_Open_File" InputGestureText="Ctrl+O"/>
+                <Separator/>
+                <MenuItem Header="Сохранить" Click="Button_Click_Save_File" InputGestureText="Ctrl+S"/>
+                <MenuItem Header="Сохранить ВСЁ" Click="MenuItem_SaveAll_Click"/>
+                <Separator/>
+                <MenuItem Header="Выйти" Click="MenuItem_Exit_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Компилятор кода" Foreground="{DynamicResource TextDefBrush}">
+                <MenuItem Header="Запустить скрипт Python" Click="RunPython_Click" InputGestureText="F5"/>
+                <MenuItem Header="Запустить скрипт JavaScript (Node)" Click="RunJavaScript_Click" InputGestureText="F6"/>
+            </MenuItem>
+
+            <MenuItem Header="Вкладки" Foreground="{DynamicResource TextDefBrush}">
+                <MenuItem Header="Отстыковать текущую вкладку в новое окно" Click="DetachTab_Click" InputGestureText="Ctrl+Alt+D"/>
+            </MenuItem>
+        </Menu>
+
+        <Border DockPanel.Dock="Top" Background="{DynamicResource MenuBgBrush}" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="0,0,0,1" Padding="5,2">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="Button_Click_New_File" ToolTip="Новый файл">
+                        <TextBlock Text="📄" FontSize="16" Foreground="{DynamicResource TextDefBrush}"/>
+                    </Button>
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="Button_Click_Open_File" ToolTip="Открыть">
+                        <TextBlock Text="📂" FontSize="16" Foreground="{DynamicResource TextDefBrush}"/>
+                    </Button>
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="Button_Click_Save_File" ToolTip="Сохранить">
+                        <TextBlock Text="💾" FontSize="16" Foreground="{DynamicResource AccentColor}"/>
+                    </Button>
+                    <Separator Margin="5,4"/>
+
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="ManualUndo_Click" ToolTip="Шаг назад (Ctrl+Z)">
+                        <TextBlock Text="↩" FontSize="18" Foreground="{DynamicResource TextDefBrush}"/>
+                    </Button>
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="ManualRedo_Click" ToolTip="Шаг вперед (Ctrl+Y)">
+                        <TextBlock Text="↪" FontSize="18" Foreground="{DynamicResource TextDefBrush}"/>
+                    </Button>
+                    <Separator Margin="5,4"/>
+
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="RunPython_Click" Width="auto" Padding="5,0" ToolTip="Выполнить на Python">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="🐍 Run Py" VerticalAlignment="Center" FontWeight="Bold" Foreground="#306998"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="RunJavaScript_Click" Width="auto" Padding="5,0" ToolTip="Выполнить на JavaScript">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="🟨 Run JS" VerticalAlignment="Center" FontWeight="Bold" Foreground="#F7DF1E"/>
+                        </StackPanel>
+                    </Button>
+                    <Separator Margin="5,4"/>
+
+                    <Button Style="{StaticResource FluentToolbarButton}" Click="DetachTab_Click" ToolTip="Отстыковать в отдельное окно">
+                        <TextBlock Text="🔲" FontSize="16" Foreground="{DynamicResource TextDefBrush}"/>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0">
+                    <TextBlock Text="🎧 Фоновый Звук: " VerticalAlignment="Center" FontSize="12" Foreground="{DynamicResource TextDefBrush}"/>
+                    <ComboBox x:Name="comboAudioAmbience" Width="120" Height="25" VerticalContentAlignment="Center" Margin="5,0" SelectedIndex="0" SelectionChanged="ComboAudioAmbience_SelectionChanged">
+                        <ComboBoxItem Content="Выключен"/>
+                        <ComboBoxItem Content="Белый шум (Генератор)"/>
+                        <ComboBoxItem Content="Космический гул"/>
+                        <ComboBoxItem Content="Цифровой Сигнал"/>
+                    </ComboBox>
+                    <Slider x:Name="sliderAudioVolume" Width="70" Minimum="0" Maximum="1" Value="0.5" VerticalAlignment="Center" ValueChanged="SliderAudioVolume_ValueChanged"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <StatusBar DockPanel.Dock="Bottom" Background="{DynamicResource MenuBgBrush}" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="0,1,0,0" Padding="12,5" Foreground="{DynamicResource TextDefBrush}">
+            <StatusBarItem>
+                <TextBlock x:Name="textBlockInfo" Text="Готово к работе." FontWeight="Medium"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="lblLinesCount" Text="Строк: 1"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="lblZoom" Text="Масштаб: 100%" Foreground="{DynamicResource AccentColor}" FontWeight="Bold"/>
+            </StatusBarItem>
+        </StatusBar>
+
+        <Border DockPanel.Dock="Bottom" Height="180" Background="#1E1E1E" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="0,1,0,0" x:Name="ConsolePanel" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border Background="#2D2D2D" Padding="10,0">
+                    <DockPanel>
+                        <Button Content="✕ Закрыть" Background="Transparent" Foreground="White" BorderThickness="0" DockPanel.Dock="Right" Click="CloseConsole_Click" VerticalAlignment="Center"/>
+                        <TextBlock Text="Terminal Output (Результат выполнения)" Foreground="#A0A0A0" VerticalAlignment="Center" FontSize="11" FontWeight="Bold"/>
+                    </DockPanel>
+                </Border>
+                <TextBox Grid.Row="1" x:Name="txtConsoleOutput" Background="#1E1E1E" Foreground="#00FF00" FontFamily="Consolas" FontSize="13" BorderThickness="0" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Padding="10"/>
+            </Grid>
+        </Border>
+
+        <Border x:Name="LeftSidebar" Width="200" Background="{DynamicResource WindowBgBrush}" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="0,0,1,0" DockPanel.Dock="Left">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="ОТКРЫТЫЕ ВКЛАДКИ" FontWeight="Bold" FontSize="11" Foreground="{DynamicResource TextDefBrush}" Margin="5,0,0,8"/>
+                <ListBox Grid.Row="1" x:Name="lstSidebarFiles" Background="Transparent" BorderThickness="0" SelectionChanged="LstSidebarFiles_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="4" Padding="6" Background="{DynamicResource PanelBgBrush}" Margin="0,1" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="1">
+                                <TextBlock Text="{Binding HeaderText}" Foreground="{DynamicResource TextDefBrush}"/>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Border>
+
+        <Border x:Name="RightSettingsSidebar" Width="260" Background="{DynamicResource PanelBgBrush}" BorderBrush="{DynamicResource BorderBrushDef}" BorderThickness="1,0,0,0" DockPanel.Dock="Right">
+            <ScrollViewer Padding="12">
+                <StackPanel>
+                    <TextBlock Text="ИНТЕРФЕЙС СТУДИИ" FontWeight="Bold" Margin="0,0,0,10" Foreground="{DynamicResource TextDefBrush}"/>
+                    <ComboBox x:Name="comboThemes" SelectedIndex="0" SelectionChanged="ComboThemes_SelectionChanged" Margin="0,0,0,15">
+                        <ComboBoxItem Content="Светлый Оригинал"/>
+                        <ComboBoxItem Content="Глубокая Ночь (Dark)"/>
+                        <ComboBoxItem Content="Киберпанк Неон"/>
+                        <ComboBoxItem Content="Скрипт-Кидди"/>
+                    </ComboBox>
+
+                    <TextBlock Text="Шрифт" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="{DynamicResource TextDefBrush}"/>
+                    <ComboBox x:Name="comboFonts" SelectedIndex="0" SelectionChanged="ComboFonts_SelectionChanged" Margin="0,0,0,15">
+                        <ComboBoxItem Content="Consolas"/>
+                        <ComboBoxItem Content="Segoe UI"/>
+                        <ComboBoxItem Content="Courier New"/>
+                    </ComboBox>
+
+                    <TextBlock Text="Базовый масштаб" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="{DynamicResource TextDefBrush}"/>
+                    <Slider x:Name="sliderFontSize" Minimum="10" Maximum="40" Value="16" ValueChanged="SliderFontSize_ValueChanged"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <TabControl x:Name="tabControlFiles" Background="{DynamicResource EditorBgBrush}" BorderThickness="0,1,0,0" BorderBrush="{DynamicResource BorderBrushDef}" SelectionChanged="TabControlFiles_SelectionChanged">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Height="24">
+                        <TextBlock Text="📝 " VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding HeaderText}" Foreground="{DynamicResource TextDefBrush}" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <Button Content="✕" Width="14" Height="14" FontSize="8" FontWeight="Bold" Click="CloseTab_Click" Background="Transparent" BorderThickness="0" Foreground="Gray"/>
+                    </StackPanel>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+        </TabControl>
+    </DockPanel>
+</Window>

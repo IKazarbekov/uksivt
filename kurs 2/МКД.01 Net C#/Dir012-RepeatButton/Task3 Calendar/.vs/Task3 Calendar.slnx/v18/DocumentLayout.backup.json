@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|y:\\dir012-repeatbutton\\task3 calendar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|Y:\\Dir012-RepeatButton\\Task3 Calendar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|Y:\\Dir012-RepeatButton\\Task3 Calendar\\inputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|solutionrelative:inputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|Y:\\Dir012-RepeatButton\\Task3 Calendar\\inputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D19E3C-E262-42C0-827C-9A9126083A17}|Task3 Calendar.csproj|solutionrelative:inputwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\InputWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InputWindow.xaml.cs",
+              "ToolTip": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\InputWindow.xaml.cs",
+              "RelativeToolTip": "InputWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAWwBwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T02:35:39.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputWindow.xaml",
+              "DocumentMoniker": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\InputWindow.xaml",
+              "RelativeDocumentMoniker": "InputWindow.xaml",
+              "ToolTip": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\InputWindow.xaml",
+              "RelativeToolTip": "InputWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-07T02:26:44.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-07T02:00:37.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "Y:\\Dir012-RepeatButton\\Task3 Calendar\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAYwMMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T02:00:36.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

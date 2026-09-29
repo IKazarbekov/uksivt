@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Вопросы по C# | Ковариантность и контрвариантность делегатов</title>
+<meta charset="utf-8">
+<meta name="description" content="Проверка знаний и вопросы по теме Ковариантность и контрвариантность делегатов в C#">
+<meta name="viewport" content="width=device-width">
+<link href="%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BF%D0%BE%20C%23%20_%20%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B4%D0%B5%D0%BB%D0%B5%D0%B3%D0%B0%D1%82%D0%BE%D0%B2_files/style50.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="header">
+<div id="logo">
+<a class="logoTitle" href="https://metanit.com/" title="На главную">METANIT.COM</a>
+<div class="logoDefinition">Сайт о программировании</div> 
+</div>
+
+<div class="socbtns">
+<ul>
+<li><a title="Посмотреть меню" rel="nofollow" class="fa fa-lg fa-bars"></a></li>
+<li><a href="https://metanit.com/donations.php" title="Помощь сайту" rel="nofollow" style="color: var(--fa-usd-color);" class="fa fa-lg fa-usd"></a></li>
+<li><a href="https://vk.com/metanit" title="Группа в ВКонтакте" rel="nofollow" style="color: var(--fa-vk-color);" class="fa fa-lg fa-vk"></a></li>
+<li><a href="https://t.me/devnull22" title="Группа в Телеграмме" class="fa fa-lg fa-tel" style="color: var(--fa-tel-color);"></a></li>
+<li><a href="https://metanit.com/android.php" title="Приложения андроид" rel="nofollow" style="color: var(--fa-android-color);" class="fa fa-lg fa-android"></a></li>
+<li><i id="toggle-theme" class="fa fa-lg fa-adjust"></i></li>
+</ul>
+</div>
+
+
+<div id="magnifying-glass"></div>
+
+<div class="menuButton" id="menuButton">
+	<span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</div>
+</div>
+
+<div id="search" class="transp">
+<form action="https://www.google.ru" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-3716042175333627:1096498938">
+    <input type="hidden" name="ie" value="UTF-8">
+    <input type="text" name="q" placeholder="" style="background: rgb(255, 255, 255) url(&quot;https://www.google.com/cse/static/images/1x/ru/branding.png&quot;) left 9px top 50% no-repeat;">
+    <input type="submit" name="sa" value="Найти">
+  </div>
+<input name="siteurl" value="metanit.com/sharp/questions/2.18.php" type="hidden"><input name="ref" value="metanit.com/sharp/tutorial/3.28.php" type="hidden"><input name="ss" value="" type="hidden"></form>
+</div>
+
+<div id="menu" class="menu">
+<ul class="mainmenu">
+    <li><a href="https://metanit.com/common/">Программирование</a></li>
+    <li><a href="https://metanit.com/assembler/">Ассемблер</a></li>
+   <li><a href="https://metanit.com/sharp/">C#</a></li>
+   <li><a href="https://metanit.com/java/">Java</a></li>
+   <li><a href="https://metanit.com/web/">WEB</a></li>
+   <li><a href="https://metanit.com/python/">Python</a></li>
+   <li><a href="https://metanit.com/c/">C</a></li>
+   <li><a href="https://metanit.com/cpp/">C++</a></li>
+   <li><a href="https://metanit.com/sql/">SQL</a></li>
+   <li><a href="https://metanit.com/nosql/mongodb/">MongoDB</a></li>
+   <li><a href="https://metanit.com/go/">Go</a></li>
+   <li><a href="https://metanit.com/visualbasic/">VB.NET</a></li>
+   <li><a href="https://metanit.com/swift/tutorial/">Swift</a></li>
+   <li><a href="https://metanit.com/kotlin/">Kotlin</a></li>
+   <li><a href="https://metanit.com/dart/">Dart</a></li>
+   <li><a href="https://metanit.com/php/">PHP</a></li>
+   <li><a href="https://metanit.com/rust/">Rust</a></li>
+   <li><a href="https://metanit.com/os/">Linux</a></li>
+   <li><a href="https://metanit.com/f/">F#</a></li>
+   <!--<li><a href="//metanit.com/lisp/tutorial/">Common Lisp</a></li>-->
+   <li><a href="https://metanit.com/hosting">Хостинг</a></li>
+</ul>
+</div>
+
+</header>
+<div class="outercontainer">
+<div class="innercontainer">
+ 
+   <div class="item center menC">
+     <h2>Ковариантность и контрвариантность делегатов</h2><div class="date">Последнее обновление: 13.10.2018</div>
+	<div class="socBlock">
+	<div class="share soctop">
+	<ul>
+	<li><a title="Поделиться в Вконтакте" rel="nofollow" class="fa fa-lg fa-vk"></a></li>
+	<li><a title="Поделиться в Телеграм" rel="nofollow" class="fa fa-lg fa-telegram"></a></li>
+	<li><a title="Поделиться в Одноклассниках" rel="nofollow" class="fa fa-lg fa-odnoklassniki"></a></li>
+	
+	</ul>
+	</div>
+	</div>
+
+	<div style="margin-top:23px;margin-left:5px;">
+		
+		<style>
+		#yandex_rtb_R-A-201190-1 { width: 100%; height: 250px; overflow:hidden;}
+		@media(min-width: 760px) { #yandex_rtb_R-A-201190-1 { max-width: 728px; height: 90px;  } }
+		@media(min-width: 900px) { #yandex_rtb_R-A-201190-1 { max-width: 468px; height: 90px;  } }
+		@media(min-width: 1100px) { #yandex_rtb_R-A-201190-1{ max-width: 728px; height: 90px;} }
+		@media(min-width: 1400px) { #yandex_rtb_R-A-201190-1 { max-width: 970px; height: 90px;} }
+		</style>
+		<div id="yandex_rtb_R-A-201190-1"></div>
+	</div>
+
+	<div class="question">
+<div class="question-text">
+<div class="question-header">Вопрос 1</div>
+<p>Что такое ковариантность делегата?</p>
+</div>
+<div class="answer">
+<input type="checkbox" id="checkbox-1" name="checkbox-accordion" checked="checked">
+<label for="checkbox-1">Ответ</label>
+<div class="answer-content">
+<p>Ковариантность - это возможность передать делегату метод, который 
+возвращает объект типа, производного от возвращаемого типа делегата.</p>
+</div>
+</div>
+</div>
+
+
+<div class="question">
+<div class="question-text">
+<div class="question-header">Вопрос 2</div>
+<p>Что такое контвариантность делегата?</p>
+</div>
+<div class="answer">
+<input type="checkbox" id="checkbox-2" name="checkbox-accordion" checked="checked">
+<label for="checkbox-2">Ответ</label>
+<div class="answer-content">
+<p>Контрвариантность - это возможность передать делегату метод, параметр
+ которого является более универсальным по отношению к типу параметра 
+делегата.</p>
+</div>
+</div>
+</div>
+
+<div class="question">
+<div class="question-text">
+<div class="question-header">Вопрос 3</div>
+<p>Дан делегат:</p>
+<div><div id="highlighter_203896" class="syntaxhighlighter  c#"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="c# keyword">delegate</code> <code class="c# plain">T Factory&lt;</code><code class="c# keyword">out</code> <code class="c# plain">T&gt;();</code></div></div></td></tr></tbody></table></div></div>
+<p>Этот делегат является ковариантным или контрвариантным?</p>
+</div>
+<div class="answer">
+<input type="checkbox" id="checkbox-3" name="checkbox-accordion">
+<label for="checkbox-3">Ответ</label>
+<div class="answer-content">
+<p>Данный делегат является ковариантным.</p>
+</div>
+</div>
+</div>
+
+<div class="question">
+<div class="question-text">
+<div class="question-header">Вопрос 4</div>
+<p>Что выведет на консоль следующая программа и почему?</p>
+<div><div id="highlighter_140334" class="syntaxhighlighter  c# "><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="c# keyword">class</code> <code class="c# plain">Person</code></div><div class="line number2 index1 alt1"><code class="c# plain">{</code></div><div class="line number3 index2 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">public</code> <code class="c# keyword">string</code> <code class="c# plain">Name { </code><code class="c# keyword">get</code><code class="c# plain">; </code><code class="c# keyword">set</code><code class="c# plain">; }</code></div><div class="line number4 index3 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">public</code> <code class="c# keyword">virtual</code> <code class="c# keyword">void</code> <code class="c# plain">Display() =&gt; Console.WriteLine($</code><code class="c# string">"Person {Name}"</code><code class="c# plain">);</code></div><div class="line number5 index4 alt2"><code class="c# plain">}</code></div><div class="line number6 index5 alt1"><code class="c# keyword">class</code> <code class="c# plain">Client : Person</code></div><div class="line number7 index6 alt2"><code class="c# plain">{</code></div><div class="line number8 index7 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">public</code> <code class="c# keyword">override</code> <code class="c# keyword">void</code> <code class="c# plain">Display() =&gt; Console.WriteLine($</code><code class="c# string">"Client {Name}"</code><code class="c# plain">);</code></div><div class="line number9 index8 alt2"><code class="c# plain">}</code></div><div class="line number10 index9 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code>&nbsp;</div><div class="line number11 index10 alt2"><code class="c# keyword">class</code> <code class="c# plain">Program</code></div><div class="line number12 index11 alt1"><code class="c# plain">{</code></div><div class="line number13 index12 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">delegate</code> <code class="c# keyword">void</code> <code class="c# plain">DisplayHandler&lt;T&gt;(T item);</code></div><div class="line number14 index13 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">static</code> <code class="c# keyword">void</code> <code class="c# plain">Main(</code><code class="c# keyword">string</code><code class="c# plain">[] args)</code></div><div class="line number15 index14 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# plain">{</code></div><div class="line number16 index15 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# plain">DisplayHandler&lt;Person&gt; personHandler = PersonInfo;</code></div><div class="line number17 index16 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# plain">DisplayHandler&lt;Client&gt; clientHandler = personHandler;</code></div><div class="line number18 index17 alt1">&nbsp;</div><div class="line number19 index18 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# plain">clientHandler(</code><code class="c# keyword">new</code> <code class="c# plain">Client { Name = </code><code class="c# string">"Bob"</code> <code class="c# plain">});</code></div><div class="line number20 index19 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# plain">Console.Read();</code></div><div class="line number21 index20 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# plain">}</code></div><div class="line number22 index21 alt1"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">private</code> <code class="c# keyword">static</code> <code class="c# keyword">void</code> <code class="c# plain">PersonInfo(Person p) =&gt; p.Display();</code></div><div class="line number23 index22 alt2"><code class="c# spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="c# keyword">private</code> <code class="c# keyword">static</code> <code class="c# keyword">void</code> <code class="c# plain">ClientInfo(Client p) =&gt; p.Display();</code></div><div class="line number24 index23 alt1"><code class="c# plain">}</code></div></div></td></tr></tbody></table></div></div>
+</div>
+<div class="answer">
+<input type="checkbox" id="checkbox-4" name="checkbox-accordion">
+<label for="checkbox-4">Ответ</label>
+<div class="answer-content">
+<p>Программа не скомпилируется, потому что мы не можем присвоить переменной делегата DisplayHandler&lt;Client&gt; 
+ссылку на объект DisplayHandler&lt;Person&gt;, так как делегат DisplayHandler не контрвариантный. Чтобы программа работала, 
+нам надо изменить делегат следующим образом:</p>
+<div><div id="highlighter_881330" class="syntaxhighlighter  c#"><div class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="c# keyword">delegate</code> <code class="c# keyword">void</code> <code class="c# plain">DisplayHandler&lt;</code><code class="c# keyword">in</code> <code class="c# plain">T&gt;(T item);</code></div></div></td></tr></tbody></table></div></div>
+</div>
+</div>
+</div>
+	
+
+	<div style="margin-top:25px;">
+<style>
+	#yandex_rtb_R-A-201190-3{ width: 100%; height: 300px;overflow:hidden; }
+	
+	@media(min-width: 760px) { #yandex_rtb_R-A-201190-3{ max-width: 728px;  } }
+	@media(min-width: 900px) { #yandex_rtb_R-A-201190-3{ max-width: 336px; } }
+	@media(min-width: 1100px) { #yandex_rtb_R-A-201190-3{ max-width: 728px; } }
+	@media(min-width: 1400px) { #yandex_rtb_R-A-201190-3{ max-width: 970px;} }
+	</style>
+	<div id="yandex_rtb_R-A-201190-3"></div>
+	</div>
+
+<div class="dop socialtop"><fieldset><legend>Дополнительные материалы</legend>
+<ul>
+<li><a title="Теоретический материал" href="https://metanit.com/sharp/tutorial/3.27.php"><i class="fa fa-lg fa-file-text-o"></i><span class="dop-txt">Статья по теме</span></a></li>
+</ul>
+</fieldset></div>	<div class="nav"><p><a href="https://metanit.com/sharp/questions/2.17.php">Назад</a><a href="https://metanit.com/sharp/questions/">Содержание</a><a href="https://metanit.com/sharp/questions/2.7.php">Вперед</a></p></div>
+	<div class="socBlock">
+	<div class="share soctop">
+	<ul>
+	<li><a title="Поделиться в Вконтакте" rel="nofollow" class="fa fa-lg fa-vk"></a></li>
+	<li><a title="Поделиться в Телеграм" rel="nofollow" class="fa fa-lg fa-telegram"></a></li>
+	<li><a title="Поделиться в Одноклассниках" rel="nofollow" class="fa fa-lg fa-odnoklassniki"></a></li>
+	
+	</ul>
+	</div>
+	</div>
+  </div>
+
+	<div class="item left">
+     <ul id="browser" class="filetree"> 
+	<li class="closed"><span class="folder">Глава 1. Основы C#</span>
+		<ul>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.9.php">Переменные</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.11.php">Литералы</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.10.php">Базовые типы данных</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.12.php">Консольный ввод-вывод</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.1.php">Операции</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.2.php">Преобразование базовых типов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.3.php">Циклы</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.8.php">Массивы</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.4.php">Параметры</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.5.php">Массивы параметров и params</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.6.php">Область видимости переменных</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/1.7.php">Перечисления</a></span></li>
+		</ul>
+	</li>
+	<li class="closed"><span class="folder">Глава 2. Объектно-ориентированное программирование</span>
+		<ul>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.1.php">Классы и объекты</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.16.php">Структуры</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.13.php">Модификаторы доступа</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.9.php">Свойства</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.2.php">Перегрузка методов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.10.php">Статические члены класса</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.8.php">Константы и поля для чтения</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.15.php">Перегрузка операторов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.3.php">Наследование</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.5.php">Преобразование типов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.14.php">Перегрузка операций преобразования типов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.11.php">Виртуальные методы и свойства</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.12.php">Абстрактные классы и члены классов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.6.php">Обобщения</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.4.php">Интерфейсы</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.17.php">Делегаты</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.18.php">Ковариантность и контрвариантность делегатов</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.7.php">Пространства имен</a></span></li>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/2.19.php">Анонимные типы</a></span></li>
+		</ul>
+	</li>
+	<li class="closed"><span class="folder">Глава 3. Асинхронность</span>
+		<ul>
+			<li><span class="file"><a href="https://metanit.com/sharp/questions/3.1.php">Асинхронные методы, async, await</a></span></li>
+		</ul>
+	</li>
+</ul>   </div>
+</div>
+
+  <div class="item right">
+<div class="help" style="border: 0px;">
+    
+	<div class="help-item">
+		<div class="help-item-name"><a href="https://metanit.com/settings.php">Настройки</a></div>
+	 </div>
+</div>
+			<div class="help">
+
+      <div class="help-header">Помощь сайту</div>
+
+       <div class="help-item">
+		<div class="help-item-name"><a href="https://yoomoney.ru/to/410011174743222" rel="nofollow">Помощь сайту</a></div>
+	 </div>
+       
+      <div class="help-item">
+		<div class="help-item-name">Юмани:</div>
+		<div class="help-item-req">410011174743222</div>
+	 </div>
+
+		<div class="help-item">
+			<div class="help-item-name">Номер карты:</div>
+			<div class="help-item-req">4048415020898850</div>
+		</div>
+
+      </div>
+
+	<style>
+	#yandex_rtb_R-A-201190-7 { width: 100%; height: 300px;  margin-top:10px;}
+	@media(min-width: 500px) { #yandex_rtb_R-A-201190-7{ width: 336px;} }
+	@media(min-width: 900px) { #yandex_rtb_R-A-201190-7 { width: 160px; height: 600px; position: sticky; top: 10px;} }
+	@media(min-width: 1300px) { #yandex_rtb_R-A-201190-7 { width: 300px; height: 600px; } }
+	</style>
+	<div id="yandex_rtb_R-A-201190-7"></div>
+
+
+
+
+  </div>
+</div>
+
+<div id="footer" style="padding-bottom:85px;">
+
+<div class="bootomLinks">
+<a href="https://vk.com/metanit" title="Присоединиться к группе вконтакте" rel="nofollow">
+Вконтакте</a>|
+ <a href="https://t.me/devnull22" title="Подписаться на телеграм" rel="nofollow">
+Телеграм</a> | 
+<a href="https://metanit.com/donations.php" rel="nofollow">Донаты/Помощь сайту</a>
+</div>
+<p>Contacts: metanit22@mail.ru</p>
+<p>Copyright © Евгений Попов, metanit.com, 2026. Все права защищены.</p>
+
+
+</div>
+
+</div>
+
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BF%D0%BE%20C%23%20_%20%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B4%D0%B5%D0%BB%D0%B5%D0%B3%D0%B0%D1%82%D0%BE%D0%B2_files/context.js" async=""></script>
+
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-201190-1',
+    blockId: 'R-A-201190-1'
+  })
+});
+window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-201190-3',
+    blockId: 'R-A-201190-3'
+  })
+});
+window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-201190-7',
+    blockId: 'R-A-201190-7'
+  })
+});
+if(document.getElementById("yandex_rtb_R-A-201190-8")){
+window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-201190-8',
+    blockId: 'R-A-201190-8'
+  })
+});
+}
+if(document.getElementById("yandex_rtb_R-A-201190-9")){
+window.yaContextCb.push(() => {
+    Ya.Context.AdvManager.render({
+        "blockId": "R-A-201190-9",
+        "renderTo": "yandex_rtb_R-A-201190-9"
+    })
+});
+}</script>
+
+
+<script src="%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BF%D0%BE%20C%23%20_%20%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B4%D0%B5%D0%BB%D0%B5%D0%B3%D0%B0%D1%82%D0%BE%D0%B2_files/syntax16.js"></script>
+<script>
+SyntaxHighlighter.all();
+document.addEventListener('copy', (ev) => {
+const et = event.target;if(et.type==="textarea"){ev.clipboardData.setData('text/plain',et.value.substring(et.selectionStart,et.selectionEnd).replace(/\u00A0/g, " "));ev.preventDefault();}
+});
+console.log("Copyright © Евгений Попов, metani" + "t.com, 2026. Все права защищены.");
+</script>
+<script>
+
+window.yaContextCb.push(() => {
+      if (Ya.Context.AdvManager.getPlatform() === 'desktop') {
+        Ya.Context.AdvManager.render({
+			"blockId": "R-A-201190-11",
+			"type": "floorAd",
+			"platform": "desktop"
+		});
+      } else {
+        Ya.Context.AdvManager.render({
+			"blockId": "R-A-201190-12",
+			"type": "floorAd",
+			"platform": "touch"
+		});
+      }
+  });
+
+
+document.querySelector(".fa-bars").addEventListener("click", ()=>{ 
+		const tree = document.querySelector(".item.left");
+		const display = tree.style.display;
+		if(display=="block") tree.style.display = "none";
+		else tree.style.display = "block";
+});
+
+const menuButton = document.getElementById("menuButton");
+document.getElementById("menuButton").addEventListener("click", ()=>{ 
+		menuButton.classList.toggle("menu-opened");
+		document.querySelector(".mainmenu").classList.toggle("open");
+});
+
+
+document.getElementById("magnifying-glass").addEventListener("click", ()=> 
+	document.getElementById("search").classList.toggle("transp")
+);
+
+document.getElementById("toggle-theme").addEventListener("click", ()=>{
+		if(document.documentElement.hasAttribute("theme")){
+			document.documentElement.removeAttribute("theme");
+			document.cookie="theme=1;expires=Mon, 19 Feb 2001 12:00:00 UTC;path=/;";
+		}
+		else{
+			document.documentElement.setAttribute("theme", "dark");
+			var expire = new Date();
+			expire.setHours(expire.getHours() + 7);
+			document.cookie="theme=1;expires=" + expire.toUTCString() + ";path=/;";
+		}
+	});
+
+
+
+
+document.querySelectorAll(".share .fa-vk").forEach(e => e.addEventListener("click", ()=> window.open("http://vk.com/share.php?url=" + window.location.href,"Поделиться в ВКОНТАКТЕ")));
+document.querySelectorAll(".share .fa-telegram").forEach(e => e.addEventListener("click", ()=> window.open("tg://msg_url/url=" + window.location.href,"Поделиться в Telegram")));
+document.querySelectorAll(".share .fa-odnoklassniki").forEach(e => e.addEventListener("click", ()=>window.open("https://connect.ok.ru/offer?url=" + window.location.href,"Поделиться в Одноклассниках")));
+
+const folders = document.getElementsByClassName("closed");
+for (let i = 0; i < folders.length; i++) {
+  folders[i].addEventListener("click", function() {
+
+    this.classList.toggle("closed");
+    this.classList.toggle("opened");
+  });
+}
+
+const activeItem = document.querySelector(".file a[href='//metanit.com" + location.pathname + "']");
+if(activeItem){
+activeItem.classList.add("aMItem");
+activeItem.parentElement.classList.add("aMItem");
+const activeFolder = activeItem.closest("li.closed");
+activeFolder.classList.toggle("closed");
+activeFolder.classList.toggle("opened");
+activeFolder.querySelector(".folder")?.classList.add("aMItem");
+}
+
+const props = ["--main-font-size", "--main-font-family", "--menc-bg-color", "--container-bg-color", "--menu-bg-color", "--code-font-size", "--code-font-family", "--code-bgcolor", "--code-max-height"];
+for(let i = 0; i < props.length; i++){
+    
+	const propValue = localStorage.getItem(props[i]);
+	if(propValue!==null)document.documentElement.style.setProperty(props[i], propValue);
+}
+</script>
+
+
+<script async="" defer="defer" type="text/javascript" src="%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BF%D0%BE%20C%23%20_%20%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B4%D0%B5%D0%BB%D0%B5%D0%B3%D0%B0%D1%82%D0%BE%D0%B2_files/brandjs.js"></script>
+
+</body></html>

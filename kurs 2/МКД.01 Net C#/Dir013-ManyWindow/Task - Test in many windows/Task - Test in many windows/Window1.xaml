@@ -1,0 +1,52 @@
+﻿<Window x:Class="Task___Test_in_many_windows.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task___Test_in_many_windows"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800"
+        Icon="/Two.png">
+    <DockPanel Margin="30" LastChildFill="True">
+        <TextBlock Text="Name"
+                       x:Name="textBlockName"
+                       FontSize="40"
+                       Margin="20"
+                DockPanel.Dock="Top"/>
+        <TextBlock Text="Вопрос #1"
+                       x:Name="textBlockQuestion"
+                       FontSize="25"
+                       HorizontalAlignment="Center"
+                DockPanel.Dock="Top"/>
+        <StackPanel DockPanel.Dock="Bottom"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+            <Button Content="Дальше"
+                    x:Name="buttonFront"
+                    FontSize="30"
+                    Margin="40 20"
+                    Width="200" Click="buttonFront_Click"/>
+        </StackPanel>
+
+        <WrapPanel Orientation="Vertical"
+                       Margin="20">
+            <RadioButton Content="Ответ 1"
+                             x:Name="radioButtonAnswerFirst"
+                             FontSize="25"
+                             Margin="20"/>
+            <RadioButton Content="Ответ 1"
+                             x:Name="radioButtonAnswerSecond"
+                             FontSize="25"
+                             Margin="20"/>
+            <RadioButton Content="Ответ 1"
+                             x:Name="radioButtonAnswerThree"
+                             FontSize="25"
+                             Margin="20"/>
+            <RadioButton Content="Ответ 1"
+                             x:Name="radioButtonAnswerFour"
+                             FontSize="25"
+                             Margin="20"/>
+        </WrapPanel>
+    </DockPanel>
+
+</Window>

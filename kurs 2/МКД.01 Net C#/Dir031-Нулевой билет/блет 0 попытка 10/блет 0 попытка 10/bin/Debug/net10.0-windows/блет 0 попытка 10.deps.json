@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "блет 0 попытка 10/1.0.0": {
+        "runtime": {
+          "блет 0 попытка 10.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "блет 0 попытка 10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

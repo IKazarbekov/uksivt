@@ -1,0 +1,55 @@
+﻿<Window x:Class="Task_8_ListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_8_ListBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <CollectionViewSource x:Key="viewProducts" Source="{Binding}">
+        </CollectionViewSource>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.6*"/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="listView"
+                  ItemsSource="{Binding Source={StaticResource viewProducts}}"
+                  SelectionMode="Multiple"
+                  Grid.Column="0"
+                  Margin="30"
+                  SelectionChanged="ListView_SelectionChanged"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" Width="300"
+                                   FontSize="13" TextAlignment="Left"/>
+                        <Border CornerRadius="10" Background="Blue" Padding="5">
+                            <TextBlock Text="{Binding Price}" 
+                                   FontSize="15" 
+                                   Foreground="White"
+                                   Padding="5"/>
+                        </Border>
+                        <TextBlock Text="Руб." Foreground="Blue" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <UniformGrid Margin="30"
+                     Grid.Column="1"
+                     Rows="5">
+            <Separator/>
+            <CheckBox Content="Только электроника" Checked="CheckBox_Checked" HorizontalAlignment="Center" VerticalAlignment="Center"
+                      FontSize="20" Unchecked="CheckBox_Checked"/>
+            <Border CornerRadius="10" Padding="10" Margin="10" Background="Green">
+                <TextBlock x:Name="textBlockPrice" FontSize="20" Foreground="LightBlue"/>
+            </Border>
+            <Button Content="Оформить заказ" Margin="10" Background="Blue" Foreground="White" FontSize="20" Click="Button_Click"/>
+            <Separator/>
+        </UniformGrid>
+    </Grid>
+</Window>

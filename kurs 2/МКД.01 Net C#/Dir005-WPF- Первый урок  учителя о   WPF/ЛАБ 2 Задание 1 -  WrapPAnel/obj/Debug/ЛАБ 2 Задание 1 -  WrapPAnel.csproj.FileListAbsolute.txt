@@ -1,0 +1,15 @@
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\bin\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.exe.config
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\bin\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\bin\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.pdb
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.csproj.AssemblyReference.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\MainWindow.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\App.g.cs
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel_MarkupCompile.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel_MarkupCompile.lref
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\MainWindow.baml
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.g.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ_2_Задание_1____WrapPAnel.Properties.Resources.resources
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.csproj.GenerateResource.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.csproj.CoreCompileInputs.cache
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.exe
+Z:\Dir005-WPF- Первый урок  учителя о   WPF\ЛАБ 2 Задание 1 -  WrapPAnel\obj\Debug\ЛАБ 2 Задание 1 -  WrapPAnel.pdb

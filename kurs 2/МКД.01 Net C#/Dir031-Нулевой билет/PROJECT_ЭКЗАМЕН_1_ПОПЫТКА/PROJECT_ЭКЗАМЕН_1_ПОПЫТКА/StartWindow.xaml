@@ -1,0 +1,17 @@
+﻿<Window x:Class="PROJECT_ЭКЗАМЕН_1_ПОПЫТКА.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROJECT_ЭКЗАМЕН_1_ПОПЫТКА"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="400" Width="600">
+    <StackPanel>
+        <Label Content="Авторизация"/>
+        <TextBlock Text="Логин"/>
+        <TextBox x:Name="textBoxLogin"/>
+        <TextBlock Text="Пароль"/>
+        <TextBox x:Name="textBoxPassword"/>
+        <Button Content="Войти" Click="Button_Click" HorizontalAlignment="Center" Width="100"/>
+    </StackPanel>
+</Window>

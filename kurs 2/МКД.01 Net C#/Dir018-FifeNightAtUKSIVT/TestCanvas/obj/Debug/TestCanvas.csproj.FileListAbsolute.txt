@@ -1,0 +1,15 @@
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\bin\Debug\TestCanvas.exe.config
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\bin\Debug\TestCanvas.exe
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\bin\Debug\TestCanvas.pdb
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.csproj.AssemblyReference.cache
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\MainWindow.g.cs
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\App.g.cs
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas_MarkupCompile.cache
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas_MarkupCompile.lref
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\MainWindow.baml
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.g.resources
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.Properties.Resources.resources
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.csproj.GenerateResource.cache
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.csproj.CoreCompileInputs.cache
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.exe
+Y:\Dir018-FifeNightAtUKSIVT\TestCanvas\obj\Debug\TestCanvas.pdb

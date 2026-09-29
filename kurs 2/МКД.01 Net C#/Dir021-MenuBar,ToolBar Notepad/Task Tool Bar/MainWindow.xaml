@@ -1,0 +1,54 @@
+﻿<Window x:Class="Task_Tool_Bar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_Tool_Bar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800"
+        MinWidth="200" MinHeight="200"
+        ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="/images/класс.jpg"
+                    x:Name="imageBrush"
+                    />
+    </Window.Background>
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top"
+                     x:Name="toolBArTray"
+                     Background="Red">
+            <ToolBar>
+                <ComboBox Width="100"
+                          SelectedIndex="0"
+                          SelectionChanged="ComboBox_SelectionChanged_1">
+                    <ComboBoxItem Content="Red"/>
+                    <ComboBoxItem Content="Black"/>
+                    <ComboBoxItem Content="Blue"/>
+                </ComboBox>
+            </ToolBar>
+            <ToolBar>
+                <ComboBox Width="100" SelectedIndex="0"
+                           SelectionChanged="ComboBox_SelectionChanged">
+                    <ComboBoxItem Content="класс"/>
+                    <ComboBoxItem Content="коридор"/>
+                    <ComboBoxItem Content="улица"/>
+                </ComboBox>
+            </ToolBar>
+            <ToolBar>
+                <TextBlock Text="Width:"/>
+                <TextBox Text="800"
+                         TextChanged="TextBoxWidth_TextChanged"/>
+                <TextBlock Text="Height:"/>
+                <TextBox Text="500"
+                         TextChanged="TextBoxHeight_TextChanged"/>
+            </ToolBar>
+            <ToolBar>
+                <Button Content="Fill" Click="Button_ClickFill"/>
+                <Button Content="No" Click="Button_ClickNo"/>
+                <Button Content="Uniform" Click="Button_ClickUniform"/>
+                <Button Content="UniformToFill" Click="Button_ClickUniformToFill"/>
+            </ToolBar>
+        </ToolBarTray>
+        <Separator Visibility="Hidden"/>
+    </DockPanel>
+</Window>

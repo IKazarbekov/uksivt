@@ -1,0 +1,154 @@
+﻿<Window x:Class="Work_09_05_documentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work_09_05_documentation"
+        mc:Ignorable="d"
+        Title="Техническая поддержка" Height="600" Width="800">
+        <Grid>
+            <!-- Панель авторизации -->
+            <StackPanel Name="LoginPanel" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Visible">
+                <TextBlock Text="Вход" FontSize="20" HorizontalAlignment="Center"/>
+                <TextBox x:Name="LoginUsername" Margin="5" Width="200" Text="admin"/>
+                <PasswordBox x:Name="LoginPassword" Margin="5" Width="200"/>
+                <Button Content="Войти" Click="LoginButton_Click" Margin="5" Width="100"/>
+                <Button Content="Регистрация" Click="ShowRegisterButton_Click" Margin="5" Width="100"/>
+                <TextBlock x:Name="LoginMessage" Foreground="Red" Margin="5"/>
+            </StackPanel>
+
+            <!-- Панель регистрации -->
+            <StackPanel Name="RegisterPanel" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Collapsed">
+                <TextBlock Text="Регистрация" FontSize="20" HorizontalAlignment="Center"/>
+                <TextBox x:Name="RegUsername" Margin="5" Width="200" Text="user1"/>
+                <PasswordBox x:Name="RegPassword" Margin="5" Width="200"/>
+                <TextBox x:Name="RegFullName" Margin="5" Width="200" Text="Иванов Иван"/>
+                <ComboBox x:Name="RegRole" Margin="5" Width="200">
+                    <ComboBoxItem Content="Сотрудник" IsSelected="True"/>
+                    <ComboBoxItem Content="Технический оператор"/>
+                </ComboBox>
+                <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Margin="5" Width="150"/>
+                <Button Content="Назад" Click="BackToLoginButton_Click" Margin="5" Width="100"/>
+                <TextBlock x:Name="RegisterMessage" Foreground="Green" Margin="5"/>
+            </StackPanel>
+
+            <!-- Рабочая панель Сотрудника -->
+            <Grid Name="EmployeePanel" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+                    <TextBlock Text="Вы вошли как: " VerticalAlignment="Center"/>
+                    <TextBlock x:Name="EmployeeNameText" VerticalAlignment="Center"/>
+                    <Button Content="Выйти" Click="LogoutButton_Click" Margin="10,0,0,0"/>
+                </StackPanel>
+
+                <GroupBox Grid.Row="1" Header="Новая заявка" Margin="5">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="ФИО: " Width="80"/>
+                            <TextBlock x:Name="EmployeeFullName" Text="Иванов Иван" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Дата: " Width="80"/>
+                            <TextBlock x:Name="EmployeeDate" Text="01.01.2025" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Кабинет: " Width="80"/>
+                            <TextBox x:Name="EmployeeCabinet" Width="200" Text="101"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="Описание задачи: "/>
+                            <TextBox x:Name="EmployeeDescription" Height="60" TextWrapping="Wrap" Text="Не работает принтер"/>
+                        </StackPanel>
+                        <Button Content="Отправить заявку" Click="SendRequestButton_Click" Margin="5" Width="150" HorizontalAlignment="Left"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Grid.Row="2" Header="Мои заявки" Margin="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Button Grid.Row="0" Content="Обновить список" Click="RefreshEmployeeRequests_Click" Margin="5"/>
+                        <ListView x:Name="EmployeeRequestsListView" Grid.Row="1">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding Date, StringFormat='dd.MM.yyyy'}" Width="100"/>
+                                    <GridViewColumn Header="Кабинет" DisplayMemberBinding="{Binding Cabinet}" Width="80"/>
+                                    <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" Width="200"/>
+                                    <GridViewColumn Header="Статус" DisplayMemberBinding="{Binding Status}" Width="120"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+
+            <!-- Рабочая панель Технического оператора -->
+            <Grid Name="OperatorPanel" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+                    <TextBlock Text="Вы вошли как: " VerticalAlignment="Center"/>
+                    <TextBlock x:Name="OperatorNameText" VerticalAlignment="Center"/>
+                    <Button Content="Выйти" Click="LogoutButton_Click" Margin="10,0,0,0"/>
+                </StackPanel>
+
+                <GroupBox Grid.Row="1" Header="Фильтры" Margin="5">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Сотрудник:" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="FilterEmployee" Width="150" Margin="5">
+                            <ComboBoxItem Content="Все" IsSelected="True"/>
+                        </ComboBox>
+                        <TextBlock Text="Кабинет:" VerticalAlignment="Center"/>
+                        <ComboBox x:Name="FilterCabinet" Width="100" Margin="5">
+                            <ComboBoxItem Content="Все" IsSelected="True"/>
+                        </ComboBox>
+                        <TextBlock Text="Дата:" VerticalAlignment="Center"/>
+                        <DatePicker x:Name="FilterDate" Margin="5"/>
+                        <Button Content="Применить" Click="ApplyFilterButton_Click" Margin="5"/>
+                        <Button Content="Сбросить" Click="ResetFilterButton_Click" Margin="5"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Grid.Row="2" Header="Все заявки" Margin="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+                            <Button Content="Взять в работу" Click="TakeRequestButton_Click" Margin="2"/>
+                            <Button Content="Выполнил" Click="CompleteRequestButton_Click" Margin="2"/>
+                            <Button Content="Отмена" Click="CancelRequestButton_Click" Margin="2"/>
+                            <Button Content="Обновить" Click="RefreshOperatorRequests_Click" Margin="10,2,2,2"/>
+                            <Button Content="Показать выполненные за сегодня" Click="ShowTodayCompleted_Click" Margin="2"/>
+                        </StackPanel>
+                        <ListView x:Name="OperatorRequestsListView" Grid.Row="1">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="40"/>
+                                    <GridViewColumn Header="Сотрудник" DisplayMemberBinding="{Binding FullName}" Width="120"/>
+                                    <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding Date, StringFormat='dd.MM.yyyy'}" Width="100"/>
+                                    <GridViewColumn Header="Кабинет" DisplayMemberBinding="{Binding Cabinet}" Width="80"/>
+                                    <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" Width="200"/>
+                                    <GridViewColumn Header="Статус" DisplayMemberBinding="{Binding Status}" Width="120"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </GroupBox>
+
+                <TextBlock Grid.Row="3" x:Name="OperatorInfo" Margin="5" Foreground="Blue"/>
+            </Grid>
+        </Grid>
+    </Window>

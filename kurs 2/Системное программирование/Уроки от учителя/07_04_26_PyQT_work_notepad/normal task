@@ -1,0 +1,1005 @@
+Задание №1: Создать пустое окно приложения
+
+Что нужно сделать:
+
+    Создать файл text_editor.py
+
+    Импортировать необходимые модули из PyQt5
+
+    Создать класс TextEditor, который наследуется от QMainWindow
+
+    В классе создать метод __init__ и метод initUI
+
+    В initUI настроить окно:
+
+        Заголовок "Мой блокнот"
+
+        Размер 800x600
+
+    Создать объект QTextEdit и установить его центральным виджетом
+
+    В конце файла добавить код для запуска приложения
+
+Проверка: При запуске должно открываться пустое окно с текстовой областью внутри.
+
+РЕШЕНИЕ ЗАДАНИЯ 1
+
+import sysimport sys
+from PyQt5.QtWidgets import QMainWindow, QApplication, QTextEdit
+
+
+class TextEditor(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle("Мой блокнот")
+        self.setGeometry(100, 100, 300, 400)
+        self.setCentralWidget(QTextEdit())
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = TextEditor()
+    window.show()
+    app.exec()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Задание №2: Добавить строку меню
+
+Что нужно сделать:
+
+    Добавить метод createMenuBar()
+
+    В этом методе создать строку меню с двумя пунктами:
+
+        Файл (File)
+
+        Правка (Edit)
+
+    Пока пункты меню должны быть пустыми (без действий)
+
+    Вызвать этот метод в initUI
+
+РЕШЕНИЕ:
+
+def createMenuBar(self):
+    menubar = self.menuBar()
+    # Создаем меню "Файл"
+    file_menu = menubar.addMenu("Файл")
+    # Создаем меню "Правка"
+    edit_menu = menubar.addMenu("Правка")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ЗАДАНИЕ 3
+
+Добавить в меню "Файл" три действия:
+
+    Новый (при нажатии будет очищать текст)
+
+    Открыть (пока просто заглушка)
+
+    Сохранить (пока просто заглушка)
+
+Для действия "Новый" создать метод newDocument(), который очищает текстовое поле
+
+РЕШЕНИЕ
+
+    def createMenuBar(self):
+        menubar = self.menuBar()
+
+        file_menu = menubar.addMenu("Файл")
+        action_new = QAction("Новый", self)
+        action_open = QAction("Открыть", self)
+        action_save = QAction("Сохранить", self)
+        action_new.triggered.connect(self.new_document)
+        file_menu.addAction(action_new)
+        file_menu.addAction(action_open)
+        file_menu.addAction(action_save)
+
+        edit_menu = menubar.addMenu("Правка")
+
+    def new_document(self):
+        self.centralWidget().clear()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ЗАДАНИЕ 4
+
+Добавь горячие клавиши для кнопок новый, открыть и сохранить
+
+РЕШЕНИЕ:
+        action_new.setShortcut(QKeySequence.New)
+        action_open.setShortcut('Ctrl+O')
+        action_save.setShortcut(QKeySequence.Save)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ЗАДАНИЕ 5
+
+Добавить панель инструментов с действиями НОВЫЙ, ОТКРЫТь и СОХРАНИТЬ
+
+    def createToolBar(self):
+        tool_bar = self.addToolBar("Инструменты")
+
+        tool_bar.addAction(self.action_new)
+        tool_bar.addAction(self.action_open)
+        tool_bar.addAction(self.action_save)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ЗАДАНИЕ 6
+
+Добавить строку статуса где будет кол-во символов
+
+from PyQt5.QtWidgets import QLabel  # добавьте в импорт
+
+def createStatusBar(self):
+    self.statusLabel = QLabel("Символов: 0")
+    self.statusBar().addWidget(self.statusLabel)
+
+def updateStatusBar(self):
+    text = self.centralWidget().toPlainText()
+    count = len(text)
+    self.statusLabel.setText(f"Символов: {count}")
+
+# Подключаем обновление статус-бара
+self.centralWidget().textChanged.connect(self.updateStatusBar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ЗАДАНИЕ 7
+
+Сделай меню правка с разделителем 5 команд
+отмена
+повторить
+вставить
+копировать
+вырезать
+
+        edit_menu.addAction(self.action_undo)
+        edit_menu.addAction(self.action_redo)
+        edit_menu.addSeparator()
+        edit_menu.addAction(self.action_copy)
+        edit_menu.addAction(self.action_paste)
+        edit_menu.addAction(self.action_cut)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Подключить сигналы QTextEdit, которые будут автоматически включать/отключать кнопки когда нужно:
+
+    undoAvailable - включает/выключает кнопку "Отменить"
+
+    redoAvailable - включает/выключает кнопку "Повторить"
+
+    copyAvailable - включает/выключает кнопки "Копировать" и "Вырезать"
+
+
+РЕШЕНИЕ
+            action_cut.setEnabled(False)
+        action_copy.setEnabled(False)
+        action_undo.setEnabled(False)
+        action_redo.setEnabled(False)
+        self.centralWidget().undoAvailable.connect(action_undo.setEnabled)
+        self.centralWidget().redoAvailable.connect(action_redo.setEnabled)
+        self.centralWidget().copyAvailable.connect(action_cut.setEnabled)
+        self.centralWidget().copyAvailable.connect(action_copy.setEnabled)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Задание №9: Реализовать открытие файлов
+
+Что нужно сделать:
+
+    Создать метод openFile(), который:
+
+        Открывает диалог выбора файла (только .txt)
+
+        Читает выбранный файл с кодировкой UTF-8
+
+        Устанавливает прочитанный текст в QTextEdit
+
+        Сохраняет путь к файлу в self.currentFilePath
+
+        Обрабатывает возможные ошибки
+
+    Подключить self.action_open.triggered.connect(self.openFile)
+
+
+Задание №10 еализовать открытие файлов
+
+Что нужно сделать:
+
+    Создать метод openFile(), который:
+
+        Открывает диалог выбора файла (только .txt)
+
+        Читает выбранный файл с кодировкой UTF-8
+
+        Устанавливает прочитанный текст в QTextEdit
+
+        Сохраняет путь к файлу в self.currentFilePath
+
+        Обрабатывает возможные ошибки
+
+    Подключить self.action_open.triggered.connect(self.openFile)
+
+РЕШЕНИЕ
+
+    def openFile(self):
+        path, type = QFileDialog.getOpenFileName(
+            self,
+            "Открыть файл",
+            "",
+            "Текстовый файл(*.txt);;Все файлы(*.*)"
+        )
+        try:
+            with open(path, 'r') as file:
+                text = file.read()
+                self.centralWidget().setText(text)
+        except Exception as e:
+            QMessageBox.warning(self, "Ошибка", f"Не удалось найти файл{str(e)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ЗАДАНИЕ 10 Реализовать сохранение файлов
+
+Задание №10: Реализовать сохранение файлов
+
+Что нужно сделать:
+
+    Создать метод saveFile() - сохраняет в текущий файл (если путь есть)
+
+    Создать метод saveFileAs() - всегда спрашивает где сохранить
+
+    Подключить действия к этим методам
+
+
+    def saveFileAs(self):
+        path, type = QFileDialog.getSaveFileName(
+            self,
+            "Сохранить файл",
+            "",
+            "Текстовый файл(*.txt);;Все файлы(*.*)"
+        )
+        if path:
+            try:
+                with open(path, 'w', encoding='utf-8') as file:
+                    file.write(self.centralWidget().toPlainText())
+                    self.currentFilePath = path
+                    self.centralWidget().document().setModified(False)
+            except Exception as e:
+                QMessageBox.warning(self, "Ошибка", f"Не удалось сохранить файл {str(e)}")
+
+    def saveFile(self):
+        if self.currentFilePath is None:
+            self.saveFileAs()
+            return
+        try:
+            with open(self.currentFilePath, 'w', encoding='utf-8') as file:
+                file.write(self.centralWidget().toPlainText())
+                self.centralWidget().document().setModified(False)
+        except Exception as e:
+            QMessageBox.warning(self, "Ошибка", f"Не удалось сохранить файл {str(e)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Финальное задание №11: Добавить проверку сохранения перед закрытием
+
+Что нужно сделать:
+Переопределить метод closeEvent, чтобы перед закрытием программы проверять, есть ли несохранённые изменения, и спрашивать пользователя.
+
+

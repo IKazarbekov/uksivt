@@ -1,0 +1,43 @@
+﻿<Window x:Class="Попытка_11.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Попытка_11"
+        mc:Ignorable="d"
+        Title="Админская панель" Height="450" Width="800" Closing="Window_Closing">
+        <TabControl>
+            <TabItem Header="Тренировки">
+                <DockPanel>
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+                        <TextBlock Text="Треннер"/>
+                        <TextBox Width="200" x:Name="textBox_Trenner"/>
+                        <TextBlock Text="Тип:"/>
+                        <ComboBox Width="200">
+                            <ComboBoxItem>Отживания</ComboBoxItem>
+                            <ComboBoxItem>Бег</ComboBoxItem>
+                            <ComboBoxItem>Подтягивание</ComboBoxItem>
+                            <ComboBoxItem>Плаванье</ComboBoxItem>
+                        </ComboBox>
+                        <Button Content="Добавить" Click="Button_Click_AddLesson"/>
+                    </StackPanel>
+                    <DockPanel DockPanel.Dock="Bottom">
+                        <TextBlock Text="Кол-во:" DockPanel.Dock="Left"/>
+                        <TextBlock x:Name="textBlock_Count" DockPanel.Dock="Left" Text=" 0 шт "/>
+                        <DatePicker x:Name="dataPicker_Lesson" DockPanel.Dock="Right" Width="200"/>
+                        <Slider/>
+                    </DockPanel>
+                    <DataGrid x:Name="dataGrid_Lessons"/>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Пользователи">
+                <DataGrid x:Name="dataGrid_Users"/>
+            </TabItem>
+            <TabItem Header="Бронирование">
+
+            </TabItem>
+            <TabItem Header="Брони">
+                <DataGrid x:Name="dataGrid_Brones"/>
+            </TabItem>
+        </TabControl>
+</Window>

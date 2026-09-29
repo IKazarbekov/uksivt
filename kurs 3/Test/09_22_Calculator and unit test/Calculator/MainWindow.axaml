@@ -1,0 +1,37 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="650"
+        x:Class="Calculator.MainWindow"
+        Title="Calculator" Background="#242424">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="Display" Text="0" Foreground="White" FontSize="60" HorizontalAlignment="Right" Height="130"/>
+        <UniformGrid Rows="5" Columns="4" Grid.Row="1">
+            <Button Content="X"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#7E7C7C" Click="Button_Click"/>
+            <Button Content="AC"  Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#7E7C7C" Click="Button_Click"/>
+            <Button Content="%"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#7E7C7C" Click="Button_Click"/>
+            <Button Content="/"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="Orange"  Click="Button_Click"/>
+            <Button Content="7"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="8"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="9"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="*"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="Orange"  Click="Button_Click"/>
+            <Button Content="4"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="5"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="6"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="-"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="Orange"  Click="Button_Click"/>
+            <Button Content="1"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="2"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="3"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="+"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="Orange"  Click="Button_Click"/>
+            <Button Content="+/-"  Foreground="White" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="0"   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content=","   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="#585757" Click="Button_Click"/>
+            <Button Content="="   Foreground="White" FontSize="75" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="100" Width="100" Background="Orange"  Click="Button_Click"/>
+        </UniformGrid>
+    </Grid>
+</Window>

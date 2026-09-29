@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 0,
+    "Login": "admin",
+    "Password": "admin",
+    "Phone": "7777777",
+    "Role": 0
+  },
+  {
+    "Id": 1,
+    "Login": "tom",
+    "Password": "1234",
+    "Phone": "444444",
+    "Role": 1
+  },
+  {
+    "Id": 2,
+    "Login": "bob",
+    "Password": "asd",
+    "Phone": "2222",
+    "Role": 1
+  }
+]

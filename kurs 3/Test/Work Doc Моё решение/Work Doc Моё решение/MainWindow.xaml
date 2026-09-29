@@ -1,0 +1,22 @@
+﻿<Window x:Class="Work_Doc_Моё_решение.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work_Doc_Моё_решение"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        Title="MainWindow" Height="480" Width="350" AllowsTransparency="True" WindowStyle="None" MouseDown="Window_MouseDown">
+    <StackPanel Margin="20">
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Вход"/>
+            <Button Content="X" Margin="130 0 0 0" Background="Transparent" BorderBrush="Transparent" Click="Button_Click_1"/>
+        </StackPanel>
+        <TextBlock Text="Логин"/>
+        <TextBox TextChanged="TextBox_TextChanged" x:Name="login"/>
+        <TextBlock Text="Пароль"/>
+        <PasswordBox Margin="15" x:Name="password" PasswordChanged="password_PasswordChanged"/>
+        <Button Content="Войти" Click="Button_Click_2" x:Name="button" IsEnabled="False"/>
+        <Button Content="Нет аккаунта" Click="Button_Click" Background="Transparent" BorderBrush="Transparent" Foreground="Blue"/>
+    </StackPanel>
+</Window>

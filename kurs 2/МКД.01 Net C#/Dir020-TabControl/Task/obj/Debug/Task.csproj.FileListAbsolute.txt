@@ -1,0 +1,15 @@
+Y:\Dir020-TabControl\Task\obj\Debug\Task.csproj.AssemblyReference.cache
+Y:\Dir020-TabControl\Task\obj\Debug\MainWindow.g.cs
+Y:\Dir020-TabControl\Task\obj\Debug\App.g.cs
+Y:\Dir020-TabControl\Task\obj\Debug\Task_MarkupCompile.cache
+Y:\Dir020-TabControl\Task\obj\Debug\Task_MarkupCompile.lref
+Y:\Dir020-TabControl\Task\bin\Debug\Task.exe.config
+Y:\Dir020-TabControl\Task\bin\Debug\Task.exe
+Y:\Dir020-TabControl\Task\bin\Debug\Task.pdb
+Y:\Dir020-TabControl\Task\obj\Debug\MainWindow.baml
+Y:\Dir020-TabControl\Task\obj\Debug\Task.g.resources
+Y:\Dir020-TabControl\Task\obj\Debug\Task.Properties.Resources.resources
+Y:\Dir020-TabControl\Task\obj\Debug\Task.csproj.GenerateResource.cache
+Y:\Dir020-TabControl\Task\obj\Debug\Task.csproj.CoreCompileInputs.cache
+Y:\Dir020-TabControl\Task\obj\Debug\Task.exe
+Y:\Dir020-TabControl\Task\obj\Debug\Task.pdb

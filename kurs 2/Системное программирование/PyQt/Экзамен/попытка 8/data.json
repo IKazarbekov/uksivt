@@ -1,0 +1,26 @@
+[
+    {
+        "name": "kitchen",
+        "salary": 38,
+        "bonus": 3,
+        "sr_salary": 45
+    },
+    {
+        "name": "\u0411\u043e\u0431",
+        "salary": 50,
+        "bonus": 5,
+        "sr_salary": 40
+    },
+    {
+        "name": "\u0423\u0447\u0438\u0442\u0435\u043b\u044c",
+        "salary": 99,
+        "bonus": 99,
+        "sr_salary": 99
+    },
+    {
+        "name": "\u0414\u0436\u0435\u043a",
+        "salary": 50,
+        "bonus": 50,
+        "sr_salary": 50
+    }
+]

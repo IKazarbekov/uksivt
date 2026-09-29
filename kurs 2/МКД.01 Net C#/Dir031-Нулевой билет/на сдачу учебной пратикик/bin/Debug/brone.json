@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 0,
+    "UserID": 0,
+    "LessonID": 0,
+    "Accept": true,
+    "Date": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 1,
+    "UserID": 0,
+    "LessonID": 1,
+    "Accept": true,
+    "Date": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 2,
+    "UserID": 0,
+    "LessonID": 2,
+    "Accept": true,
+    "Date": "2026-06-19T17:36:39.8996686+05:00"
+  }
+]

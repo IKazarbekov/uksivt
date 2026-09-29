@@ -1,0 +1,348 @@
+﻿<Window x:Class="Notepad_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad_2"
+        mc:Ignorable="d"
+        Title="FeatherPad Ultra Studio" Height="760" Width="1200"
+        MinHeight="550" MinWidth="800"
+        Icon="/images/icon.jpg"
+        Closing="Window_Closing"
+        Background="#F3F3F3">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="AccentColor" Color="#0078D4"/>
+        <SolidColorBrush x:Key="EditorBackground" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="PanelBackground" Color="#FAFAFA"/>
+        <SolidColorBrush x:Key="ControlBorder" Color="#D1D1D1"/>
+
+        <Style x:Key="FluentToolbarButton" TargetType="Button">
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="Width" Value="36"/>
+            <Setter Property="Margin" Value="3,2"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="6" SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#E5E5E5"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#D8D8D8"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="FluentTextBox" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="8,5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="{StaticResource ControlBorder}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource AccentColor}"/>
+                                <Setter TargetName="border" Property="BorderThickness" Value="1.5"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CloseTabButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="#666666"/>
+            <Setter Property="Width" Value="18"/>
+            <Setter Property="Height" Value="18"/>
+            <Setter Property="FontSize" Value="9"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="btnBorder" CornerRadius="9" Background="Transparent">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-1,0,0"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="btnBorder" Property="Background" Value="#FF4D4D"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" FontSize="14" Background="#FFFFFF" Padding="6,4" BorderBrush="#E0E0E0" BorderThickness="0,0,0,1">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Новый листок" Command="ApplicationCommands.New" Click="Button_Click_New_File" InputGestureText="Ctrl+N"/>
+                <MenuItem Header="Открыть файл..." Command="ApplicationCommands.Open" Click="Button_Click_Open_File" InputGestureText="Ctrl+O"/>
+                <Separator/>
+                <MenuItem Header="Сохранить" Command="ApplicationCommands.Save" Click="Button_Click_Save_File" InputGestureText="Ctrl+S"/>
+                <MenuItem Header="Сохранить как..." Click="Button_Click_Save_File_As"/>
+                <MenuItem Header="Сохранить абсолютно всё" Click="MenuItem_SaveAll_Click"/>
+                <Separator/>
+                <MenuItem Header="Печать на принтере..." Command="ApplicationCommands.Print" Click="Button_Click_Print" InputGestureText="Ctrl+P"/>
+                <Separator/>
+                <MenuItem Header="Закрыть вкладку" Click="Button_Click_Close" InputGestureText="Ctrl+W"/>
+                <MenuItem Header="Выйти из студии" Click="MenuItem_Exit_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Правка">
+                <MenuItem Header="Шаг назад" Command="ApplicationCommands.Undo" InputGestureText="Ctrl+Z"/>
+                <MenuItem Header="Шаг вперед" Command="ApplicationCommands.Redo" InputGestureText="Ctrl+Y"/>
+                <Separator/>
+                <MenuItem Header="Вырезать в буфер" Command="ApplicationCommands.Cut" InputGestureText="Ctrl+X"/>
+                <MenuItem Header="Копировать" Command="ApplicationCommands.Copy" InputGestureText="Ctrl+C"/>
+                <MenuItem Header="Вставить" Command="ApplicationCommands.Paste" InputGestureText="Ctrl+V"/>
+                <Separator/>
+                <MenuItem Header="Умная сортировка строк" Click="MenuItem_SortLines_Click"/>
+                <MenuItem Header="Очистить пустые абстракции строк" Click="MenuItem_RemoveEmptyLines_Click"/>
+                <MenuItem Header="Штамп даты/времени" Click="MenuItem_InsertDateTime_Click" InputGestureText="F7"/>
+            </MenuItem>
+
+            <MenuItem Header="Студия">
+                <MenuItem Header="Панель кастомизации (UI)" Click="ToggleSettingsSidebar_Click" InputGestureText="F12"/>
+                <MenuItem Header="Левый Проводник файлов" Click="Click_Left_Panel_Items" InputGestureText="F9"/>
+            </MenuItem>
+
+            <MenuItem Header="Поиск">
+                <MenuItem Header="Быстрый поиск (Найти)" Command="ApplicationCommands.Find" InputGestureText="Ctrl+F"/>
+                <MenuItem Header="Глобальная Замена" Command="ApplicationCommands.Replace" InputGestureText="Ctrl+H"/>
+            </MenuItem>
+        </Menu>
+
+        <Border DockPanel.Dock="Top" Background="#F9F9F9" BorderBrush="#E5E5E5" BorderThickness="0,0,0,1" Padding="5,2">
+            <StackPanel Orientation="Horizontal">
+                <Button Style="{StaticResource FluentToolbarButton}" Click="Button_Click_New_File" ToolTip="Новый файл">
+                    <Image Source="/images/new_file.jpg"/>
+                </Button>
+                <Button Style="{StaticResource FluentToolbarButton}" Click="Button_Click_Open_File" ToolTip="Открыть документ">
+                    <Image Source="/images/open_file.jpg"/>
+                </Button>
+                <Button Style="{StaticResource FluentToolbarButton}" Click="Button_Click_Save_File" ToolTip="Зафиксировать сохранение">
+                    <Image Source="/images/save_file.jpg"/>
+                </Button>
+                <Separator Margin="5,4"/>
+                <Button Style="{StaticResource FluentToolbarButton}" Command="ApplicationCommands.Undo" ToolTip="Назад">
+                    <Image Source="/images/undo.jpg"/>
+                </Button>
+                <Button Style="{StaticResource FluentToolbarButton}" Command="ApplicationCommands.Redo" ToolTip="Вперед">
+                    <Image Source="/images/redo.jpg"/>
+                </Button>
+                <Separator Margin="5,4"/>
+                <Button Style="{StaticResource FluentToolbarButton}" Command="ApplicationCommands.Find" ToolTip="Режим Поиска">
+                    <Image Source="/images/PanelSearch.jpg"/>
+                </Button>
+                <Button Style="{StaticResource FluentToolbarButton}" Command="ApplicationCommands.Replace" ToolTip="Режим Замены">
+                    <Image Source="/images/PanekZamena.jpg"/>
+                </Button>
+                <Separator Margin="5,4"/>
+                <Button Style="{StaticResource FluentToolbarButton}" Click="Click_Left_Panel_Items" ToolTip="Скрыть/Показать Проводник">
+                    <Image Source="/images/Panel_Bok.jpg"/>
+                </Button>
+                <Button Style="{StaticResource FluentToolbarButton}" Click="ToggleSettingsSidebar_Click" ToolTip="Супер-Настройки UI">
+                    <Image Source="/images/Seans.jpg"/>
+                </Button>
+            </StackPanel>
+        </Border>
+
+        <StatusBar DockPanel.Dock="Bottom" Background="#FFFFFF" BorderBrush="#E5E5E5" BorderThickness="0,1,0,0" Padding="12,5" Foreground="#444444">
+            <StatusBarItem>
+                <TextBlock x:Name="textBlockInfo" FontWeight="Medium" Text="Готово к конфигурации"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="lblLinesCount" Text="Строк: 1"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="lblCharCount" Text="Символов: 0"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="lblEncoding" Text="Кодировка: UTF-8"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock x:Name="lblZoom" Text="Масштаб: 100%" FontWeight="SemiBold" Foreground="{StaticResource AccentColor}"/>
+            </StatusBarItem>
+        </StatusBar>
+
+        <Border DockPanel.Dock="Bottom" Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Height="50" Visibility="Collapsed" x:Name="SearchPanel">
+            <DockPanel LastChildFill="True" Margin="15,0">
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" VerticalAlignment="Center">
+                    <Button x:Name="buttonFindNext" Margin="3" Padding="6,4" Click="buttonFindNext_Click" Content="Далее ▶" Background="#F0F0F0" BorderThickness="0"/>
+                    <Button x:Name="buttonFindBack" Margin="3" Padding="6,4" Click="buttonFindBack_Click" Content="◀ Назад" Background="#F0F0F0" BorderThickness="0"/>
+                    <ToggleButton x:Name="buttonWithCase" Content="Aa" Width="38" Height="28" Margin="3" ToolTip="Регистрозависимость"/>
+                    <ToggleButton x:Name="buttonRegex" Content=".*" Width="38" Height="28" Margin="3" ToolTip="Регулярные выражения (Regex)"/>
+                    <Button Content="✕" Width="28" Height="28" Margin="10,0,0,0" Background="Transparent" BorderThickness="0" FontWeight="Bold" Click="CloseSearchPanel_Click"/>
+                </StackPanel>
+                <TextBlock Text="Поисковый запрос:" VerticalAlignment="Center" Margin="5,0,12,0" FontSize="13" FontWeight="Medium"/>
+                <TextBox x:Name="textBoxFind" Style="{StaticResource FluentTextBox}" Height="30" VerticalAlignment="Center"/>
+            </DockPanel>
+        </Border>
+
+        <Border DockPanel.Dock="Bottom" Background="#FFFFFF" BorderBrush="#E0E0E0" BorderThickness="0,1,0,0" Padding="15,10" Visibility="Collapsed" x:Name="ReplacePanel">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Найти паттерн:" VerticalAlignment="Center" Width="110" FontSize="13"/>
+                <TextBox Grid.Column="1" x:Name="textBoxReplaceFind" Style="{StaticResource FluentTextBox}" Height="28" Margin="0,3"/>
+
+                <TextBlock Grid.Row="1" Text="Заменить на:" VerticalAlignment="Center" Width="110" FontSize="13"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="textBoxReplaceText" Style="{StaticResource FluentTextBox}" Height="28" Margin="0,3"/>
+
+                <StackPanel Grid.Column="2" Grid.RowSpan="2" Orientation="Horizontal" Margin="10,0">
+                    <Button Padding="12,0" Margin="3" Content="Найти" Click="Button_FindNext_ReplacePanel_Click" Height="30" VerticalAlignment="Center"/>
+                    <Button Padding="12,0" Margin="3" Content="Заменить" Click="Button_Replace_Click" Height="30" VerticalAlignment="Center"/>
+                    <Button Padding="12,0" Margin="3" Content="Заменить ВСЁ" Click="Button_ReplaceAll_Click" Background="{StaticResource AccentColor}" Foreground="White" Height="30" VerticalAlignment="Center" BorderThickness="0"/>
+                </StackPanel>
+                <Button Grid.Column="3" Content="✕" Width="26" Height="26" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" FontWeight="Bold" Click="CloseReplacePanel_Click"/>
+            </Grid>
+        </Border>
+
+        <Border x:Name="LeftSidebar" Width="220" Background="#F3F3F3" BorderBrush="#E5E5E5" BorderThickness="0,0,1,0" DockPanel.Dock="Left" Visibility="Visible">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="ПРОЕКТНЫЕ ЛИСТЫ" FontWeight="Bold" FontSize="11" Foreground="#777777" Margin="5,0,0,8"/>
+                <ListBox Grid.Row="1" x:Name="lstSidebarFiles" Background="Transparent" BorderThickness="0" SelectionChanged="LstSidebarFiles_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="4" Padding="8,6" Background="#FFFFFF" Margin="0,2" BorderBrush="#EAEAEA" BorderThickness="1">
+                                <TextBlock Text="{Binding HeaderText}" FontWeight="Medium"/>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Border>
+
+        <Border x:Name="RightSettingsSidebar" Width="280" Background="#FFFFFF" BorderBrush="#E5E5E5" BorderThickness="1,0,0,0" DockPanel.Dock="Right" Visibility="Collapsed">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="15">
+                    <TextBlock Text="ПАРАМЕТРЫ СТУДИИ" FontWeight="Bold" FontSize="14" Foreground="#222222" Margin="0,0,0,15"/>
+
+                    <TextBlock Text="Тема приложения" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="#555555"/>
+                    <ComboBox x:Name="comboThemes" SelectedIndex="0" SelectionChanged="ComboThemes_SelectionChanged" Padding="5" Margin="0,0,0,15">
+                        <ComboBoxItem Content="Светлый Fluent (По умолчанию)"/>
+                        <ComboBoxItem Content="Ночная матрица (Темная)"/>
+                        <ComboBoxItem Content="Винтажная бумага (Сепия)"/>
+                        <ComboBoxItem Content="Киберпанк Неон"/>
+                    </ComboBox>
+
+                    <TextBlock Text="Цветовой акцент студии" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="#555555"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                        <TextBlock Text="Цветовой акцент студии" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="#555555"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                            <Button Width="30" Height="30" Margin="2" Click="AccentChange_Click" Tag="#0078D4" BorderThickness="0" Background="Transparent">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="#0078D4" CornerRadius="15" SnapsToDevicePixels="True"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+
+                            <Button Width="30" Height="30" Margin="2" Click="AccentChange_Click" Tag="#E81123" BorderThickness="0" Background="Transparent">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="#E81123" CornerRadius="15" SnapsToDevicePixels="True"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+
+                            <Button Width="30" Height="30" Margin="2" Click="AccentChange_Click" Tag="#107C41" BorderThickness="0" Background="Transparent">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="#107C41" CornerRadius="15" SnapsToDevicePixels="True"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+
+                            <Button Width="30" Height="30" Margin="2" Click="AccentChange_Click" Tag="#8660A9" BorderThickness="0" Background="Transparent">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="#8660A9" CornerRadius="15" SnapsToDevicePixels="True"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+
+                            <Button Width="30" Height="30" Margin="2" Click="AccentChange_Click" Tag="#FF8C00" BorderThickness="0" Background="Transparent">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="#FF8C00" CornerRadius="15" SnapsToDevicePixels="True"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <TextBlock Text="Семейство шрифта редактора" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="#555555"/>
+                    <ComboBox x:Name="comboFonts" SelectedIndex="0" SelectionChanged="ComboFonts_SelectionChanged" Padding="5" Margin="0,0,0,15">
+                        <ComboBoxItem Content="Consolas (Код)"/>
+                        <ComboBoxItem Content="Segoe UI (Интерфейсный)"/>
+                        <ComboBoxItem Content="Courier New (Ретро)"/>
+                        <ComboBoxItem Content="Georgia (Книжный)"/>
+                    </ComboBox>
+
+                    <TextBlock Text="Размер текста по умолчанию" FontWeight="SemiBold" Margin="0,5,0,5" Foreground="#555555"/>
+                    <Slider x:Name="sliderFontSize" Minimum="10" Maximum="36" Value="16" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="SliderFontSize_ValueChanged" Margin="0,0,0,15"/>
+
+                    <Separator Margin="0,10"/>
+
+                    <CheckBox x:Name="chkShowLineNumbers" Content="Показывать нумерацию строк" IsChecked="True" Checked="UIOptions_Changed" Unchecked="UIOptions_Changed" Margin="0,8"/>
+                    <CheckBox x:Name="chkWordWrap" Content="Автоперенос длинных строк" IsChecked="False" Checked="UIOptions_Changed" Unchecked="UIOptions_Changed" Margin="0,8"/>
+                    <CheckBox x:Name="chkHighlightActiveLine" Content="Подсвечивать края окон" IsChecked="True" Checked="UIOptions_Changed" Unchecked="UIOptions_Changed" Margin="0,8"/>
+
+                    <Separator Margin="0,15"/>
+
+                    <Button Content="Сбросить все настройки UI" Click="ResetSettings_Click" Padding="10,6" Background="#F0F0F0" BorderThickness="0" HorizontalAlignment="Stretch"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <TabControl x:Name="tabControlFiles" Background="#FFFFFF" BorderThickness="0,1,0,0" BorderBrush="#E5E5E5" SelectionChanged="TabControlFiles_SelectionChanged">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Height="24">
+                        <Image Source="/images/icon.png" Width="14" Height="14" Margin="0,0,6,0" SnapsToDevicePixels="True"/>
+                        <TextBlock Text="{Binding HeaderText}" VerticalAlignment="Center" FontSize="13" Margin="0,0,10,0"/>
+                        <Button Style="{StaticResource CloseTabButton}" Content="✕" Click="CloseTab_Click" ToolTip="Удалить лист"/>
+                    </StackPanel>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+        </TabControl>
+    </DockPanel>
+</Window>
