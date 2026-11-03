@@ -1,0 +1,17 @@
+<resources>
+    <style name="ButtonNumber">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="backgroundTint">@color/gray</item>
+    </style>
+    <style name="ButtonOperation">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="backgroundTint">@color/orange</item>
+    </style>
+    <style name="ButtonOther">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="backgroundTint">@color/graylight</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjectForest</string>
+    <string name="title">Игра "Поливай растение"</string>
+    <string name="create">Посадить</string>
+    <string name="kill">Засушить</string>
+    <string name="hello">Привет</string>
+    <string name="water1">Полить (+1)</string>
+    <string name="water2">Полить (+10)</string>
+    <string name="status">Вода: %d</string>
+</resources>

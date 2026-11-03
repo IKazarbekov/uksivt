@@ -2,26 +2,41 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+        Width="400" Height="600"
         x:Class="AuthAndReg.RegWindow"
-        Title="RegWindow">
+        WindowStartupLocation="CenterOwner"
+        Background="AliceBlue"
+        Icon="icon.ico"
+        CanResize="False"
+        Title="Регистрация">
     <StackPanel HorizontalAlignment="Center" Margin="50">
-        <Label Content="Регистрация"/>
+        <Label Content="Регистрация" FontSize="20" FontWeight="Bold" />
+
         <TextBlock Text="Фамилия"/>
-        <TextBox/>
+        <TextBox x:Name="FirstNameBox" MaxLength="15" />
+
         <TextBlock Text="Имя"/>
-        <TextBox/>
+        <TextBox x:Name="MiddleNameBox" MaxLength="15" />
+
         <TextBlock Text="Отчество"/>
-        <TextBox/>
+        <TextBox x:Name="LastNameBox" MaxLength="15" />
+
         <TextBlock Text="Дата рождения"/>
-        <TextBox/>
+        <DatePicker x:Name="picker"/>
+
         <TextBlock Text="Электронная почта"/>
-        <TextBox/>
+        <TextBox x:Name="EmailBox" MaxLength="25" />
+
         <TextBlock Text="Пароль"/>
-        <TextBox/>
+        <TextBox x:Name="PasswordBox" MaxLength="15" />
+
         <TextBlock Text="Подтверждение пароля"/>
-        <TextBox/>
-        <Button Content="Зарегистрироваться"/>
-        <Button Content="Войти" FontSize="10" Background="Transparent" Click="Button_Click_To_Auth" />
+        <TextBox x:Name="ConfirmPasswordBox" MaxLength="15" />
+
+        <TextBlock x:Name="MessageText" Foreground="Red"/>
+
+        <Button Content="Зарегистрироваться" Click="RegisterButton_Click" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+        <Button Content="Войти" FontSize="10" Background="Transparent" Click="Button_Click_To_Auth" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
     </StackPanel>
 </Window>

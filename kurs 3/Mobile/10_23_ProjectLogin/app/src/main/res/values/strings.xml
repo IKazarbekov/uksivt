@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjectLogin</string>
+    <string name="title">Анкета</string>
+    <string name="name">ФИО</string>
+    <string name="phone">Телефон</string>
+    <string name="birth_day">31.12.2000</string>
+    <string name="send">Отправить</string>
+    <string name="hello">Привет? %s, тебе %d лет!</string>
+    <string name="error">Неверные входные данные</string>
+</resources>

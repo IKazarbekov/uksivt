@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@mipmap/forest4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/create"
+                android:backgroundTint="@color/green"
+                android:textSize="15sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/bKill"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/kill"
+                android:backgroundTint="@color/green"
+                android:textSize="15sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/bHello"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/hello"
+                android:backgroundTint="@color/green"
+                android:textSize="15sp"
+                android:layout_margin="4dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bWater1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/water1"
+                android:backgroundTint="@color/green"
+                android:textSize="15sp"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/bWater2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/water2"
+                android:backgroundTint="@color/green"
+                android:textSize="15sp"
+                android:layout_margin="4dp"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/tvWater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textColor="@color/green"
+            android:textSize="40sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

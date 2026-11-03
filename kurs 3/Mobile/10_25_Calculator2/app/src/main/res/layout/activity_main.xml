@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_margin="10dp"
+        >
+
+        <HorizontalScrollView
+            android:id="@+id/hsvDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="70sp"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:scrollHorizontally="true"
+                android:textAlignment="viewEnd"/>
+        </HorizontalScrollView>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btClearChar"
+                    style="@style/ButtonOther"
+                    android:text="⌫"/>
+
+                <Button
+                    android:id="@+id/btClearAll"
+                    style="@style/ButtonOther"
+                    android:text="С" />
+
+                <Button
+                    android:id="@+id/btPercent"
+                    style="@style/ButtonOther"
+                    android:text="%" />
+
+                <Button
+                    android:id="@+id/btDivision"
+                    style="@style/ButtonOperation"
+                    android:text="/" />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btSeven"
+                    style="@style/ButtonNumber"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/btEight"
+                    style="@style/ButtonNumber"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/btNine"
+                    style="@style/ButtonNumber"
+                    android:text="9" />
+
+                <Button
+                    android:id="@+id/btMultiply"
+                    style="@style/ButtonOperation"
+                    android:text="x" />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btFour"
+                    style="@style/ButtonNumber"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/btFive"
+                    style="@style/ButtonNumber"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/btSix"
+                    style="@style/ButtonNumber"
+                    android:text="6" />
+
+                <Button
+                    android:id="@+id/btSubtract"
+                    style="@style/ButtonOperation"
+                    android:text="-" />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btOne"
+                    style="@style/ButtonNumber"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/btTwo"
+                    style="@style/ButtonNumber"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/btThree"
+                    style="@style/ButtonNumber"
+                    android:text="3" />
+
+                <Button
+                    android:id="@+id/btAdd"
+                    style="@style/ButtonOperation"
+                    android:text="+" />
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/btSign"
+                    style="@style/ButtonNumber"
+                    android:text="±" />
+
+                <Button
+                    android:id="@+id/btZero"
+                    style="@style/ButtonNumber"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/btComma"
+                    style="@style/ButtonNumber"
+                    android:text="," />
+
+                <Button
+                    android:id="@+id/btEquals"
+                    style="@style/ButtonOperation"
+                    android:text="=" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
