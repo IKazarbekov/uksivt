@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyTwoAplication</string>
+    <string name="HAHA">ХАХАХАХАХ</string>
+    <string name="EXIT">Выйти</string>
+    <string name="title">Привет, Android!</string>
+    <string name="hind_name">Введите ваше имя</string>
+    <string name="btn_greet">поздароватся</string>
+    <string name="btn_count">нажми меня</string>
+    <string name="switch_warm">теплый фон</string>
+    <string name="greeting">привет, %1$s! ДОбро пожаловать в android.</string>
+    <string name="counter_format">нажатий: !1$d</string>
+    <string name="toast_empty_name">сначала введите имя</string>
+</resources>
