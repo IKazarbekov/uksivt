@@ -23,3 +23,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "10_25_Calculator"
+include(":app")
+ 

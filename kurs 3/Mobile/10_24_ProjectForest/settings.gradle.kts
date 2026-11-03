@@ -17,4 +17,11 @@ plugins {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        googl
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "ProjectForest"
+include(":app")
+ 

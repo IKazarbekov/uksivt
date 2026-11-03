@@ -1,0 +1,101 @@
+﻿[
+  {
+    "Id": 1,
+    "FirstName": "Иван",
+    "SecondName": null,
+    "LastName": "Иванов",
+    "Date": "0001-01-01T00:00:00",
+    "Email": "ivanov@example.com",
+    "Password": "password123"
+  },
+  {
+    "Id": 2,
+    "FirstName": "Петр",
+    "SecondName": null,
+    "LastName": "Петров",
+    "Date": "0001-01-01T00:00:00",
+    "Email": "petrov@example.com",
+    "Password": "qwerty"
+  },
+  {
+    "Id": 3,
+    "FirstName": "Бурлин",
+    "SecondName": "Деров",
+    "LastName": "Дровсик",
+    "Date": "2005-07-08T00:00:00",
+    "Email": "awdaw@awd.ru",
+    "Password": "sefsefse"
+  },
+  {
+    "Id": 4,
+    "FirstName": "фцв",
+    "SecondName": "фцвфц",
+    "LastName": "уыа",
+    "Date": "2005-10-03T00:00:00",
+    "Email": "фцв@awd.aw",
+    "Password": "cXdlcXdlcXdl"
+  },
+  {
+    "Id": 5,
+    "FirstName": "asdasdasd",
+    "SecondName": "asdasdasd",
+    "LastName": "asdasdasd",
+    "Date": "2005-10-03T00:00:00",
+    "Email": "asdasd@el.ru",
+    "Password": "YXNkYXNkYXNk"
+  },
+  {
+    "Id": 6,
+    "FirstName": "Lagi",
+    "SecondName": "Leo",
+    "LastName": "Nardo",
+    "Date": "2005-10-03T00:00:00",
+    "Email": "ikazarbekov@bk.ru",
+    "Password": "bmV3cGFzc3dvcmQxMjM="
+  },
+  {
+    "Id": 7,
+    "FirstName": "sefsef",
+    "SecondName": "serser",
+    "LastName": "sefsefwe",
+    "Date": "1926-10-03T00:00:00",
+    "Email": "sefsf@sefsef.er",
+    "Password": "YWVmc2Vmc2F3ZA=="
+  },
+  {
+    "Id": 8,
+    "FirstName": "ASFDDSF",
+    "SecondName": "1234567",
+    "LastName": "!#@$%$W%",
+    "Date": "2001-10-03T00:00:00",
+    "Email": "ikawd@awd.er",
+    "Password": "0YvRg9Cw0YvRg9Cw0YvRg9Cw"
+  },
+  {
+    "Id": 9,
+    "FirstName": "фаыау",
+    "SecondName": "фаыау",
+    "LastName": "фаыау",
+    "Date": "1997-10-03T00:00:00",
+    "Email": "qweqweqwe@adw.ei",
+    "Password": "YXdkYWUyNDIz"
+  },
+  {
+    "Id": 10,
+    "FirstName": "Сафин",
+    "SecondName": "Салават",
+    "LastName": "Владикович",
+    "Date": "2008-04-06T00:00:00",
+    "Email": "safinsalavat537@gmail.com",
+    "Password": "U2FsYXZhdF8yMDA4"
+  },
+  {
+    "Id": 11,
+    "FirstName": "Джон",
+    "SecondName": "Коннёр",
+    "LastName": "Терминов",
+    "Date": "1999-10-03T00:00:00",
+    "Email": "sflpsf@bdr.ru",
+    "Password": "YWVmc2ZzZnNmYXNlZmdz"
+  }
+]

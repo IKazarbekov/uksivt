@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="450"
+        Width="400" Height="450"
+        x:Class="AuthAndReg.MainCode"
+        Background="AliceBlue"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False"
+        Title="Восстановление пароля">
+    <StackPanel HorizontalAlignment="Center" Margin="30" Spacing="8">
+
+        <TextBlock Text="Восстановление пароля" FontSize="20" FontWeight="Bold" />
+
+        <TextBlock Text="Введите email:"/>
+        <TextBox x:Name="EmailBox"/>
+
+        <Button Content="Отправить код" Click="SendCode_Click" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+
+        <TextBlock Text="Код из письма:"/>
+        <TextBox x:Name="CodeBox"/>
+
+        <Button Content="Проверить код" Click="VerifyCode_Click" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+
+        <TextBlock x:Name="NewPasswordLabel" Text="Новый пароль:" IsVisible="False"/>
+        <TextBox x:Name="NewPasswordBox" IsVisible="False"/>
+
+        <TextBlock x:Name="ConfirmPasswordLabel" Text="Подтвердите пароль:" IsVisible="False"/>
+        <TextBox x:Name="ConfirmPasswordBox" IsVisible="False"/>
+
+        <Button x:Name="SaveButton" Content="Сохранить пароль" Click="SavePassword_Click" IsVisible="False" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+
+        <TextBlock x:Name="MessageText" Foreground="Red" TextWrapping="Wrap"/>
+
+        <Button Content="Назад" FontSize="10" Background="Transparent" Click="Back_Click"/>
+    </StackPanel>
+</Window>

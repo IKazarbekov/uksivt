@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ForTestInAndroid</string>
+    <string name="welcome">Welcome Back!</string>
+    <string name="continue_login">Hi, Kindly login to continue battle</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="lets">Let\'s Combat!</string>
+    <string name="connect">Connect With:</string>
+    <string name="not_account">Don\'t have on account?</string>
+    <string name="create_account">Create Account</string>
+</resources>
